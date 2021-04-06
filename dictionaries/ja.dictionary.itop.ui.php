@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 /**
  * @copyright   Copyright (C) 2010-2017 Combodo SARL
  * @licence	http://opensource.org/licenses/AGPL-3.0
@@ -328,7 +328,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'BooleanLabel:yes' => 'はい',
 	'BooleanLabel:no' => 'いいえ',
-    'UI:Login:Title' => 'iTop login~~',
+    'UI:Login:Title' => 'Enixer help desk login~~',
 	'Menu:WelcomeMenu' => 'ようこそ', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenu+' => 'ようこそ、iTopへ', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => 'ようこそ', // Duplicated into itop-welcome-itil (will be removed from here...)
@@ -504,7 +504,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:Login:PasswordPrompt' => 'パスワード',
 	'UI:Login:ForgotPwd' => 'Forgot your password?~~',
 	'UI:Login:ForgotPwdForm' => 'Forgot your password~~',
-	'UI:Login:ForgotPwdForm+' => 'iTop can send you an email in which you will find instructions to follow to reset your account.~~',
+	'UI:Login:ForgotPwdForm+' => 'Enixer help desk can send you an email in which you will find instructions to follow to reset your account.~~',
 	'UI:Login:ResetPassword' => 'Send now!~~',
 	'UI:Login:ResetPwdFailed' => 'Failed to send an email: %1$s~~',
 
@@ -516,8 +516,8 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:ResetPwd-Error-NoEmail' => 'missing an email address. Please Contact your administrator.~~',
 	'UI:ResetPwd-Error-Send' => 'email transport technical issue. Please Contact your administrator.~~',
 	'UI:ResetPwd-EmailSent' => 'Please check your email box and follow the instructions...~~',
-	'UI:ResetPwd-EmailSubject' => 'Reset your iTop password~~',
-	'UI:ResetPwd-EmailBody' => '<body><p>You have requested to reset your iTop password.</p><p>Please follow this link (single usage) to <a href="%1$s">enter a new password</a></p>.~~',
+	'UI:ResetPwd-EmailSubject' => 'Reset your Enixer help desk password~~',
+	'UI:ResetPwd-EmailBody' => '<body><p>You have requested to reset your Enixer help desk password.</p><p>Please follow this link (single usage) to <a href="%1$s">enter a new password</a></p>.~~',
 
 	'UI:ResetPwd-Title' => 'Reset password~~',
 	'UI:ResetPwd-Error-InvalidToken' => 'Sorry, either the password has already been reset, or you have received several emails. Please make sure that you use the link provided in the very last email received.~~',
@@ -552,7 +552,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:CSVImport:DataLine1' => 'データ行 1',
 	'UI:CSVImport:DataLine2' => 'データ行 2',
 	'UI:CSVImport:idField' => 'ID (主キー)',
-	'UI:Title:BulkImport' => 'iTop - バルクインポート',
+	'UI:Title:BulkImport' => 'Enixer help desk - バルクインポート',
 	'UI:Title:BulkImport+' => 'CSV インポートウィザード',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class' => '%2$s クラスの %1$d オブジェクトを同期',
 	'UI:CSVImport:ClassesSelectOne' => '--選択してください --',
@@ -601,7 +601,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:CSVImport:AlertMultipleMapping' => 'Please make sure that a target field is mapped only once.~~',
 	'UI:CSVImport:AlertNoSearchCriteria' => '少なくとも1つ以上の検索条件を選択してください。',
 	'UI:CSVImport:Encoding' => '文字エンコーディング',	
-	'UI:UniversalSearchTitle' => 'iTop - ユニバーサル検索',
+	'UI:UniversalSearchTitle' => 'Enixer help desk - ユニバーサル検索',
 	'UI:UniversalSearch:Error' => 'エラー：%1$s',
 	'UI:UniversalSearch:LabelSelectTheClass' => '検索するクラスを選択してください。',
 
@@ -649,9 +649,9 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:CSVExport:AdvancedMode' => 'アドバンスドモード',
 	'UI:CSVExport:AdvancedMode+' => 'アドバンスドモードでは、エキスポートのためにいくつかのカラムが追加されます。: オブジェクトのid, 外部キーの id ,そして調整属性。',
 	'UI:CSVExport:LostChars' => 'エンコーディングの課題',
-	'UI:CSVExport:LostChars+' => 'ダウンロードファイルは %1$s でエンコードされます. iTop はこのフォーマットと整合性のない文字を検出しました。 これらの文字は代りの文字になります。（たとえばアクセント付き文字からはアクセント記号が無くなります。または、削除されます。 Webブラウザからコピー／ペーストが出来ます。 あるいは、システム管理者にエンコードの変更を問い合わせください。 (See parameter \'csv_file_default_charset\').',
+	'UI:CSVExport:LostChars+' => 'ダウンロードファイルは %1$s でエンコードされます. Enixer help desk はこのフォーマットと整合性のない文字を検出しました。 これらの文字は代りの文字になります。（たとえばアクセント付き文字からはアクセント記号が無くなります。または、削除されます。 Webブラウザからコピー／ペーストが出来ます。 あるいは、システム管理者にエンコードの変更を問い合わせください。 (See parameter \'csv_file_default_charset\').',
 
-	'UI:Audit:Title' => 'iTop - CMDB 監査',
+	'UI:Audit:Title' => 'Enixer help desk - CMDB 監査',
 	'UI:Audit:InteractiveAudit' => '対話型監査',
 	'UI:Audit:HeaderAuditRule' => '監査ルール',
 	'UI:Audit:HeaderNbObjects' => 'オブジェクト数',
@@ -660,7 +660,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:Audit:ErrorIn_Rule_Reason' => 'ルール %1$s 中のOQLエラー: %2$s.',
 	'UI:Audit:ErrorIn_Category_Reason' => 'カテゴリ %1$s 中のOQLエラー: %2$s.',
 
-	'UI:RunQuery:Title' => 'iTop - OQLクエリ評価',
+	'UI:RunQuery:Title' => 'Enixer help desk - OQLクエリ評価',
 	'UI:RunQuery:QueryExamples' => 'クエリの例',
 	'UI:RunQuery:HeaderPurpose' => '目的',
 	'UI:RunQuery:HeaderPurpose+' => 'クエリについての説明',
@@ -672,8 +672,8 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:RunQuery:SerializedFilter' => 'シリアライズされたフィルタ：',
 	'UI:RunQuery:Error' => 'クエリ: %1$s 実行時にエラーが発生しました',
 	'UI:Query:UrlForExcel' => 'MS-Excel Webクエリに使用するURL',
-	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested herebelow points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of iTop. Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.~~',
-	'UI:Schema:Title' => 'iTop オブジェクトスキーマ',
+	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested herebelow points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of Enixer help desk. Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.~~',
+	'UI:Schema:Title' => 'Enixer help desk オブジェクトスキーマ',
 	'UI:Schema:CategoryMenuItem' => 'カテゴリ <b>%1$s</b>',
 	'UI:Schema:Relationships' => '関係',
 	'UI:Schema:AbstractClass' => '抽象クラス：このクラスのインスタンスを作成することはできません。',
@@ -789,8 +789,8 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:Delect:Confirm_Object' => '%1$sを削除しようとしています。確認ください。',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => '以下の%2$sクラスの%1$dオブジェクトを削除しようとしています。確認ください。',
 	'UI:WelcomeToITop' => 'iTopへようこそ',
-	'UI:DetailsPageTitle' => 'iTop - %1$s - %2$sの詳細',
-	'UI:ErrorPageTitle' => 'iTop - エラー',
+	'UI:DetailsPageTitle' => 'Enixer help desk - %1$s - %2$sの詳細',
+	'UI:ErrorPageTitle' => 'Enixer help desk - エラー',
 	'UI:ObjectDoesNotExist' => '申し訳ございません。このオブジェクトは既に存在しません。(あるいは参照する権限がありません。)',
 	'UI:ObjectArchived' => 'This object has been archived. Please enable the archive mode or contact your administrator.~~',
 	'Tag:Archived' => 'Archived~~',
@@ -800,7 +800,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'Tag:Synchronized' => 'Synchronized~~',
 	'ObjectRef:Archived' => 'Archived~~',
 	'ObjectRef:Obsolete' => 'Obsolete~~',
-	'UI:SearchResultsPageTitle' => 'iTop - 検索結果',
+	'UI:SearchResultsPageTitle' => 'Enixer help desk - 検索結果',
 	'UI:SearchResultsTitle' => '検索結果',
 	'UI:SearchResultsTitle+' => 'Full-text search results~~',
 	'UI:Search:NoSearch' => '検索するものがありません。',
@@ -810,28 +810,28 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:FullTextSearchTitle_Text' => '"%1$s"の結果：',
 	'UI:Search:Count_ObjectsOf_Class_Found' => '%2$sクラスの%1$dオブジェクトが見つかりました。',
 	'UI:Search:NoObjectFound' => 'オブジェクトが見つかりませんでした。',
-	'UI:ModificationPageTitle_Object_Class' => 'iTop - %1$s - %2$s 修正',
+	'UI:ModificationPageTitle_Object_Class' => 'Enixer help desk - %1$s - %2$s 修正',
 	'UI:ModificationTitle_Class_Object' => '%1$sの修正： <span class=\\"hilite\\">%2$s</span>',
-	'UI:ClonePageTitle_Object_Class' => 'iTop - クローン%1$s - %2$s 修正',
+	'UI:ClonePageTitle_Object_Class' => 'Enixer help desk - クローン%1$s - %2$s 修正',
 	'UI:CloneTitle_Class_Object' => '%1$sのクローン：<span class=\\"hilite">%2$s</span>',
-	'UI:CreationPageTitle_Class' => 'iTop - 新規%1$sを作成',
+	'UI:CreationPageTitle_Class' => 'Enixer help desk - 新規%1$sを作成',
 	'UI:CreationTitle_Class' => '新規%1$sの作成',
 	'UI:SelectTheTypeOf_Class_ToCreate' => '作成する%1$sのタイプを選択:',
 	'UI:Class_Object_NotUpdated' => '変更は検出されませんでした。%1$s(%2$s)は修正されて<strong>いません</strong>',
 	'UI:Class_Object_Updated' => '%1$s (%2$s) は更新されました。',
-	'UI:BulkDeletePageTitle' => 'iTop - バルク削除',
+	'UI:BulkDeletePageTitle' => 'Enixer help desk - バルク削除',
 	'UI:BulkDeleteTitle' => '削除するオブジェクトを選択してください。',
 	'UI:PageTitle:ObjectCreated' => 'iTopオブジェクトが作成されました。',
 	'UI:Title:Object_Of_Class_Created' => '%1$s - %2$s が作成されました。',
 	'UI:Apply_Stimulus_On_Object_In_State_ToTarget_State' => '状態%3$sにあるオブジェクト：%2$sに、ターゲット状態:%4$sで、%1$sを適用します。',
 	'UI:ObjectCouldNotBeWritten' => 'そのオブジェクトへは書き込みできません: %1$s',
-	'UI:PageTitle:FatalError' => 'iTop - 致命的なエラー',
+	'UI:PageTitle:FatalError' => 'Enixer help desk - 致命的なエラー',
 	'UI:SystemIntrusion' => 'アクセスが拒否されました。あなたが許可されていない操作を実行しようとしています。',
 	'UI:FatalErrorMessage' => '致命的なエラー、ITOPを続行することはできません。',
 	'UI:Error_Details' => 'エラー：%1$s',
 
-	'UI:PageTitle:ClassProjections'	=> 'iTop ユーザ管理 - クラスプロジェクション',
-	'UI:PageTitle:ProfileProjections' => 'iTop ユーザ管理 - プロフィールプロジェクション',
+	'UI:PageTitle:ClassProjections'	=> 'Enixer help desk ユーザ管理 - クラスプロジェクション',
+	'UI:PageTitle:ProfileProjections' => 'Enixer help desk ユーザ管理 - プロフィールプロジェクション',
 	'UI:UserManagement:Class' => 'クラス',
 	'UI:UserManagement:Class+' => 'オブジェクトのクラス',
 	'UI:UserManagement:ProjectedObject' => 'オブジェクト',
@@ -932,7 +932,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:NotificationsMenu:Title' => '<span class="hilite">通知</span>の設定',
 	'UI:NotificationsMenu:Help' => 'ヘルプ',
 	'UI:NotificationsMenu:HelpContent' => '<p>iTopでは、通知はすべてカスタマイズが可能です。通知は<i>トリガーとアクション</i>という二つのオブジェクトがベースになっています。
-<p><i><b>Triggers</b></i> define when a notification will be executed. There are different triggers as part of iTop core, but others can be brought by extensions:
+<p><i><b>Triggers</b></i> define when a notification will be executed. There are different triggers as part of Enixer help desk core, but others can be brought by extensions:
 <ol>
 	<li>Some triggers are executed when an object of the specified class is <b>created</b>, <b>updated</b> or <b>deleted</b>.</li>
 	<li>Some triggers are executed when an object of a given class <b>enter</b> or <b>leave</b> a specified </b>state</b>.</li>
@@ -1366,7 +1366,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:AddAnExisting_Class' => 'Add objects of type %1$s...~~',
 	'UI:SelectionOf_Class' => 'Selection of objects of type %1$s~~',
 
-	'UI:AboutBox' => 'About iTop...~~',
+	'UI:AboutBox' => 'About Enixer help desk...~~',
 	'UI:About:Title' => 'About iTop~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
@@ -1392,7 +1392,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'ExcelExport:PreparingExport' => 'Preparing the export...~~',
 	'ExcelExport:Statistics' => 'Statistics~~',
 	'portal:legacy_portal' => 'End-User Portal~~',
-	'portal:backoffice' => 'iTop Back-Office User Interface~~',
+	'portal:backoffice' => 'Enixer help desk Back-Office User Interface~~',
 
 	'UI:CurrentObjectIsLockedBy_User' => 'The object is locked since it is currently being modified by %1$s.~~',
 	'UI:CurrentObjectIsLockedBy_User_Explanation' => 'The object is currently being modified by %1$s. Your modifications cannot be submitted since they would be overwritten.~~',
@@ -1545,7 +1545,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 ));
 
 //
-// iTop Newsroom menu
+// Enixer help desk Newsroom menu
 //
 Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:Newsroom:NoNewMessage' => 'No new message~~',

@@ -9,7 +9,7 @@ Dict::Add('FR FR', 'French', 'Français', array(
 
 	'Menu:ConfigEditor' => 'Configuration',
 	'config-edit-title' => 'Editeur du Fichier de Configuration',
-	'config-edit-intro' => 'Attention: une configuration incorrecte peut rendre iTop inopérant pour tous les utilisateurs!',
+	'config-edit-intro' => 'Attention: une configuration incorrecte peut rendre Enixer help desk inopérant pour tous les utilisateurs!',
 	'config-apply' => 'Enregistrer',
 	'config-apply-title' => 'Enregistrer (Ctrl+S)',
 	'config-cancel' => 'Annuler (restaurer)',

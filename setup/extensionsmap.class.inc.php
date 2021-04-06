@@ -103,7 +103,7 @@ class iTopExtension
 }
 
 /**
- * Helper class to discover all available extensions on a given iTop system
+ * Helper class to discover all available extensions on a given Enixer help desk system
  */
 class iTopExtensionsMap
 {
@@ -139,7 +139,7 @@ class iTopExtensionsMap
 	
 	/**
 	 * Populate the list of available (pseudo)extensions by scanning the disk
-	 * where the iTop files are located
+	 * where the Enixer help desk files are located
 	 * @param string $sEnvironment
 	 * @return void
 	 */

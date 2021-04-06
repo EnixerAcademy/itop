@@ -5,20 +5,20 @@
  * @copyright Copyright (C) 2010-2018 Combodo SARL
  * @license	http://opensource.org/licenses/AGPL-3.0
  *
- * This file is part of iTop.
+ * This file is part of Enixer help desk.
  *
- * iTop is free software; you can redistribute it and/or modify
+ * Enixer help desk is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * iTop is distributed in the hope that it will be useful,
+ * Enixer help desk is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with iTop. If not, see <http://www.gnu.org/licenses/>
+ * along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
  */
 //////////////////////////////////////////////////////////////////////
 // Classes in 'gui'
@@ -137,7 +137,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => '该用户账户不属于那个组织.',
 	'Class:User/Error:PersonIsMandatory' => '联系人必填.',
 	'Class:UserInternal' => '内部用户',
-	'Class:UserInternal+' => 'iTop 内部定义的用户',
+	'Class:UserInternal+' => 'Enixer help desk 内部定义的用户',
 ));
 
 //
@@ -340,7 +340,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'BooleanLabel:yes' => '是',
 	'BooleanLabel:no' => '否',
-    'UI:Login:Title' => 'iTop 登录',
+    'UI:Login:Title' => 'Enixer help desk 登录',
 	'Menu:WelcomeMenu' => '欢迎', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenu+' => '欢迎使用iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => '欢迎', // Duplicated into itop-welcome-itil (will be removed from here...)
@@ -516,7 +516,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Login:PasswordPrompt' => '密码',
 	'UI:Login:ForgotPwd' => '忘记密码?',
 	'UI:Login:ForgotPwdForm' => '忘记密码',
-	'UI:Login:ForgotPwdForm+' => 'iTop 将会给您发送一封密码重置邮件.',
+	'UI:Login:ForgotPwdForm+' => 'Enixer help desk 将会给您发送一封密码重置邮件.',
 	'UI:Login:ResetPassword' => '立即发送!',
 	'UI:Login:ResetPwdFailed' => '邮件发送失败: %1$s',
 
@@ -548,12 +548,12 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:LogOff:ClickHereToLoginAgain' => '点击这里再次登录...',
 	'UI:ChangePwdMenu' => '修改密码...',
 	'UI:Login:PasswordChanged' => '密码已成功设置!',
-	'UI:AccessRO-All' => 'iTop 是只读的',
-	'UI:AccessRO-Users' => 'iTop 对于终端用户是只读的',
+	'UI:AccessRO-All' => 'Enixer help desk 是只读的',
+	'UI:AccessRO-Users' => 'Enixer help desk 对于终端用户是只读的',
 	'UI:ApplicationEnvironment' => '应用环境: %1$s',
 	'UI:Login:RetypePwdDoesNotMatch' => '新密码输入不一致!',
 	'UI:Button:Login' => '登录iTop',
-	'UI:Login:Error:AccessRestricted' => 'iTop 访问被限制. 请联系管理员.',
+	'UI:Login:Error:AccessRestricted' => 'Enixer help desk 访问被限制. 请联系管理员.',
 	'UI:Login:Error:AccessAdmin' => '只有具有管理员权限的人才能访问. 请联系管理员.',
 	'UI:CSVImport:MappingSelectOne' => '-- 请选择 --',
 	'UI:CSVImport:MappingNotApplicable' => '-- 忽略该栏 --',
@@ -564,7 +564,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImport:DataLine1' => '数据行 1',
 	'UI:CSVImport:DataLine2' => '数据行 2',
 	'UI:CSVImport:idField' => 'id (主键)',
-	'UI:Title:BulkImport' => 'iTop - 批量导入',
+	'UI:Title:BulkImport' => 'Enixer help desk - 批量导入',
 	'UI:Title:BulkImport+' => 'CSV 导入向导',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class' => '同步 %2$s 个对象中的 %1$d',
 	'UI:CSVImport:ClassesSelectOne' => '-- 请选择 --',
@@ -613,7 +613,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImport:AlertMultipleMapping' => '请确保目标区域仅被映射一次.',
 	'UI:CSVImport:AlertNoSearchCriteria' => '请选择至少一个搜索条件',
 	'UI:CSVImport:Encoding' => '字符编码',	
-	'UI:UniversalSearchTitle' => 'iTop - 全局搜索',
+	'UI:UniversalSearchTitle' => 'Enixer help desk - 全局搜索',
 	'UI:UniversalSearch:Error' => '错误: %1$s',
 	'UI:UniversalSearch:LabelSelectTheClass' => '选择要搜索的类别: ',
 
@@ -661,9 +661,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVExport:AdvancedMode' => '高级模式',
 	'UI:CSVExport:AdvancedMode+' => 'In advanced mode, several columns are added to the export: the id of the object, the id of external keys and their reconciliation attributes.',
 	'UI:CSVExport:LostChars' => '编码问题',
-	'UI:CSVExport:LostChars+' => 'The downloaded file will be encoded into %1$s. iTop has detected some characters that are not compatible with this format. Those characters will either be replaced by a substitute (e.g. accentuated chars losing the accent), or they will be discarded. You can copy/paste the data from your web browser. Alternatively, you can contact your administrator to change the encoding (See parameter \'csv_file_default_charset\').',
+	'UI:CSVExport:LostChars+' => 'The downloaded file will be encoded into %1$s. Enixer help desk has detected some characters that are not compatible with this format. Those characters will either be replaced by a substitute (e.g. accentuated chars losing the accent), or they will be discarded. You can copy/paste the data from your web browser. Alternatively, you can contact your administrator to change the encoding (See parameter \'csv_file_default_charset\').',
 
-	'UI:Audit:Title' => 'iTop - CMDB 审计',
+	'UI:Audit:Title' => 'Enixer help desk - CMDB 审计',
 	'UI:Audit:InteractiveAudit' => '交互审计',
 	'UI:Audit:HeaderAuditRule' => '审计规则',
 	'UI:Audit:HeaderNbObjects' => '# 对象',
@@ -672,7 +672,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Audit:ErrorIn_Rule_Reason' => 'OQL Error in the Rule %1$s: %2$s.',
 	'UI:Audit:ErrorIn_Category_Reason' => 'OQL Error in the Category %1$s: %2$s.',
 
-	'UI:RunQuery:Title' => 'iTop - OQL 查询评估',
+	'UI:RunQuery:Title' => 'Enixer help desk - OQL 查询评估',
 	'UI:RunQuery:QueryExamples' => '示例查询',
 	'UI:RunQuery:HeaderPurpose' => '目的',
 	'UI:RunQuery:HeaderPurpose+' => '该查询的解释',
@@ -684,8 +684,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:RunQuery:SerializedFilter' => '序列化的过滤器: ',
 	'UI:RunQuery:Error' => '运行该查询时发生了一个错误: %1$s',
 	'UI:Query:UrlForExcel' => 'URL to use for MS-Excel web queries',
-	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested here below points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of iTop. <br/>Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.',
-	'UI:Schema:Title' => 'iTop 对象模型',
+	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested here below points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of Enixer help desk. <br/>Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.',
+	'UI:Schema:Title' => 'Enixer help desk 对象模型',
 	'UI:Schema:CategoryMenuItem' => '类别 <b>%1$s</b>',
 	'UI:Schema:Relationships' => '关联',
 	'UI:Schema:AbstractClass' => '抽象类: 该类不能实例化对象.',
@@ -801,8 +801,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Delect:Confirm_Object' => '请确认要删除 %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => '请确认要删除下列 %2$s 类的 %1$d 个对象.',
 	'UI:WelcomeToITop' => '欢迎使用iTop ',
-	'UI:DetailsPageTitle' => 'iTop - %1$s - %2$s 详细内容',
-	'UI:ErrorPageTitle' => 'iTop - 错误',
+	'UI:DetailsPageTitle' => 'Enixer help desk - %1$s - %2$s 详细内容',
+	'UI:ErrorPageTitle' => 'Enixer help desk - 错误',
 	'UI:ObjectDoesNotExist' => '抱歉, 该对象不存在 (或无权浏览该对象).',
 	'UI:ObjectArchived' => '对象已被归档. 请启用归档模式或联系管理员.',
 	'Tag:Archived' => '已归档',
@@ -812,7 +812,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Tag:Synchronized' => '已同步',
 	'ObjectRef:Archived' => '已归档',
 	'ObjectRef:Obsolete' => '已废弃',
-	'UI:SearchResultsPageTitle' => 'iTop - 搜索结果',
+	'UI:SearchResultsPageTitle' => 'Enixer help desk - 搜索结果',
 	'UI:SearchResultsTitle' => '搜索结果',
 	'UI:SearchResultsTitle+' => '全文搜索结果',
 	'UI:Search:NoSearch' => '没有可搜索的内容',
@@ -822,28 +822,28 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:FullTextSearchTitle_Text' => '"%1$s" 的结果:',
 	'UI:Search:Count_ObjectsOf_Class_Found' => '发现 %2$s 类的 %1$d 个对象.',
 	'UI:Search:NoObjectFound' => '未发现对象.',
-	'UI:ModificationPageTitle_Object_Class' => 'iTop - %1$s - %2$s 修改',
+	'UI:ModificationPageTitle_Object_Class' => 'Enixer help desk - %1$s - %2$s 修改',
 	'UI:ModificationTitle_Class_Object' => '修改 %1$s: <span class=\\"hilite\\">%2$s</span>',
-	'UI:ClonePageTitle_Object_Class' => 'iTop - 克隆 %1$s - %2$s 修改',
+	'UI:ClonePageTitle_Object_Class' => 'Enixer help desk - 克隆 %1$s - %2$s 修改',
 	'UI:CloneTitle_Class_Object' => '克隆 %1$s: <span class=\\"hilite\\">%2$s</span>',
-	'UI:CreationPageTitle_Class' => 'iTop - 新建 %1$s ',
+	'UI:CreationPageTitle_Class' => 'Enixer help desk - 新建 %1$s ',
 	'UI:CreationTitle_Class' => '新建 %1$s',
 	'UI:SelectTheTypeOf_Class_ToCreate' => '选择 %1$s 的类别:',
 	'UI:Class_Object_NotUpdated' => '未发现变化, %1$s (%2$s) <strong>没有</strong> 被更新.',
 	'UI:Class_Object_Updated' => '%1$s (%2$s) 更新了.',
-	'UI:BulkDeletePageTitle' => 'iTop - 批量删除',
+	'UI:BulkDeletePageTitle' => 'Enixer help desk - 批量删除',
 	'UI:BulkDeleteTitle' => '选择您要删除的对象:',
-	'UI:PageTitle:ObjectCreated' => 'iTop 对象创建了.',
+	'UI:PageTitle:ObjectCreated' => 'Enixer help desk 对象创建了.',
 	'UI:Title:Object_Of_Class_Created' => '%1$s - %2$s 创建了.',
 	'UI:Apply_Stimulus_On_Object_In_State_ToTarget_State' => '应用 %1$s 在对象: %2$s 上, 从 %3$s 状态到目标状态: %4$s.',
 	'UI:ObjectCouldNotBeWritten' => '对象不能写入: %1$s',
-	'UI:PageTitle:FatalError' => 'iTop - 致命错误',
+	'UI:PageTitle:FatalError' => 'Enixer help desk - 致命错误',
 	'UI:SystemIntrusion' => '访问被禁止. 您正尝试未被许可的操作.',
-	'UI:FatalErrorMessage' => '致命错误, iTop 无法继续.',
+	'UI:FatalErrorMessage' => '致命错误, Enixer help desk 无法继续.',
 	'UI:Error_Details' => '错误: %1$s.',
 
-	'UI:PageTitle:ClassProjections'	=> 'iTop 用户管理 - 类映射',
-	'UI:PageTitle:ProfileProjections' => 'iTop 用户管理 - 角色映射',
+	'UI:PageTitle:ClassProjections'	=> 'Enixer help desk 用户管理 - 类映射',
+	'UI:PageTitle:ProfileProjections' => 'Enixer help desk 用户管理 - 角色映射',
 	'UI:UserManagement:Class' => '类',
 	'UI:UserManagement:Class+' => '对象的类',
 	'UI:UserManagement:ProjectedObject' => '对象',
@@ -944,7 +944,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:NotificationsMenu:Title' => '配置 <span class="hilite">通知</span>',
 	'UI:NotificationsMenu:Help' => '帮助',
 	'UI:NotificationsMenu:HelpContent' => '<p>在iTop 中, 通知可以被自定义. 它们是基于两个对象集: <i>触发器和操作</i>.</p>
-<p><i><b>触发器</b></i> 定义了什么时候发送通知. iTop core 自带一些触发器, 另一些触发器可由扩展提供:
+<p><i><b>触发器</b></i> 定义了什么时候发送通知. Enixer help desk core 自带一些触发器, 另一些触发器可由扩展提供:
 <ol>
 	<li>Some triggers are executed when an object of the specified class is <b>created</b>, <b>updated</b> or <b>deleted</b>.</li>
 	<li>Some triggers are executed when an object of a given class <b>enter</b> or <b>leave</b> a specified </b>state</b>.</li>
@@ -1049,8 +1049,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:RelationTooltip:Redundancy' => '冗余',
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => '# 受影响的项目: %1$d / %2$d',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => '阀值: %1$d / %2$d',
-	'Portal:Title' => 'iTop 用户门户',
-	'Portal:NoRequestMgmt' => '亲爱的 %1$s, 您被重定向到这个页面,因为您的账户已被设置成角色 \'Portal user\'. 并且, iTop 没有安装 \'需求管理\' 功能. 请联系管理员.',
+	'Portal:Title' => 'Enixer help desk 用户门户',
+	'Portal:NoRequestMgmt' => '亲爱的 %1$s, 您被重定向到这个页面,因为您的账户已被设置成角色 \'Portal user\'. 并且, Enixer help desk 没有安装 \'需求管理\' 功能. 请联系管理员.',
 	'Portal:Refresh' => '刷新',
 	'Portal:Back' => '返回',
 	'Portal:WelcomeUserOrg' => 'Welcome %1$s, from %2$s',
@@ -1404,7 +1404,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'ExcelExport:PreparingExport' => '正在准备导出...',
 	'ExcelExport:Statistics' => '统计',
 	'portal:legacy_portal' => '终端用户门户',
-	'portal:backoffice' => 'iTop 后台用户界面',
+	'portal:backoffice' => 'Enixer help desk 后台用户界面',
 
 	'UI:CurrentObjectIsLockedBy_User' => '对象被锁住,因为正在修改 %1$s.',
 	'UI:CurrentObjectIsLockedBy_User_Explanation' => '该对象正在被 %1$s 修改. 您的修改无法提交因为它们会冲突.',
@@ -1557,7 +1557,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 ));
 
 //
-// iTop Newsroom menu
+// Enixer help desk Newsroom menu
 //
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Newsroom:NoNewMessage' => '没有新消息',

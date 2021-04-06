@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2018 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 
 define('ITOP_APPLICATION', 'iTop');
@@ -44,8 +44,8 @@ class ConfigException extends CoreException
 }
 
 // was utf8 but it only supports BMP chars (https://dev.mysql.com/doc/refman/5.5/en/charset-unicode-utf8mb4.html)
-// so we switched to utf8mb4 in iTop 2.5, adding dependency to MySQL 5.5.3
-// The config params db_character_set and db_collation were introduced as a temporary workaround and removed in iTop 2.5
+// so we switched to utf8mb4 in Enixer help desk 2.5, adding dependency to MySQL 5.5.3
+// The config params db_character_set and db_collation were introduced as a temporary workaround and removed in Enixer help desk 2.5
 // now everything uses those fixed value !
 define('DEFAULT_CHARACTER_SET', 'utf8mb4');
 define('DEFAULT_COLLATION', 'utf8mb4_unicode_ci');
@@ -172,7 +172,7 @@ class Config
 		),
 		'db_character_set' => array( // @deprecated to remove in 2.7 ? N°1001 utf8mb4 switch
 			'type' => 'string',
-			'description' => 'Deprecated since iTop 2.5 : now using utf8mb4',
+			'description' => 'Deprecated since Enixer help desk 2.5 : now using utf8mb4',
 			'default' => 'DEPRECATED_2.5',
 			'value' => '',
 			'source_of_value' => '',
@@ -180,7 +180,7 @@ class Config
 		),
 		'db_collation' => array( // @deprecated to remove in 2.7 ? N°1001 utf8mb4 switch
 			'type' => 'string',
-			'description' => 'Deprecated since iTop 2.5 : now using utf8mb4_unicode_ci',
+			'description' => 'Deprecated since Enixer help desk 2.5 : now using utf8mb4_unicode_ci',
 			'default' => 'DEPRECATED_2.5',
 			'value' => '',
 			'source_of_value' => '',
@@ -342,7 +342,7 @@ class Config
 		'access_message' => array(
 			'type' => 'string',
 			'description' => 'Message displayed to the users when there is any access restriction',
-			'default' => 'iTop is temporarily frozen, please wait... (the admin team)',
+			'default' => 'Enixer help desk is temporarily frozen, please wait... (the admin team)',
 			'value' => '',
 			'source_of_value' => '',
 			'show_in_conf_sample' => true,
@@ -657,7 +657,7 @@ class Config
 		),
 		'cas_profile_pattern' => array(
 			'type' => 'string',
-			'description' => 'A regular expression pattern to extract the name of the iTop profile from the name of an LDAP/CAS group',
+			'description' => 'A regular expression pattern to extract the name of the Enixer help desk profile from the name of an LDAP/CAS group',
 			// examples... not used (nor 'description')
 			'default' => '/^cn=([^,]+),/',
 			'value' => '/^cn=([^,]+),/',
@@ -666,7 +666,7 @@ class Config
 		),
 		'cas_default_profiles' => array(
 			'type' => 'string',
-			'description' => 'A semi-colon separated list of iTop Profiles to use when creating a new user if no profile is retrieved from CAS',
+			'description' => 'A semi-colon separated list of Enixer help desk Profiles to use when creating a new user if no profile is retrieved from CAS',
 			// examples... not used (nor 'description')
 			'default' => 'Portal user',
 			'value' => 'Portal user',
@@ -980,7 +980,7 @@ class Config
 		'min_reload_interval' => array(
 			'type' => 'integer',
 			'description' => 'Minimum refresh interval (seconds) for dashboards, shortcuts, etc. Even if the interval is set programmatically, it is forced to that minimum',
-			'default' => 5, // In iTop 2.0.3, this was the hardcoded value
+			'default' => 5, // In Enixer help desk 2.0.3, this was the hardcoded value
 			'value' => '',
 			'source_of_value' => '',
 			'show_in_conf_sample' => false,
@@ -988,7 +988,7 @@ class Config
 		'relations_max_depth' => array(
 			'type' => 'integer',
 			'description' => 'Maximum number of successive levels (depth) to explore when displaying the impact/depends on relations.',
-			'default' => 20, // In iTop 2.0.3, this was the hardcoded value
+			'default' => 20, // In Enixer help desk 2.0.3, this was the hardcoded value
 			'value' => '',
 			'source_of_value' => '',
 			'show_in_conf_sample' => false,
@@ -1260,7 +1260,7 @@ class Config
 
 	/**
 	 * @var boolean Whether or not a secure connection is required for using the application.
-	 *              If set, any attempt to connect to an iTop page with http:// will be redirected
+	 *              If set, any attempt to connect to an Enixer help desk page with http:// will be redirected
 	 *              to https://
 	 */
 	protected $m_bSecureConnectionRequired;
@@ -1282,14 +1282,14 @@ class Config
 
 	/**
 	 * @var string Encryption key used for all attributes of type "encrypted string". Can be set to a random value
-	 *             unless you want to import a database from another iTop instance, in which case you must use
+	 *             unless you want to import a database from another Enixer help desk instance, in which case you must use
 	 *             the same encryption key in order to properly decode the encrypted fields
 	 */
 	protected $m_sEncryptionKey;
 
 	/**
 	 * @var string Encryption key used for all attributes of type "encrypted string". Can be set to a random value
-	 *             unless you want to import a database from another iTop instance, in which case you must use
+	 *             unless you want to import a database from another Enixer help desk instance, in which case you must use
 	 *             the same encryption key in order to properly decode the encrypted fields
 	 */
 	protected $m_sEncryptionLibrary;
@@ -1318,7 +1318,7 @@ class Config
 		}
 
 		$this->m_aAddons = array(
-			// Default AddOn, always present can be moved to an official iTop Module later if needed
+			// Default AddOn, always present can be moved to an official Enixer help desk Module later if needed
 			'user rights' => 'addons/userrights/userrightsprofile.class.inc.php',
 		);
 

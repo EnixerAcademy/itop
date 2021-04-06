@@ -3,13 +3,13 @@
   <steps type="array">
     <step>
       <title>Configuration Management options</title>
-      <description><![CDATA[<h2>The options below allow you to configure the type of elements that are to be managed inside iTop.</h2>]]></description>
+      <description><![CDATA[<h2>The options below allow you to configure the type of elements that are to be managed inside Enixer help desk.</h2>]]></description>
       <banner>/images/modules.png</banner>
       <options type="array">
         <choice>
           <extension_code>itop-config-mgmt-core</extension_code>
           <title>Configuration Management Core</title>
-          <description>All the base objects that are mandatory in the iTop CMDB: Organizations, Locations, Teams, Persons, etc.</description>
+          <description>All the base objects that are mandatory in the Enixer help desk CMDB: Organizations, Locations, Teams, Persons, etc.</description>
           <modules type="array">
             <module>itop-config-mgmt</module>
             <module>itop-attachments</module>
@@ -119,7 +119,7 @@
               <choice>
                 <extension_code>itop-ticket-mgmt-itil-user-request</extension_code>
                 <title>User Request Management</title>
-                <description>Manage User Request tickets in iTop</description>
+                <description>Manage User Request tickets in Enixer help desk</description>
                 <modules type="array">
                   <module>itop-request-mgmt-itil</module>
                 </modules>
@@ -127,7 +127,7 @@
               <choice>
                 <extension_code>itop-ticket-mgmt-itil-incident</extension_code>
                 <title>Incident Management</title>
-                <description>Manage Incidents tickets in iTop</description>
+                <description>Manage Incidents tickets in Enixer help desk</description>
                 <modules type="array">
                   <module>itop-incident-mgmt-itil</module>
                 </modules>
@@ -148,7 +148,7 @@
         <choice>
           <extension_code>itop-ticket-mgmt-none</extension_code>
           <title>No Tickets Management</title>
-          <description>Don't manage incidents or user requests in iTop</description>
+          <description>Don't manage incidents or user requests in Enixer help desk</description>
           <modules type="array">
           </modules>
         </choice>
@@ -179,7 +179,7 @@
         <choice>
           <extension_code>itop-change-mgmt-none</extension_code>
           <title>No Change Management</title>
-          <description>Don't manage changes in iTop</description>
+          <description>Don't manage changes in Enixer help desk</description>
           <modules type="array">
           </modules>
         </choice>
@@ -187,13 +187,13 @@
     </step>
     <step>
       <title>Additional ITIL tickets</title>
-      <description><![CDATA[<h2>Pick from the list below the additional ITIL processes that are to be implemented in iTop.</h2>]]></description>
+      <description><![CDATA[<h2>Pick from the list below the additional ITIL processes that are to be implemented in Enixer help desk.</h2>]]></description>
       <banner>./itop-knownerror-mgmt/images/known-error.png</banner>
       <options type="array">
         <choice>
           <extension_code>itop-kown-error-mgmt</extension_code>
           <title>Known Errors Management</title>
-          <description>Select this option to track "Known Errors" and FAQs in iTop.</description>
+          <description>Select this option to track "Known Errors" and FAQs in Enixer help desk.</description>
           <modules type="array">
             <module>itop-knownerror-mgmt</module>
           </modules>
@@ -201,7 +201,7 @@
         <choice>
           <extension_code>itop-problem-mgmt</extension_code>
           <title>Problem Management</title>
-          <description>Select this option track "Problems" in iTop.</description>
+          <description>Select this option track "Problems" in Enixer help desk.</description>
           <modules type="array">
             <module>itop-problem-mgmt</module>
           </modules>

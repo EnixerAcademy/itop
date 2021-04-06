@@ -1,9 +1,9 @@
 <?php
 /**
- * Локализация интерфейса Combodo iTop подготовлена сообществом iTop по-русски http://community.itop-itsm.ru.
+ * Локализация интерфейса Combodo Enixer help desk подготовлена сообществом Enixer help desk по-русски http://community.itop-itsm.ru.
  *
  * @author      Vladimir Kunin <v.b.kunin@gmail.com>
- * @link        http://community.itop-itsm.ru  iTop Russian Community
+ * @link        http://community.itop-itsm.ru  Enixer help desk Russian Community
  * @link        https://github.com/itop-itsm-ru/itop-rus
  * @license     http://opensource.org/licenses/AGPL-3.0
  *
@@ -16,7 +16,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'Attachments:History_File_Added' => 'Вложение %1$s добавлено.',
 	'Attachments:History_File_Removed' => 'Вложение %1$s удалено.',
 	'Attachments:AddAttachment' => 'Добавить вложение:',
-	'Attachments:UploadNotAllowedOnThisSystem' => 'Загрузка файлов НЕ разрешена в этой системе. За подробностями обратитесь к администратору вашего iTop',
+	'Attachments:UploadNotAllowedOnThisSystem' => 'Загрузка файлов НЕ разрешена в этой системе. За подробностями обратитесь к администратору вашего Enixer help desk',
 	'Attachment:Max_Go' => '(Максимальный размер файла: %1$s ГБ)',
 	'Attachment:Max_Mo' => '(Максимальный размер файла: %1$s МБ)',
 	'Attachment:Max_Ko' => '(Максимальный размер файла: %1$s кБ)',

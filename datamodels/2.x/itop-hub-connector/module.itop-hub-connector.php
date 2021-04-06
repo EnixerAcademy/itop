@@ -1,6 +1,6 @@
 <?php
 //
-// iTop module definition file
+// Enixer help desk module definition file
 //
 
 SetupWebPage::AddModule(
@@ -9,13 +9,13 @@ SetupWebPage::AddModule(
 	array(
 		// Identification
 		//
-		'label' => 'iTop Hub Connector',
+		'label' => 'Enixer help desk Hub Connector',
 		'category' => 'business',
 
 		// Setup
 		//
 		'dependencies' => array(
-			'itop-config-mgmt/2.4.0', // Actually this module requires iTop 2.4.1 minimum
+			'itop-config-mgmt/2.4.0', // Actually this module requires Enixer help desk 2.4.1 minimum
 		),
 		'mandatory' => false,
 		'visible' => true,

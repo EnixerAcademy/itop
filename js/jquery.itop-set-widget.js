@@ -1,20 +1,20 @@
 /*
  *  Copyright (c) 2010-2018 Combodo SARL
  *
- *    This file is part of iTop.
+ *    This file is part of Enixer help desk.
  *
- *    iTop is free software; you can redistribute it and/or modify
+ *    Enixer help desk is free software; you can redistribute it and/or modify
  *    it under the terms of the GNU Affero General Public License as published by
  *    the Free Software Foundation, either version 3 of the License, or
  *    (at your option) any later version.
  *
- *    iTop is distributed in the hope that it will be useful,
+ *    Enixer help desk is distributed in the hope that it will be useful,
  *    but WITHOUT ANY WARRANTY; without even the implied warranty of
  *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *    GNU Affero General Public License for more details.
  *
  *    You should have received a copy of the GNU Affero General Public License
- *    along with iTop. If not, see <http://www.gnu.org/licenses/>
+ *    along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
  *
  */
 
@@ -78,8 +78,8 @@ $.widget('itop.set_widget',
 		REMOVED_VAL_KEY: "removed",
 		STATUS_ADDED: "added",
 		STATUS_REMOVED: "removed",
-        STATUS_NEUTRAL: "unchanged",
-        MAX_ITEMS_ALLOWED_KEY: "max_items_allowed",
+		STATUS_NEUTRAL: "unchanged",
+		MAX_ITEMS_ALLOWED_KEY: "max_items_allowed",
 
 		possibleValues: null,
 		partialValues: null,
@@ -92,52 +92,52 @@ $.widget('itop.set_widget',
 
 		// the constructor
 		_create: function () {
-			var $this = this.element;
+			var $this = this.element
 
-			this._initWidgetData($this.val());
-			this._generateSelectionWidget($this);
-			this._bindEvents($this);
+			this._initWidgetData($this.val())
+			this._generateSelectionWidget($this)
+			this._bindEvents($this)
 		},
 
 		// events bound via _bind are removed automatically
 		// revert other modifications here
 		_destroy: function () {
-			this.refresh();
+			this.refresh()
 		},
 
 
 		_initWidgetData: function (originalFieldValue) {
 			var dataArray = JSON.parse(originalFieldValue),
-			    setWidget = this;
-			this.possibleValues = dataArray[this.POSSIBLE_VAL_KEY];
-			this.partialValues = ($.isArray(dataArray[this.PARTIAL_VAL_KEY])) ? dataArray[this.PARTIAL_VAL_KEY] : [];
-			this.originalValue = dataArray[this.ORIG_VAL_KEY];
-			this.maxItemsAllowed = dataArray[this.MAX_ITEMS_ALLOWED_KEY];
-			this.setItemsCodesStatus = {};
+				setWidget = this
+			this.possibleValues = dataArray[this.POSSIBLE_VAL_KEY]
+			this.partialValues = ($.isArray(dataArray[this.PARTIAL_VAL_KEY])) ? dataArray[this.PARTIAL_VAL_KEY] : []
+			this.originalValue = dataArray[this.ORIG_VAL_KEY]
+			this.maxItemsAllowed = dataArray[this.MAX_ITEMS_ALLOWED_KEY]
+			this.setItemsCodesStatus = {}
 
 			// load existing removed codes
 			//   used for example in triggers update fields selection, after switching class
 			//   class A + fields a,b selected, then switch to class B : the server sends fields a,b to as removed values
-			dataArray[this.REMOVED_VAL_KEY].forEach(function(setItemCode) {
-                setWidget.setItemsCodesStatus[setItemCode] = setWidget.STATUS_REMOVED;
-			});
+			dataArray[this.REMOVED_VAL_KEY].forEach(function (setItemCode) {
+				setWidget.setItemsCodesStatus[setItemCode] = setWidget.STATUS_REMOVED
+			})
 		},
 
 		_generateSelectionWidget: function ($widgetElement) {
 			var $parentElement = $widgetElement.parent(),
 				isWidgetElementDisabled = $widgetElement.prop("disabled"),
-				inputId = $widgetElement.attr("id") + this.options.inputWidgetIdSuffix;
+				inputId = $widgetElement.attr("id") + this.options.inputWidgetIdSuffix
 
-			$parentElement.append("<input id='" + inputId + "' value='" + this.originalValue.join(" ") + "'>");
-			var $inputWidget = $("#" + inputId);
+			$parentElement.append("<input id='" + inputId + "' value='" + this.originalValue.join(" ") + "'>")
+			var $inputWidget = $("#" + inputId)
 			if (isWidgetElementDisabled) {
-				$inputWidget.prop("disabled", true);
+				$inputWidget.prop("disabled", true)
 			}
 
 			// create closure to have both set widget and Selectize instances available in callbacks
 			// selectize instance could also be retrieve on the source input DOM node (selectize property)
 			// I think this is much clearer this way !
-			var setWidget = this;
+			var setWidget = this
 
 			$inputWidget.selectize({
 				plugins: ['remove_button'],
@@ -151,78 +151,77 @@ $.widget('itop.set_widget',
 				create: false,
 				placeholder: Dict.S("Core:AttributeSet:placeholder"),
 				onInitialize: function () {
-					var selectizeWidget = this;
-					setWidget._onInitialize(selectizeWidget);
+					var selectizeWidget = this
+					setWidget._onInitialize(selectizeWidget)
 				},
 				onItemAdd: function (value, $item) {
-					var selectizeWidget = this;
-					setWidget._onTagAdd(value, $item, selectizeWidget);
+					var selectizeWidget = this
+					setWidget._onTagAdd(value, $item, selectizeWidget)
 				},
 				onItemRemove: function (value) {
-					var selectizeWidget = this;
-					setWidget._onTagRemove(value, selectizeWidget);
+					var selectizeWidget = this
+					setWidget._onTagRemove(value, selectizeWidget)
 				}
-			});
+			})
 
-			this.selectizeWidget = $inputWidget[0].selectize; // keeping this for set widget public methods
+			this.selectizeWidget = $inputWidget[0].selectize // keeping this for set widget public methods
 		},
 
-        _bindEvents: function($widgetElement) {
-            var setWidget = this;
-			$widgetElement.bind("update", function() {
+		_bindEvents: function ($widgetElement) {
+			var setWidget = this
+			$widgetElement.bind("update", function () {
 				if (setWidget.options.isDebug) {
-					console.debug("update event in Selectize !", this);
+					console.debug("update event in Selectize !", this)
 				}
-				var $this = $(this);
+				var $this = $(this)
 				if ($this.prop("disabled")) {
-					setWidget.disable();
+					setWidget.disable()
 				} else {
-					setWidget.enable();
+					setWidget.enable()
 				}
-			});
+			})
 
-			if (setWidget.options.isDebug)
-			{
-				console.debug("bindEvents", setWidget.selectizeWidget);
+			if (setWidget.options.isDebug) {
+				console.debug("bindEvents", setWidget.selectizeWidget)
 			}
 			setWidget.selectizeWidget.$control.on('click', '.attribute-set-item.partial-code', function (event) {
-				setWidget._onTagPartialClick(setWidget, this, event);
+				setWidget._onTagPartialClick(setWidget, this, event)
 			})
 		},
 
 		refresh: function () {
 			if (this.options.isDebug) {
-				console.debug("refresh");
+				console.debug("refresh")
 			}
-			var widgetPublicData = {}, addedValues = [], removedValues = [];
+			var widgetPublicData = {}, addedValues = [], removedValues = []
 
-			widgetPublicData[this.POSSIBLE_VAL_KEY] = this.possibleValues;
-			widgetPublicData[this.PARTIAL_VAL_KEY] = this.partialValues;
-			widgetPublicData[this.ORIG_VAL_KEY] = this.originalValue;
+			widgetPublicData[this.POSSIBLE_VAL_KEY] = this.possibleValues
+			widgetPublicData[this.PARTIAL_VAL_KEY] = this.partialValues
+			widgetPublicData[this.ORIG_VAL_KEY] = this.originalValue
 
 			for (var setItemCode in this.setItemsCodesStatus) {
-				var setItemCodeStatus = this.setItemsCodesStatus[setItemCode];
+				var setItemCodeStatus = this.setItemsCodesStatus[setItemCode]
 				switch (setItemCodeStatus) {
 					case this.STATUS_ADDED:
-						addedValues.push(setItemCode);
-						break;
+						addedValues.push(setItemCode)
+						break
 					case this.STATUS_REMOVED:
-						removedValues.push(setItemCode);
-						break;
+						removedValues.push(setItemCode)
+						break
 				}
 			}
-			widgetPublicData[this.ADDED_VAL_KEY] = addedValues;
-			widgetPublicData[this.REMOVED_VAL_KEY] = removedValues;
+			widgetPublicData[this.ADDED_VAL_KEY] = addedValues
+			widgetPublicData[this.REMOVED_VAL_KEY] = removedValues
 
-			this.element.val(JSON.stringify(widgetPublicData, null, (this.options.isDebug ? 2 : null)));
+			this.element.val(JSON.stringify(widgetPublicData, null, (this.options.isDebug ? 2 : null)))
 		},
 
 		disable: function () {
-			this.selectizeWidget.disable();
+			this.selectizeWidget.disable()
 		},
 
 		enable: function () {
-			this.selectizeWidget.enable();
+			this.selectizeWidget.enable()
 		},
 
 		/**
@@ -241,100 +240,97 @@ $.widget('itop.set_widget',
 		 * @private
 		 */
 		_onInitialize: function (inputWidget) {
-            var setWidget = this;
+			var setWidget = this
 			if (this.options.isDebug) {
-				console.debug("onInit", inputWidget, setWidget);
+				console.debug("onInit", inputWidget, setWidget)
 			}
 
 			if (inputWidget.$input.prop("disabled")) {
-				inputWidget.disable(); // can't use this.selectizeWidget for now
+				inputWidget.disable() // can't use this.selectizeWidget for now
 			}
 
-			inputWidget.$control.addClass(setWidget.PARENT_CSS_CLASS);
+			inputWidget.$control.addClass(setWidget.PARENT_CSS_CLASS)
 
 			inputWidget.items.forEach(function (setItemCode) {
-				var $item = inputWidget.getItem(setItemCode);
-				$item.addClass(setWidget.ITEM_CSS_CLASS);
-				$item.addClass(setWidget.ITEM_CSS_CLASS + '-' + setItemCode); // no escape as codes are already pretty restrictive
+				var $item = inputWidget.getItem(setItemCode)
+				$item.addClass(setWidget.ITEM_CSS_CLASS)
+				$item.addClass(setWidget.ITEM_CSS_CLASS + '-' + setItemCode) // no escape as codes are already pretty restrictive
 
 				if (setWidget._isCodeInPartialValues(setItemCode)) {
-					inputWidget.getItem(setItemCode).addClass(setWidget.ITEM_PARTIAL_CSS_CLASS);
+					inputWidget.getItem(setItemCode).addClass(setWidget.ITEM_PARTIAL_CSS_CLASS)
 				}
-			});
+			})
 		},
 
 		_onTagAdd: function (setItemCode, $item, inputWidget) {
 			if (this.options.isDebug) {
-				console.debug("tagAdd");
+				console.debug("tagAdd")
 			}
-			this.setItemsCodesStatus[setItemCode] = this.STATUS_ADDED;
+			this.setItemsCodesStatus[setItemCode] = this.STATUS_ADDED
 
 			if (this._isCodeInPartialValues(setItemCode)) {
-				this._partialCodeRemove(setItemCode);
+				this._partialCodeRemove(setItemCode)
 			} else {
 				if (this.originalValue.indexOf(setItemCode) !== -1) {
 					// do not add if was present initially and removed
-					this.setItemsCodesStatus[setItemCode] = this.STATUS_NEUTRAL;
+					this.setItemsCodesStatus[setItemCode] = this.STATUS_NEUTRAL
 				}
 			}
 
 			// When only one item allowed, selectize doesn't trigger the _onTagRemove callback so we have to clean ourselves.
-			if((this.maxItemsAllowed === 1) && (this.originalValue.length > 0)) {
-				if(setItemCode !== this.originalValue[0]) {
-					this.setItemsCodesStatus[this.originalValue[0]] = this.STATUS_REMOVED;
+			if ((this.maxItemsAllowed === 1) && (this.originalValue.length > 0)) {
+				if (setItemCode !== this.originalValue[0]) {
+					this.setItemsCodesStatus[this.originalValue[0]] = this.STATUS_REMOVED
 				}
 			}
 
-			this.refresh();
+			this.refresh()
 		},
 
 		_onTagRemove: function (setItemCode, inputWidget) {
-			this.setItemsCodesStatus[setItemCode] = this.STATUS_REMOVED;
+			this.setItemsCodesStatus[setItemCode] = this.STATUS_REMOVED
 
 			if (this._isCodeInPartialValues(setItemCode)) {
 				// force rendering items again, otherwise partial class will be kept
 				// can'be in the onItemAdd callback as it is called after the render callback...
-				inputWidget.clearCache("item");
+				inputWidget.clearCache("item")
 			}
 
 			if (this.originalValue.indexOf(setItemCode) === -1) {
 				// do not remove if wasn't present initially
-				this.setItemsCodesStatus[setItemCode] = this.STATUS_NEUTRAL;
+				this.setItemsCodesStatus[setItemCode] = this.STATUS_NEUTRAL
 			}
 
-			this.refresh();
+			this.refresh()
 		},
 
 		_onTagPartialClick: function (setWidget, inputWidgetItemNode, event) {
 			var $targetNode = $(event.target),
-				partialCodeClicked = $(inputWidgetItemNode).data("value");
+				partialCodeClicked = $(inputWidgetItemNode).data("value")
 
-			if (setWidget.options.isDebug)
-			{
-				console.debug("onTagPartialClick", setWidget, inputWidgetItemNode, event);
+			if (setWidget.options.isDebug) {
+				console.debug("onTagPartialClick", setWidget, inputWidgetItemNode, event)
 			}
 
-			if (setWidget.selectizeWidget.isDisabled)
-			{
-				return;
+			if (setWidget.selectizeWidget.isDisabled) {
+				return
 			}
-			if ($targetNode.is("a.remove"))
-			{
-				return;
+			if ($targetNode.is("a.remove")) {
+				return
 			}
 
-			this._onTagAdd(partialCodeClicked, $(inputWidgetItemNode), setWidget.selectizeWidget);
-			$(inputWidgetItemNode).removeClass(setWidget.ITEM_PARTIAL_CSS_CLASS);
+			this._onTagAdd(partialCodeClicked, $(inputWidgetItemNode), setWidget.selectizeWidget)
+			$(inputWidgetItemNode).removeClass(setWidget.ITEM_PARTIAL_CSS_CLASS)
 		},
 
 		_partialCodeRemove: function (setItemCode) {
 			this.partialValues = this.partialValues.filter(function (element, index, array) {
-				var setItemCode = this.valueOf();
-				return (element !== setItemCode);
-			}, setItemCode);
+				var setItemCode = this.valueOf()
+				return (element !== setItemCode)
+			}, setItemCode)
 		},
 
 		_isCodeInPartialValues: function (setItemCode) {
-			return (this.partialValues.indexOf(setItemCode) >= 0);
+			return (this.partialValues.indexOf(setItemCode) >= 0)
 		}
-	});
+	})

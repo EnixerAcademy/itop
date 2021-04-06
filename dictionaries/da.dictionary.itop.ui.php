@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 /**
  * @author Erik Bøg <erik@boegmoeller.dk>
  *
@@ -330,12 +330,12 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'BooleanLabel:yes' => 'yes~~',
 	'BooleanLabel:no' => 'no~~',
-    'UI:Login:Title' => 'iTop login~~',
+    'UI:Login:Title' => 'Enixer help desk login~~',
 	'Menu:WelcomeMenu' => 'Velkomen', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenu+' => 'Velkommen til iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:WelcomeMenu+' => 'Velkommen til Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => 'Velkomen', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenuPage+' => 'Velkommen til iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'UI:WelcomeMenu:Title' => 'Velkommen til iTop',
+	'Menu:WelcomeMenuPage+' => 'Velkommen til Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'UI:WelcomeMenu:Title' => 'Velkommen til Enixer help desk',
 
 	'UI:WelcomeMenu:LeftBlock' => '<p>iTop er en komplet, OpenSource, webbaseret IT-Service-Management-Værktøj.</p>
 <ul>Den inkluderer:
@@ -419,7 +419,7 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:Error:IncorrectLinkDefinition_LinkedClass_Class' => 'Ukorrekt link definition: klassen af ​​objekter, der skal styres: %1$s blev ikke fundet som fremmednøgle i klassen %2$s',
 	'UI:Error:Object_Class_Id_NotFound' => 'Objekt: %1$s:%2$d ikke fundet.',
 	'UI:Error:WizardCircularReferenceInDependencies' => 'Fejl: Circulær reference i afhængigheder mellem felterne, tjek datamodellen.',
-	'UI:Error:UploadedFileTooBig' => 'Den uploadede fil er for stor. (Max tilladt størrelse er %1$s). Kontakt din iTop administrator for at få ændret denne grænse limit. (Tjek PHP konfigurationen for upload_max_filesize og post_max_size på serveren).',
+	'UI:Error:UploadedFileTooBig' => 'Den uploadede fil er for stor. (Max tilladt størrelse er %1$s). Kontakt din Enixer help desk administrator for at få ændret denne grænse limit. (Tjek PHP konfigurationen for upload_max_filesize og post_max_size på serveren).',
 	'UI:Error:UploadedFileTruncated.' => 'Den uploadede fil er blevet afkortet !',
 	'UI:Error:NoTmpDir' => 'Det midlertidige bibliotek er ikke defineret.',
 	'UI:Error:CannotWriteToTmp_Dir' => 'Kan ikke skrive den midlertidige fil til disken: upload_tmp_dir = "%1$s".',
@@ -499,14 +499,14 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:SearchValue:CheckAll' => 'Check All~~',
 	'UI:SearchValue:UncheckAll' => 'Uncheck All~~',
 	'UI:SelectOne' => '-- Vælg venligst --',
-	'UI:Login:Welcome' => 'Velkommen til iTop!',
+	'UI:Login:Welcome' => 'Velkommen til Enixer help desk!',
 	'UI:Login:IncorrectLoginPassword' => 'Ukorrekt login/adgangskode, venligst prøv igen.',
 	'UI:Login:IdentifyYourself' => 'Identificer dig før du fortsætter',
 	'UI:Login:UserNamePrompt' => 'Bruger Navn',
 	'UI:Login:PasswordPrompt' => 'Adgangskode',
 	'UI:Login:ForgotPwd' => 'Forgot your password?~~',
 	'UI:Login:ForgotPwdForm' => 'Forgot your password~~',
-	'UI:Login:ForgotPwdForm+' => 'iTop can send you an email in which you will find instructions to follow to reset your account.~~',
+	'UI:Login:ForgotPwdForm+' => 'Enixer help desk can send you an email in which you will find instructions to follow to reset your account.~~',
 	'UI:Login:ResetPassword' => 'Send now!~~',
 	'UI:Login:ResetPwdFailed' => 'Failed to send an email: %1$s~~',
 
@@ -518,8 +518,8 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:ResetPwd-Error-NoEmail' => 'missing an email address. Please Contact your administrator.~~',
 	'UI:ResetPwd-Error-Send' => 'email transport technical issue. Please Contact your administrator.~~',
 	'UI:ResetPwd-EmailSent' => 'Please check your email box and follow the instructions...~~',
-	'UI:ResetPwd-EmailSubject' => 'Reset your iTop password~~',
-	'UI:ResetPwd-EmailBody' => '<body><p>You have requested to reset your iTop password.</p><p>Please follow this link (single usage) to <a href="%1$s">enter a new password</a></p>.~~',
+	'UI:ResetPwd-EmailSubject' => 'Reset your Enixer help desk password~~',
+	'UI:ResetPwd-EmailBody' => '<body><p>You have requested to reset your Enixer help desk password.</p><p>Please follow this link (single usage) to <a href="%1$s">enter a new password</a></p>.~~',
 
 	'UI:ResetPwd-Title' => 'Reset password~~',
 	'UI:ResetPwd-Error-InvalidToken' => 'Sorry, either the password has already been reset, or you have received several emails. Please make sure that you use the link provided in the very last email received.~~',
@@ -534,17 +534,17 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:Login:RetypeNewPasswordPrompt' => 'Gentag ny adgangskode',
 	'UI:Login:IncorrectOldPassword' => 'Fejl: den gamle adgangskode er forkert',
 	'UI:LogOffMenu' => 'Log ud',
-	'UI:LogOff:ThankYou' => 'Tak for at du brugte iTop',
+	'UI:LogOff:ThankYou' => 'Tak for at du brugte Enixer help desk',
 	'UI:LogOff:ClickHereToLoginAgain' => 'Klik her for at logge ind igen...',
 	'UI:ChangePwdMenu' => 'Skift Adgangskode...',
 	'UI:Login:PasswordChanged' => 'Adgangskode oprettet med success!',
-	'UI:AccessRO-All' => 'iTop er skrivebeskyttet',
-	'UI:AccessRO-Users' => 'iTop er skrivebeskyttet for slutbrugere',
+	'UI:AccessRO-All' => 'Enixer help desk er skrivebeskyttet',
+	'UI:AccessRO-Users' => 'Enixer help desk er skrivebeskyttet for slutbrugere',
 	'UI:ApplicationEnvironment' => 'Applikations miljø: %1$s',
 	'UI:Login:RetypePwdDoesNotMatch' => 'Ny adgangskode og gentaget adgangskode passer ikke sammen!',
-	'UI:Button:Login' => 'Enter iTop',
-	'UI:Login:Error:AccessRestricted' => 'iTop adgang er begrænset. Venligst, kontakt en iTop administrator.',
-	'UI:Login:Error:AccessAdmin' => 'Adgang er begrænset til administratorer. Venligst, kontakt en iTop administrator.',
+	'UI:Button:Login' => 'Enter Enixer help desk',
+	'UI:Login:Error:AccessRestricted' => 'Enixer help desk adgang er begrænset. Venligst, kontakt en Enixer help desk administrator.',
+	'UI:Login:Error:AccessAdmin' => 'Adgang er begrænset til administratorer. Venligst, kontakt en Enixer help desk administrator.',
 	'UI:CSVImport:MappingSelectOne' => '-- Vælg venligst --',
 	'UI:CSVImport:MappingNotApplicable' => '-- ignorer dette felt --',
 	'UI:CSVImport:NoData' => 'Tomt data sæt..., venligst angiv nogle data!',
@@ -554,7 +554,7 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:CSVImport:DataLine1' => 'Data Linje 1',
 	'UI:CSVImport:DataLine2' => 'Data Linje 2',
 	'UI:CSVImport:idField' => 'id (Primær Nøgle)',
-	'UI:Title:BulkImport' => 'iTop - Bulk import',
+	'UI:Title:BulkImport' => 'Enixer help desk - Bulk import',
 	'UI:Title:BulkImport+' => 'CSV-Import assistent',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class' => 'Synchronisering af %1$d objekter af klasse %2$s',
 	'UI:CSVImport:ClassesSelectOne' => '-- Vælg venligst --~~',
@@ -603,7 +603,7 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:CSVImport:AlertMultipleMapping' => 'Please make sure that a target field is mapped only once.~~',
 	'UI:CSVImport:AlertNoSearchCriteria' => 'Vælg venligst mindst et søgekriterie',
 	'UI:CSVImport:Encoding' => 'Karakter encoding',	
-	'UI:UniversalSearchTitle' => 'iTop - Universal Søgning',
+	'UI:UniversalSearchTitle' => 'Enixer help desk - Universal Søgning',
 	'UI:UniversalSearch:Error' => 'Fejl: %1$s',
 	'UI:UniversalSearch:LabelSelectTheClass' => 'Vælg klasse at søge efter: ',
 
@@ -653,7 +653,7 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:CSVExport:LostChars' => 'Encoding problem',
 	'UI:CSVExport:LostChars+' => '',
 
-	'UI:Audit:Title' => 'iTop - CMDB Audit',
+	'UI:Audit:Title' => 'Enixer help desk - CMDB Audit',
 	'UI:Audit:InteractiveAudit' => 'Interaktiv Audit',
 	'UI:Audit:HeaderAuditRule' => 'Audit Regel',
 	'UI:Audit:HeaderNbObjects' => '# Objekt(er)',
@@ -662,7 +662,7 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:Audit:ErrorIn_Rule_Reason' => 'OQL Fejl i regel %1$s: %2$s.',
 	'UI:Audit:ErrorIn_Category_Reason' => 'OQL Fejl i kategorien %1$s: %2$s.',
 
-	'UI:RunQuery:Title' => 'iTop - OQL Query Evaluering',
+	'UI:RunQuery:Title' => 'Enixer help desk - OQL Query Evaluering',
 	'UI:RunQuery:QueryExamples' => 'Query Eksempler',
 	'UI:RunQuery:HeaderPurpose' => 'Formål',
 	'UI:RunQuery:HeaderPurpose+' => 'Beskrivelse af forespørgslen',
@@ -674,8 +674,8 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:RunQuery:SerializedFilter' => 'Serielt filter: ',
 	'UI:RunQuery:Error' => 'Der opstod en fejl under afviklingen af forespøgrslen: %1$s',
 	'UI:Query:UrlForExcel' => 'URL til brug for MS-Excel web forespøgrsler',
-	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested herebelow points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of iTop. Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.~~',
-	'UI:Schema:Title' => 'iTop objekt skema',
+	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested herebelow points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of Enixer help desk. Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.~~',
+	'UI:Schema:Title' => 'Enixer help desk objekt skema',
 	'UI:Schema:CategoryMenuItem' => 'Kategori <b>%1$s</b>',
 	'UI:Schema:Relationships' => 'Relationer',
 	'UI:Schema:AbstractClass' => 'Abstrakt klasse: intet objekt fra denne klasse kan instantieres.',
@@ -790,9 +790,9 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:Delete:PleaseDoTheManualOperations' => 'Venligst foretag den manuelle opreration som er nævnt ovenfor, før sletning af objektet',
 	'UI:Delect:Confirm_Object' => 'Venligst bekræft at du ønsker at slette %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Venligst bekræft at du ønsker at slette følgende %1$d objekter af klassen %2$s.',
-	'UI:WelcomeToITop' => 'Velkommen til iTop',
-	'UI:DetailsPageTitle' => 'iTop - %1$s - %2$s detaljer',
-	'UI:ErrorPageTitle' => 'iTop - Fejl',
+	'UI:WelcomeToITop' => 'Velkommen til Enixer help desk',
+	'UI:DetailsPageTitle' => 'Enixer help desk - %1$s - %2$s detaljer',
+	'UI:ErrorPageTitle' => 'Enixer help desk - Fejl',
 	'UI:ObjectDoesNotExist' => 'Beklager, dette objekt eksisterer ikke (eller du har ikke tilladelse til at se det).',
 	'UI:ObjectArchived' => 'This object has been archived. Please enable the archive mode or contact your administrator.~~',
 	'Tag:Archived' => 'Archived~~',
@@ -802,7 +802,7 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'Tag:Synchronized' => 'Synchronized~~',
 	'ObjectRef:Archived' => 'Archived~~',
 	'ObjectRef:Obsolete' => 'Obsolete~~',
-	'UI:SearchResultsPageTitle' => 'iTop - Søge Resultater',
+	'UI:SearchResultsPageTitle' => 'Enixer help desk - Søge Resultater',
 	'UI:SearchResultsTitle' => 'Søge Resultater',
 	'UI:SearchResultsTitle+' => 'Full-text search results~~',
 	'UI:Search:NoSearch' => 'Intet at søge efter',
@@ -812,28 +812,28 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:FullTextSearchTitle_Text' => 'Resultater for "%1$s":',
 	'UI:Search:Count_ObjectsOf_Class_Found' => '%1$d objekt(er) af klasse %2$s fundet.',
 	'UI:Search:NoObjectFound' => 'Intet objekt fundet.',
-	'UI:ModificationPageTitle_Object_Class' => 'iTop - %1$s - %2$s ændring',
+	'UI:ModificationPageTitle_Object_Class' => 'Enixer help desk - %1$s - %2$s ændring',
 	'UI:ModificationTitle_Class_Object' => 'Ændring af %1$s: <span class=\\"hilite\\">%2$s</span>',
-	'UI:ClonePageTitle_Object_Class' => 'iTop - Clone %1$s - %2$s ændring',
+	'UI:ClonePageTitle_Object_Class' => 'Enixer help desk - Clone %1$s - %2$s ændring',
 	'UI:CloneTitle_Class_Object' => 'Clone af %1$s: <span class=\\"hilite\\">%2$s</span>~~',
-	'UI:CreationPageTitle_Class' => 'iTop - Oprettelse af ny %1$s ',
+	'UI:CreationPageTitle_Class' => 'Enixer help desk - Oprettelse af ny %1$s ',
 	'UI:CreationTitle_Class' => 'Oprettelse af ny %1$s',
 	'UI:SelectTheTypeOf_Class_ToCreate' => 'Vælg type af %1$s for oprettelse:',
 	'UI:Class_Object_NotUpdated' => 'Ingen ændring, %1$s (%2$s) er <strong>not</strong> ændret.',
 	'UI:Class_Object_Updated' => '%1$s (%2$s) opdateret.',
-	'UI:BulkDeletePageTitle' => 'iTop - Massesletning',
+	'UI:BulkDeletePageTitle' => 'Enixer help desk - Massesletning',
 	'UI:BulkDeleteTitle' => 'Vælg objekt som ønskes slettet:',
-	'UI:PageTitle:ObjectCreated' => 'iTop Objekt Oprettet.',
+	'UI:PageTitle:ObjectCreated' => 'Enixer help desk Objekt Oprettet.',
 	'UI:Title:Object_Of_Class_Created' => '%1$s - %2$s oprettet.',
 	'UI:Apply_Stimulus_On_Object_In_State_ToTarget_State' => 'Anvender %1$s på objekt: %2$s i tilstand %3$s for sluttilstand: %4$s.',
 	'UI:ObjectCouldNotBeWritten' => 'Objektet kunne ikke skrives: %1$s',
-	'UI:PageTitle:FatalError' => 'iTop - Fatal Fejl',
+	'UI:PageTitle:FatalError' => 'Enixer help desk - Fatal Fejl',
 	'UI:SystemIntrusion' => 'Adgang nægtet. Du prøver at udføre en handling som du ikke har tilladelse til.',
-	'UI:FatalErrorMessage' => 'Fatal fejl, iTop kan ikke fortsætte.',
+	'UI:FatalErrorMessage' => 'Fatal fejl, Enixer help desk kan ikke fortsætte.',
 	'UI:Error_Details' => 'Fejl: %1$s.',
 
-	'UI:PageTitle:ClassProjections'	=> 'iTop bruger styring - klasse projection',
-	'UI:PageTitle:ProfileProjections' => 'iTop bruger styring - profil projection',
+	'UI:PageTitle:ClassProjections'	=> 'Enixer help desk bruger styring - klasse projection',
+	'UI:PageTitle:ProfileProjections' => 'Enixer help desk bruger styring - profil projection',
 	'UI:UserManagement:Class' => 'Klasse',
 	'UI:UserManagement:Class+' => '',
 	'UI:UserManagement:ProjectedObject' => 'Objekt',
@@ -933,8 +933,8 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'Menu:NotificationsMenu+' => '', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:NotificationsMenu:Title' => 'Konfiguration af <span class="hilite">Notifikationer</span>~~',
 	'UI:NotificationsMenu:Help' => 'Hjælp',
-	'UI:NotificationsMenu:HelpContent' => '<p>I iTop er notifikationer fuldt modificerbare. De er baseret på to sæt af objekter: <i>triggers og handlinger</i>.</p>
-<p><i><b>Triggers</b></i> define when a notification will be executed. There are different triggers as part of iTop core, but others can be brought by extensions:
+	'UI:NotificationsMenu:HelpContent' => '<p>I Enixer help desk er notifikationer fuldt modificerbare. De er baseret på to sæt af objekter: <i>triggers og handlinger</i>.</p>
+<p><i><b>Triggers</b></i> define when a notification will be executed. There are different triggers as part of Enixer help desk core, but others can be brought by extensions:
 <ol>
 	<li>Some triggers are executed when an object of the specified class is <b>created</b>, <b>updated</b> or <b>deleted</b>.</li>
 	<li>Some triggers are executed when an object of a given class <b>enter</b> or <b>leave</b> a specified </b>state</b>.</li>
@@ -1039,8 +1039,8 @@ Ved tilknytningen til en trigger, bliver hver handling tildelt et "rækkefølge"
 	'UI:RelationTooltip:Redundancy' => 'Redundancy~~',
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => '# of impacted items: %1$d / %2$d~~',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => 'Critical threshold: %1$d / %2$d~~',
-	'Portal:Title' => 'iTop bruger portal',
-	'Portal:NoRequestMgmt' => 'Kære %1$s, du er blevet omdirigeret til denne side, fordi din konto er konfigureret med profilen \'Portal user\'. Desværre er iTop ikke installeret med denne funktionalitet \'Request Management\'. Venligst kontakt din administrator.',
+	'Portal:Title' => 'Enixer help desk bruger portal',
+	'Portal:NoRequestMgmt' => 'Kære %1$s, du er blevet omdirigeret til denne side, fordi din konto er konfigureret med profilen \'Portal user\'. Desværre er Enixer help desk ikke installeret med denne funktionalitet \'Request Management\'. Venligst kontakt din administrator.',
 	'Portal:Refresh' => 'Opdater',
 	'Portal:Back' => 'Tilbage',
 	'Portal:WelcomeUserOrg' => 'Velkommen %1$s, fra %2$s',
@@ -1368,7 +1368,7 @@ Ved tilknytningen til en trigger, bliver hver handling tildelt et "rækkefølge"
 	'UI:AddAnExisting_Class' => 'Add objects of type %1$s...~~',
 	'UI:SelectionOf_Class' => 'Selection of objects of type %1$s~~',
 
-	'UI:AboutBox' => 'About iTop...~~',
+	'UI:AboutBox' => 'About Enixer help desk...~~',
 	'UI:About:Title' => 'About iTop~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
@@ -1394,7 +1394,7 @@ Ved tilknytningen til en trigger, bliver hver handling tildelt et "rækkefølge"
 	'ExcelExport:PreparingExport' => 'Preparing the export...~~',
 	'ExcelExport:Statistics' => 'Statistics~~',
 	'portal:legacy_portal' => 'End-User Portal~~',
-	'portal:backoffice' => 'iTop Back-Office User Interface~~',
+	'portal:backoffice' => 'Enixer help desk Back-Office User Interface~~',
 
 	'UI:CurrentObjectIsLockedBy_User' => 'The object is locked since it is currently being modified by %1$s.~~',
 	'UI:CurrentObjectIsLockedBy_User_Explanation' => 'The object is currently being modified by %1$s. Your modifications cannot be submitted since they would be overwritten.~~',
@@ -1547,7 +1547,7 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 ));
 
 //
-// iTop Newsroom menu
+// Enixer help desk Newsroom menu
 //
 Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'UI:Newsroom:NoNewMessage' => 'No new message~~',

@@ -174,7 +174,7 @@ function RaiseAlarm($sMessage)
 	}
 	catch (Exception $e)
 	{
-		echo "ERROR: Failed to read WSDL of the target iTop ($sItopRootConfig)\n";
+		echo "ERROR: Failed to read WSDL of the target Enixer help desk ($sItopRootConfig)\n";
 
 		return;
 	}
@@ -222,7 +222,7 @@ function RaiseAlarm($sMessage)
 	}
 	else
 	{
-		echo "ERROR: Failed to create the ticket in target iTop ($sItopRootConfig)\n";
+		echo "ERROR: Failed to create the ticket in target Enixer help desk ($sItopRootConfig)\n";
 		foreach ($oRes->errors->messages as $oMessage)
 		{
 			echo $oMessage->text."\n";

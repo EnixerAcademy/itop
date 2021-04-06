@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 /**
  * Localized data.
  *
@@ -666,9 +666,9 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Class:SynchroDataSource/Attribute:notify_contact_id' => 'Kontakt k upozornění',
 	'Class:SynchroDataSource/Attribute:notify_contact_id+' => '',
 	'Class:SynchroDataSource/Attribute:url_icon' => 'Ikona',
-	'Class:SynchroDataSource/Attribute:url_icon+' => 'Hypertextový odkaz na ikonu reprezentující aplikaci, se kterou je iTop synchronizovnán',
+	'Class:SynchroDataSource/Attribute:url_icon+' => 'Hypertextový odkaz na ikonu reprezentující aplikaci, se kterou je Enixer help desk synchronizovnán',
 	'Class:SynchroDataSource/Attribute:url_application' => 'Aplikace',
-	'Class:SynchroDataSource/Attribute:url_application+' => 'Hypertextový odkaz na iTop objekt v externí aplikaci, se kterou je iTop synchronizován (pokud je to relevantní). Možné zástupné symboly: $this->attribute$ a $replica->primary_key$',
+	'Class:SynchroDataSource/Attribute:url_application+' => 'Hypertextový odkaz na Enixer help desk objekt v externí aplikaci, se kterou je Enixer help desk synchronizován (pokud je to relevantní). Možné zástupné symboly: $this->attribute$ a $replica->primary_key$',
 	'Class:SynchroDataSource/Attribute:reconciliation_policy' => 'Způsob párování',
 	'Class:SynchroDataSource/Attribute:full_load_periodicity' => 'Interval mezi dvěma kompletními načteními',
 	'Class:SynchroDataSource/Attribute:full_load_periodicity+' => 'Kompletní načtení všech dat musí proběhnout nejméně tak často, jak je uvedeno zde',

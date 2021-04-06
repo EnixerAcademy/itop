@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 /**
  * Localized data.
  *
@@ -140,7 +140,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => 'The user account does not belong to your allowed organizations.~~',
 	'Class:User/Error:PersonIsMandatory' => 'The Contact is mandatory.~~',
 	'Class:UserInternal' => 'Interní uživatel',
-	'Class:UserInternal+' => 'Uživatel definovaný v iTop',
+	'Class:UserInternal+' => 'Uživatel definovaný v Enixer help desk',
 ));
 
 //
@@ -343,12 +343,12 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'BooleanLabel:yes' => 'ano',
 	'BooleanLabel:no' => 'ne',
-    'UI:Login:Title' => 'iTop login~~',
+    'UI:Login:Title' => 'Enixer help desk login~~',
 	'Menu:WelcomeMenu' => 'Vítejte', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenu+' => 'Vítejte v iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:WelcomeMenu+' => 'Vítejte v Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => 'Vítejte', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenuPage+' => 'Vítejte v iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'UI:WelcomeMenu:Title' => 'Vítejte v iTop',
+	'Menu:WelcomeMenuPage+' => 'Vítejte v Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'UI:WelcomeMenu:Title' => 'Vítejte v Enixer help desk',
 
 	'UI:WelcomeMenu:LeftBlock' => '<p>iTop je komplexní „opensource” provozní IT portál.</p>
 <ul>Obsahuje:
@@ -512,14 +512,14 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:SearchValue:CheckAll' => 'Vybrat vše',
 	'UI:SearchValue:UncheckAll' => 'Zrušit výběr',
 	'UI:SelectOne' => '-- zvolte jednu z možností --',
-	'UI:Login:Welcome' => 'Vítejte v iTop!',
+	'UI:Login:Welcome' => 'Vítejte v Enixer help desk!',
 	'UI:Login:IncorrectLoginPassword' => 'Nesprávné uživatelské jméno nebo heslo. Zkuste to prosím znovu.',
 	'UI:Login:IdentifyYourself' => 'Před pokračováním se prosím identifikujte.',
 	'UI:Login:UserNamePrompt' => 'Uživatelské jméno',
 	'UI:Login:PasswordPrompt' => 'Heslo',
 	'UI:Login:ForgotPwd' => 'Zapomněli jste své heslo?',
 	'UI:Login:ForgotPwdForm' => 'Zapomenuté heslo',
-	'UI:Login:ForgotPwdForm+' => 'iTop vám může zaslat instrukce pro obnovení vašeho hesla.',
+	'UI:Login:ForgotPwdForm+' => 'Enixer help desk vám může zaslat instrukce pro obnovení vašeho hesla.',
 	'UI:Login:ResetPassword' => 'Zaslat nyní!',
 	'UI:Login:ResetPwdFailed' => 'Chyba při odesílání emailu: %1$s',
 
@@ -531,8 +531,8 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:ResetPwd-Error-NoEmail' => 'chybí emailová adresa. Kontaktujte administrátora.',
 	'UI:ResetPwd-Error-Send' => 'technický problém při odesílání emailu. Kontaktujte administrátora.',
 	'UI:ResetPwd-EmailSent' => 'Vyčkejte na příchod emailové zprávy a postupujte dle instrukcí...',
-	'UI:ResetPwd-EmailSubject' => 'Obnovení hesla pro iTop',
-	'UI:ResetPwd-EmailBody' => '<body><p>Vyžádali jste obovení hesla pro iTop.</p><p>Pokračujte kliknutím na následující <a href="%1$s">jednorázový odkaz</a> a zadejte nové heslo.</p>',
+	'UI:ResetPwd-EmailSubject' => 'Obnovení hesla pro Enixer help desk',
+	'UI:ResetPwd-EmailBody' => '<body><p>Vyžádali jste obovení hesla pro Enixer help desk.</p><p>Pokračujte kliknutím na následující <a href="%1$s">jednorázový odkaz</a> a zadejte nové heslo.</p>',
 
 	'UI:ResetPwd-Title' => 'Obnovení hesla',
 	'UI:ResetPwd-Error-InvalidToken' => 'Omlouváme se, ale heslo již bylo obnoveno nebo jste obdrželi více emailů. Ujistěte se, že používate odkaz z posledního emailu který jste obdrželi.',
@@ -547,12 +547,12 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:Login:RetypeNewPasswordPrompt' => 'Znovu nové heslo',
 	'UI:Login:IncorrectOldPassword' => 'Chyba: původní heslo je nesprávné',
 	'UI:LogOffMenu' => 'Odhlásit',
-	'UI:LogOff:ThankYou' => 'Děkujeme za užívání iTop',
+	'UI:LogOff:ThankYou' => 'Děkujeme za užívání Enixer help desk',
 	'UI:LogOff:ClickHereToLoginAgain' => 'Klikněte zde pro nové přihlášení...',
 	'UI:ChangePwdMenu' => 'Změnit heslo',
 	'UI:Login:PasswordChanged' => 'Heslo nastaveno úspěšně!',
-	'UI:AccessRO-All' => 'iTop je pouze ke čtení',
-	'UI:AccessRO-Users' => 'iTop je pouze ke čtení pro koncové uživatele',
+	'UI:AccessRO-All' => 'Enixer help desk je pouze ke čtení',
+	'UI:AccessRO-Users' => 'Enixer help desk je pouze ke čtení pro koncové uživatele',
 	'UI:ApplicationEnvironment' => 'Aplikační prostředí: %1$s',
 	'UI:Login:RetypePwdDoesNotMatch' => 'Nová hesla se neshodují!',
 	'UI:Button:Login' => 'Přihlásit',
@@ -567,7 +567,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:CSVImport:DataLine1' => '1. řádek dat',
 	'UI:CSVImport:DataLine2' => '2. řádek dat',
 	'UI:CSVImport:idField' => 'id (primární klíč)',
-	'UI:Title:BulkImport' => 'iTop - hromadný import',
+	'UI:Title:BulkImport' => 'Enixer help desk - hromadný import',
 	'UI:Title:BulkImport+' => 'Průvodce importem CSV',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class' => 'Synchronizace %1$d objektů třídy %2$s',
 	'UI:CSVImport:ClassesSelectOne' => '-- zvolte jednu z možností --',
@@ -616,7 +616,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:CSVImport:AlertMultipleMapping' => 'Ujistěte se prosím, že cílové pole je mapováno pouze jednou.',
 	'UI:CSVImport:AlertNoSearchCriteria' => 'Vyberte prosím alespoň jedno vyhledávací kritérium.',
 	'UI:CSVImport:Encoding' => 'Kódování znaků',	
-	'UI:UniversalSearchTitle' => 'iTop - Univerzální hledání',
+	'UI:UniversalSearchTitle' => 'Enixer help desk - Univerzální hledání',
 	'UI:UniversalSearch:Error' => 'Chyba: %1$s',
 	'UI:UniversalSearch:LabelSelectTheClass' => 'Vyberte třídu pro hledání: ',
 
@@ -664,9 +664,9 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:CSVExport:AdvancedMode' => 'Pokročilý režim',
 	'UI:CSVExport:AdvancedMode+' => 'V pokročilém režimu jsou vyexportovány další sloupce: id objektu, id externích klíčů a jejich slaďovacích atributů.',
 	'UI:CSVExport:LostChars' => 'Problém s kódováním',
-	'UI:CSVExport:LostChars+' => 'CSV soubor bude kódován v %1$s. iTop zjistil, že některé charaktery nejsou s tímto kódováním kompatibilní. Tyto znaky budou nahrazeny zástupným znakem, nebo budou vynechány. Kontaktujte administrátora pro změnu kódování (parametr \'csv_file_default_charset\').',
+	'UI:CSVExport:LostChars+' => 'CSV soubor bude kódován v %1$s. Enixer help desk zjistil, že některé charaktery nejsou s tímto kódováním kompatibilní. Tyto znaky budou nahrazeny zástupným znakem, nebo budou vynechány. Kontaktujte administrátora pro změnu kódování (parametr \'csv_file_default_charset\').',
 
-	'UI:Audit:Title' => 'iTop - CMDB Audit',
+	'UI:Audit:Title' => 'Enixer help desk - CMDB Audit',
 	'UI:Audit:InteractiveAudit' => 'Interaktivní Audit',
 	'UI:Audit:HeaderAuditRule' => 'Pravidlo auditu',
 	'UI:Audit:HeaderNbObjects' => 'Počet objektů',
@@ -675,7 +675,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:Audit:ErrorIn_Rule_Reason' => 'OQL chyba v pravidle %1$s: %2$s.',
 	'UI:Audit:ErrorIn_Category_Reason' => 'OQL chyba v kategorii %1$s: %2$s.',
 
-	'UI:RunQuery:Title' => 'iTop - Vyhodnocení OQL dotazu',
+	'UI:RunQuery:Title' => 'Enixer help desk - Vyhodnocení OQL dotazu',
 	'UI:RunQuery:QueryExamples' => 'Příklady dotazů',
 	'UI:RunQuery:HeaderPurpose' => 'Účel',
 	'UI:RunQuery:HeaderPurpose+' => 'Vysvětlení účelu dotazi',
@@ -688,7 +688,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:RunQuery:Error' => 'Nastala chyba při provádění dotazu: %1$s',
 	'UI:Query:UrlForExcel' => 'URL pro MS-Excel web queries',
 	'UI:Query:UrlV1' => 'Nebyl specifikován seznam sloupců k exportu. Bez této informace nemůže stránka <em>export-V2.php</em> provést export. Pro export všech polí použijte stránku <em>export.php</em>. Pokud však chcete udržet konzistenci v delším časovém horzontu, použijte stávající stránku a specifikujte paramter "fields".',
-	'UI:Schema:Title' => 'iTop schéma objektů',
+	'UI:Schema:Title' => 'Enixer help desk schéma objektů',
 	'UI:Schema:CategoryMenuItem' => 'Kategorie <b>%1$s</b>',
 	'UI:Schema:Relationships' => 'Vztahy',
 	'UI:Schema:AbstractClass' => 'Abstraktní třída: instance objektu této třídy nemůže být vytvořena.',
@@ -803,9 +803,9 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:Delete:PleaseDoTheManualOperations' => 'Před odstraněním tohoto objektu nejdříve proveďte výše uvedené manuální operace.',
 	'UI:Delect:Confirm_Object' => 'Potvrďte, že chcete odstranit objekt %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Potvrďte, že chcete odstranit tyto objekty (%1$d) třídy %2$s.',
-	'UI:WelcomeToITop' => 'Vítejte v iTop',
-	'UI:DetailsPageTitle' => 'iTop - %1$s - %2$s detaily',
-	'UI:ErrorPageTitle' => 'iTop - Chyba',
+	'UI:WelcomeToITop' => 'Vítejte v Enixer help desk',
+	'UI:DetailsPageTitle' => 'Enixer help desk - %1$s - %2$s detaily',
+	'UI:ErrorPageTitle' => 'Enixer help desk - Chyba',
 	'UI:ObjectDoesNotExist' => 'Tento objekt neexistuje (nebo nemáte oprávnění k jeho zobrazení).',
 	'UI:ObjectArchived' => 'This object has been archived. Please enable the archive mode or contact your administrator.~~',
 	'Tag:Archived' => 'Archived~~',
@@ -815,7 +815,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Tag:Synchronized' => 'Synchronized~~',
 	'ObjectRef:Archived' => 'Archived~~',
 	'ObjectRef:Obsolete' => 'Obsolete~~',
-	'UI:SearchResultsPageTitle' => 'iTop - Výsledky hledání',
+	'UI:SearchResultsPageTitle' => 'Enixer help desk - Výsledky hledání',
 	'UI:SearchResultsTitle' => 'Výsledky hledání',
 	'UI:SearchResultsTitle+' => 'Výsledky fulltextového hledání',
 	'UI:Search:NoSearch' => 'Nic k hledání',
@@ -825,28 +825,28 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:FullTextSearchTitle_Text' => 'Výsledky pro "%1$s":',
 	'UI:Search:Count_ObjectsOf_Class_Found' => '%1$d objekt(ů) třídy %2$s nalezeno.',
 	'UI:Search:NoObjectFound' => 'Nenalezen žádný objekt.',
-	'UI:ModificationPageTitle_Object_Class' => 'iTop - úprava - %1$s - %2$s',
+	'UI:ModificationPageTitle_Object_Class' => 'Enixer help desk - úprava - %1$s - %2$s',
 	'UI:ModificationTitle_Class_Object' => 'Úprava %1$s: <span class=\\"hilite\\">%2$s</span>',
-	'UI:ClonePageTitle_Object_Class' => 'iTop - Klonování %1$s - %2$s',
+	'UI:ClonePageTitle_Object_Class' => 'Enixer help desk - Klonování %1$s - %2$s',
 	'UI:CloneTitle_Class_Object' => 'Klonování %1$s: <span class=\\"hilite\\">%2$s</span>',
-	'UI:CreationPageTitle_Class' => 'iTop - Vytváření nového objektu (%1$s) ',
+	'UI:CreationPageTitle_Class' => 'Enixer help desk - Vytváření nového objektu (%1$s) ',
 	'UI:CreationTitle_Class' => 'Vytváření nového objektu (%1$s)',
 	'UI:SelectTheTypeOf_Class_ToCreate' => 'Vyberte typ objektu "%1$s" k vytvoření:',
 	'UI:Class_Object_NotUpdated' => 'Nenalezeny žádné změny, objekt %1$s (%2$s) <strong>nebude</strong> upraven.',
 	'UI:Class_Object_Updated' => 'Objekt %1$s (%2$s) byl aktualizován.',
-	'UI:BulkDeletePageTitle' => 'iTop - Hromadné odstranění',
+	'UI:BulkDeletePageTitle' => 'Enixer help desk - Hromadné odstranění',
 	'UI:BulkDeleteTitle' => 'Vyberte objekty, které chcete odstranit:',
-	'UI:PageTitle:ObjectCreated' => 'iTop Objekt vytvořen.',
+	'UI:PageTitle:ObjectCreated' => 'Enixer help desk Objekt vytvořen.',
 	'UI:Title:Object_Of_Class_Created' => 'Objekt %1$s - %2$s vytvořen.',
 	'UI:Apply_Stimulus_On_Object_In_State_ToTarget_State' => 'Aplikace %1$s na objekt: %2$s ve stavu %3$s do cílového stavu: %4$s.',
 	'UI:ObjectCouldNotBeWritten' => 'Objekt nemohl být zapsán: %1$s',
-	'UI:PageTitle:FatalError' => 'iTop - Závažná chyba',
+	'UI:PageTitle:FatalError' => 'Enixer help desk - Závažná chyba',
 	'UI:SystemIntrusion' => 'Přístup odepřen. Vyžadujete operaci, která vám není povolena.',
-	'UI:FatalErrorMessage' => 'Závažná chyba, iTop nemůže pokračovat.',
+	'UI:FatalErrorMessage' => 'Závažná chyba, Enixer help desk nemůže pokračovat.',
 	'UI:Error_Details' => 'Chyba: %1$s',
 
-	'UI:PageTitle:ClassProjections'	=> 'iTop správa uživatelů - projekce tříd',
-	'UI:PageTitle:ProfileProjections' => 'iTop správa uživatelů - projekce profilů',
+	'UI:PageTitle:ClassProjections'	=> 'Enixer help desk správa uživatelů - projekce tříd',
+	'UI:PageTitle:ProfileProjections' => 'Enixer help desk správa uživatelů - projekce profilů',
 	'UI:UserManagement:Class' => 'Třída',
 	'UI:UserManagement:Class+' => 'Třída objektů',
 	'UI:UserManagement:ProjectedObject' => 'Objekt',
@@ -946,8 +946,8 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Menu:NotificationsMenu+' => 'Konfigurace upozornění', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:NotificationsMenu:Title' => 'Konfigurace <span class="hilite">upozornění</span>',
 	'UI:NotificationsMenu:Help' => 'Nápověda',
-	'UI:NotificationsMenu:HelpContent' => '<p>Upozornění v iTop jsou plně nastavitelné. Jsou založena na dvou druzích objektů: <i>triggery (spouštěče) a akce</i>.</p>
-<p><i><b>Triggers</b></i> define when a notification will be executed. There are different triggers as part of iTop core, but others can be brought by extensions:
+	'UI:NotificationsMenu:HelpContent' => '<p>Upozornění v Enixer help desk jsou plně nastavitelné. Jsou založena na dvou druzích objektů: <i>triggery (spouštěče) a akce</i>.</p>
+<p><i><b>Triggers</b></i> define when a notification will be executed. There are different triggers as part of Enixer help desk core, but others can be brought by extensions:
 <ol>
 	<li>Some triggers are executed when an object of the specified class is <b>created</b>, <b>updated</b> or <b>deleted</b>.</li>
 	<li>Some triggers are executed when an object of a given class <b>enter</b> or <b>leave</b> a specified </b>state</b>.</li>
@@ -955,7 +955,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 </ol>
 </p>
 <p>
-<i><b>Akce</b></i> definují činnosti, které mají být provedeny, když se triggery spustí. V současné verzi iTop je definována jedna akce spočívající v zaslání emailové zprávy. Tato akce také definuje šablonu, která se použije pro zasílání emailových zpráv a také pro definici dalších parametrů (příjemci, důležitost apod.).
+<i><b>Akce</b></i> definují činnosti, které mají být provedeny, když se triggery spustí. V současné verzi Enixer help desk je definována jedna akce spočívající v zaslání emailové zprávy. Tato akce také definuje šablonu, která se použije pro zasílání emailových zpráv a také pro definici dalších parametrů (příjemci, důležitost apod.).
 </p>
 <p>Speciální stránka <a href="../setup/email.test.php" target="_blank">email.test.php</a> je dostupná pro testování a řešení problémů s configurací PHP mailu.</p>
 <p>Aby mohly být akce spuštěny, musí být přiřazeny ke triggerům. Každá akce pak dostane své "pořadové" číslo, které určí v jakém pořadí se akce spustí.</p>~~',
@@ -1050,8 +1050,8 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:RelationTooltip:Redundancy' => 'Redundance',
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => 'Počet zasažených objektů: %1$d / %2$d',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => 'Prahová hranice: %1$d / %2$d',
-	'Portal:Title' => 'iTop uživatelský portál',
-	'Portal:NoRequestMgmt' => 'Byli jste přesměrováni na tuto stránku, protože k vašemu účtu je přidělen profil \'Portal user\'. iTop však nebyl nainstalován s funkcí \'Request Management\'. Kontaktujte prosím vašeho administrátora.',
+	'Portal:Title' => 'Enixer help desk uživatelský portál',
+	'Portal:NoRequestMgmt' => 'Byli jste přesměrováni na tuto stránku, protože k vašemu účtu je přidělen profil \'Portal user\'. Enixer help desk však nebyl nainstalován s funkcí \'Request Management\'. Kontaktujte prosím vašeho administrátora.',
 	'Portal:Refresh' => 'Obnovit',
 	'Portal:Back' => 'Zpět',
 	'Portal:WelcomeUserOrg' => 'Vítejte, %1$s (%2$s)',
@@ -1135,7 +1135,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:Favorites:ShowObsoleteData+' => 'Show obsolete data in search results and lists of items to select~~',
 	'UI:NavigateAwayConfirmationMessage' => 'Všechny úpravy budou zahozeny.',
 	'UI:CancelConfirmationMessage' => 'Přijdete o všechny změny. Přejete si přesto pokračovat?',
-	'UI:AutoApplyConfirmationMessage' => 'Některé změny nebyly dosud použity. Chcete aby je iTop zohlednil?',
+	'UI:AutoApplyConfirmationMessage' => 'Některé změny nebyly dosud použity. Chcete aby je Enixer help desk zohlednil?',
 	'UI:Create_Class_InState' => 'Vytvořit %1$s ve stavu: ',
 	'UI:OrderByHint_Values' => 'Řadit dle: %1$s',
 	'UI:Menu:AddToDashboard' => 'Přidat na Dashboard...',
@@ -1379,8 +1379,8 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:AddAnExisting_Class' => 'Přidat objekty typu %1$s...',
 	'UI:SelectionOf_Class' => 'Výběr objektů typu %1$s',
 
-	'UI:AboutBox' => 'O iTop...',
-	'UI:About:Title' => 'O iTop',
+	'UI:AboutBox' => 'O Enixer help desk...',
+	'UI:About:Title' => 'O Enixer help desk',
 	'UI:About:DataModel' => 'Datový model',
 	'UI:About:Support' => 'Informace pro podporu',
 	'UI:About:Licenses' => 'Licence',
@@ -1405,7 +1405,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'ExcelExport:PreparingExport' => 'Připravuji export...',
 	'ExcelExport:Statistics' => 'Statistiky',
 	'portal:legacy_portal' => 'Uživatelský portál',
-	'portal:backoffice' => 'iTop Back-Office',
+	'portal:backoffice' => 'Enixer help desk Back-Office',
 
 	'UI:CurrentObjectIsLockedBy_User' => 'Objekt je uzamčen, protože ho nyní upravuje %1$s.',
 	'UI:CurrentObjectIsLockedBy_User_Explanation' => 'Objekt právě upravuje %1$s. Vaše úpravy nemohou být odeslány, protože by byly přepsány.',
@@ -1558,7 +1558,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 ));
 
 //
-// iTop Newsroom menu
+// Enixer help desk Newsroom menu
 //
 Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'UI:Newsroom:NoNewMessage' => 'No new message~~',

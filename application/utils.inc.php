@@ -4,20 +4,20 @@ use Leafo\ScssPhp\Compiler;
 
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 
 /**
@@ -872,7 +872,7 @@ class utils
 	/**
 	 * Tells whether or not log off operation is supported.
 	 * Actually in only one case:
-	 * 1) iTop is using an internal authentication
+	 * 1) Enixer help desk is using an internal authentication
 	 * 2) the user did not log-in using the "basic" mode (i.e basic authentication) or by passing credentials in the URL
 	 * @return boolean True if logoff is supported, false otherwise
 	 */
@@ -951,10 +951,10 @@ class utils
 	 }
 
 	/**
-	 * Execute the given iTop PHP script, passing it the current credentials
+	 * Execute the given Enixer help desk PHP script, passing it the current credentials
 	 * Only CLI mode is supported, because of the need to hand the credentials over to the next process
 	 * Throws an exception if the execution fails or could not be attempted (config issue)
-	 * @param string $sScript Name and relative path to the file (relative to the iTop root dir)
+	 * @param string $sScript Name and relative path to the file (relative to the Enixer help desk root dir)
 	 * @param hash $aArguments Associative array of 'arg' => 'value'
 	 * @return array(iCode, array(output lines))
 	 */	 	  
@@ -1464,7 +1464,7 @@ class utils
 	}
 
 	/**
-	 * Helper to encapsulation iTop's htmlentities
+	 * Helper to encapsulation Enixer help desk's htmlentities
 	 * @param string $sValue
 	 * @return string
 	 */
@@ -1847,14 +1847,14 @@ class utils
 					}
 				}
 			}
-			throw new Exception('Invalid URL. This iTop URL is not pointing to a valid Document/Image.');
+			throw new Exception('Invalid URL. This Enixer help desk URL is not pointing to a valid Document/Image.');
 		}
 		return $result;
 	}
 	
 	/**
 	 * Read the content of a file (and retrieve its MIME type) from either:
-	 * - an URL pointing to a blob (image/document) on the current iTop server
+	 * - an URL pointing to a blob (image/document) on the current Enixer help desk server
 	 * - an http(s) URL
 	 * - the local file system (but only if you are an administrator)
 	 * @param string $sPath
@@ -1993,8 +1993,8 @@ class utils
 	
 	/**
 	 * Return a string based on compilation time or (if not available because the datamodel has not been loaded)
-	 * the version of iTop. This string is useful to prevent browser side caching of content that may vary at each
-	 * (re)installation of iTop (especially during development). 
+	 * the version of Enixer help desk. This string is useful to prevent browser side caching of content that may vary at each
+	 * (re)installation of Enixer help desk (especially during development). 
 	 * @return string
 	 */
 	public static function GetCacheBusterTimestamp()
@@ -2024,7 +2024,7 @@ class utils
 	}
 
 	/**
-	 * Check if iTop is in a development environment (VCS vs build number)
+	 * Check if Enixer help desk is in a development environment (VCS vs build number)
 	 *
 	 * @return bool
 	 */

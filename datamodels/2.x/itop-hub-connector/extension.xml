@@ -3,7 +3,7 @@
 	<extension_code>itop-hub-connector</extension_code>
 	<version>0.0.4</version>
 	<label>iTop Hub Connector</label>
-	<description>Extension to connect iTop with the central iTopHub platform</description>
+	<description>Extension to connect Enixer help desk with the central iTopHub platform</description>
 	<mandatory>false</mandatory>
 	<more_info_url></more_info_url>
 </extension>

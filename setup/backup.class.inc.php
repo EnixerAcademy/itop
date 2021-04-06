@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2018 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 require_once('tar.php');
 
@@ -402,7 +402,7 @@ if (class_exists('ZipArchive')) // The setup must be able to start even if the "
 			$sTables = '';
 			if ($this->sDBSubName != '')
 			{
-				// This instance of iTop uses a prefix for the tables, so there may be other tables in the database
+				// This instance of Enixer help desk uses a prefix for the tables, so there may be other tables in the database
 				// Let's explicitely list all the tables and views to dump
 				$aTables = $this->EnumerateTables();
 				if (count($aTables) == 0)

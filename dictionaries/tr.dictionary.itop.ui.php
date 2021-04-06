@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 /**
  * Localized data
  *
@@ -342,7 +342,7 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'BooleanLabel:yes' => 'evet',
 	'BooleanLabel:no' => 'hayır',
-    'UI:Login:Title' => 'iTop login~~',
+    'UI:Login:Title' => 'Enixer help desk login~~',
 	'Menu:WelcomeMenu' => 'Hoşgeldiniz', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenu+' => 'iTop\'a Hoşgeldiniz', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => 'Hoşgeldiniz', // Duplicated into itop-welcome-itil (will be removed from here...)
@@ -518,7 +518,7 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:Login:PasswordPrompt' => 'Şifre',
 	'UI:Login:ForgotPwd' => 'Forgot your password?~~',
 	'UI:Login:ForgotPwdForm' => 'Forgot your password~~',
-	'UI:Login:ForgotPwdForm+' => 'iTop can send you an email in which you will find instructions to follow to reset your account.~~',
+	'UI:Login:ForgotPwdForm+' => 'Enixer help desk can send you an email in which you will find instructions to follow to reset your account.~~',
 	'UI:Login:ResetPassword' => 'Send now!~~',
 	'UI:Login:ResetPwdFailed' => 'Failed to send an email: %1$s~~',
 
@@ -530,8 +530,8 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:ResetPwd-Error-NoEmail' => 'missing an email address. Please Contact your administrator.~~',
 	'UI:ResetPwd-Error-Send' => 'email transport technical issue. Please Contact your administrator.~~',
 	'UI:ResetPwd-EmailSent' => 'Please check your email box and follow the instructions...~~',
-	'UI:ResetPwd-EmailSubject' => 'Reset your iTop password~~',
-	'UI:ResetPwd-EmailBody' => '<body><p>You have requested to reset your iTop password.</p><p>Please follow this link (single usage) to <a href="%1$s">enter a new password</a></p>.~~',
+	'UI:ResetPwd-EmailSubject' => 'Reset your Enixer help desk password~~',
+	'UI:ResetPwd-EmailBody' => '<body><p>You have requested to reset your Enixer help desk password.</p><p>Please follow this link (single usage) to <a href="%1$s">enter a new password</a></p>.~~',
 
 	'UI:ResetPwd-Title' => 'Reset password~~',
 	'UI:ResetPwd-Error-InvalidToken' => 'Sorry, either the password has already been reset, or you have received several emails. Please make sure that you use the link provided in the very last email received.~~',
@@ -546,16 +546,16 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:Login:RetypeNewPasswordPrompt' => 'Yeni şifre tekrar',
 	'UI:Login:IncorrectOldPassword' => 'Hata: mevcut şifre hatalı',
 	'UI:LogOffMenu' => 'Çıkış',
-	'UI:LogOff:ThankYou' => 'iTop Kullanıdığınız için teşekkürler',
+	'UI:LogOff:ThankYou' => 'Enixer help desk Kullanıdığınız için teşekkürler',
 	'UI:LogOff:ClickHereToLoginAgain' => 'Tekrar bağlanmak için tıklayınız...',
 	'UI:ChangePwdMenu' => 'Şifre değiştir...',
 	'UI:Login:PasswordChanged' => 'Password successfully set!~~',
-	'UI:AccessRO-All' => 'iTop is read-only~~',
-	'UI:AccessRO-Users' => 'iTop is read-only for end-users~~',
+	'UI:AccessRO-All' => 'Enixer help desk is read-only~~',
+	'UI:AccessRO-Users' => 'Enixer help desk is read-only for end-users~~',
 	'UI:ApplicationEnvironment' => 'Application environment: %1$s~~',
 	'UI:Login:RetypePwdDoesNotMatch' => 'Yeni şifre eşlenmedi !',
 	'UI:Button:Login' => 'iTop\'a Giriş',
-	'UI:Login:Error:AccessRestricted' => 'iTop erişim sınırlandırıldı. Sistem yöneticisi ile irtibata geçiniz',
+	'UI:Login:Error:AccessRestricted' => 'Enixer help desk erişim sınırlandırıldı. Sistem yöneticisi ile irtibata geçiniz',
 	'UI:Login:Error:AccessAdmin' => 'Erişim sistem yönetci hesaplaları ile mümkün. Sistem yöneticisi ile irtibata geçiniz.',
 	'UI:CSVImport:MappingSelectOne' => '-- Birini seçiniz --',
 	'UI:CSVImport:MappingNotApplicable' => '-- alanı ihmal et --',
@@ -566,7 +566,7 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:CSVImport:DataLine1' => 'Veri Satırı 1',
 	'UI:CSVImport:DataLine2' => 'Veri Satırı 2',
 	'UI:CSVImport:idField' => 'id (Tekil anahtar)',
-	'UI:Title:BulkImport' => 'iTop - Toplu giriş',
+	'UI:Title:BulkImport' => 'Enixer help desk - Toplu giriş',
 	'UI:Title:BulkImport+' => 'CSV içeri aktarma aracı',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class' => 'Synchronization of %1$d objects of class %2$s~~',
 	'UI:CSVImport:ClassesSelectOne' => '-- Birini seçiniz --',
@@ -615,7 +615,7 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:CSVImport:AlertMultipleMapping' => 'Please make sure that a target field is mapped only once.~~',
 	'UI:CSVImport:AlertNoSearchCriteria' => 'Lütfen en az bir sorgu kriteri seçiniz.',
 	'UI:CSVImport:Encoding' => 'Karakter kodlaması',	
-	'UI:UniversalSearchTitle' => 'iTop - Genel arama',
+	'UI:UniversalSearchTitle' => 'Enixer help desk - Genel arama',
 	'UI:UniversalSearch:Error' => 'Hata: %1$s',
 	'UI:UniversalSearch:LabelSelectTheClass' => 'Aranacak sınıfı seçiniz: ',
 
@@ -663,9 +663,9 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:CSVExport:AdvancedMode' => 'Advanced mode~~',
 	'UI:CSVExport:AdvancedMode+' => 'In advanced mode, several columns are added to the export: the id of the object, the id of external keys and their reconciliation attributes.~~',
 	'UI:CSVExport:LostChars' => 'Encoding issue~~',
-	'UI:CSVExport:LostChars+' => 'The downloaded file will be encoded into %1$s. iTop has detected some characters that are not compatible with this format. Those characters will either be replaced by a substitute (e.g. accentuated chars losing the accent), or they will be discarded. You can copy/paste the data from your web browser. Alternatively, you can contact your administrator to change the encoding (See parameter \'csv_file_default_charset\').~~',
+	'UI:CSVExport:LostChars+' => 'The downloaded file will be encoded into %1$s. Enixer help desk has detected some characters that are not compatible with this format. Those characters will either be replaced by a substitute (e.g. accentuated chars losing the accent), or they will be discarded. You can copy/paste the data from your web browser. Alternatively, you can contact your administrator to change the encoding (See parameter \'csv_file_default_charset\').~~',
 
-	'UI:Audit:Title' => 'iTop - CMDB Denetleme',
+	'UI:Audit:Title' => 'Enixer help desk - CMDB Denetleme',
 	'UI:Audit:InteractiveAudit' => 'Etkileşimli Denetleme',
 	'UI:Audit:HeaderAuditRule' => 'Denetleme Kuralı',
 	'UI:Audit:HeaderNbObjects' => 'Nesne Sayısı',
@@ -674,7 +674,7 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:Audit:ErrorIn_Rule_Reason' => 'OQL Error in the Rule %1$s: %2$s.~~',
 	'UI:Audit:ErrorIn_Category_Reason' => 'OQL Error in the Category %1$s: %2$s.~~',
 
-	'UI:RunQuery:Title' => 'iTop - OQL Sorgu değerlendirme',
+	'UI:RunQuery:Title' => 'Enixer help desk - OQL Sorgu değerlendirme',
 	'UI:RunQuery:QueryExamples' => 'Sorgu örnekleri',
 	'UI:RunQuery:HeaderPurpose' => 'Amaç',
 	'UI:RunQuery:HeaderPurpose+' => 'Sorgu açıklaması',
@@ -686,8 +686,8 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:RunQuery:SerializedFilter' => 'Özel filtre: ',
 	'UI:RunQuery:Error' => 'Sorgu sırasında hata oluştu: %1$s',
 	'UI:Query:UrlForExcel' => 'URL to use for MS-Excel web queries~~',
-	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested herebelow points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of iTop. Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.~~',
-	'UI:Schema:Title' => 'iTop objects schema',
+	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested herebelow points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of Enixer help desk. Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.~~',
+	'UI:Schema:Title' => 'Enixer help desk objects schema',
 	'UI:Schema:CategoryMenuItem' => 'Kategori <b>%1$s</b>',
 	'UI:Schema:Relationships' => 'İlişkiler',
 	'UI:Schema:AbstractClass' => 'Soyut sınıf: bu sınıftan nesne türetilemez.',
@@ -803,8 +803,8 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:Delect:Confirm_Object' => '%1$s\'i silmek istediğnizden emin misiniz?',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => '%1$d nesnesini (sınıfı %2$s) silmek istediğinizden emin misiniz?',
 	'UI:WelcomeToITop' => 'iTop\'a Hoşgeldiniz',
-	'UI:DetailsPageTitle' => 'iTop - %1$s - %2$s detayları',
-	'UI:ErrorPageTitle' => 'iTop - Hata',
+	'UI:DetailsPageTitle' => 'Enixer help desk - %1$s - %2$s detayları',
+	'UI:ErrorPageTitle' => 'Enixer help desk - Hata',
 	'UI:ObjectDoesNotExist' => 'Nesne mevcut değil veya yetkiniz yok.',
 	'UI:ObjectArchived' => 'This object has been archived. Please enable the archive mode or contact your administrator.~~',
 	'Tag:Archived' => 'Archived~~',
@@ -814,7 +814,7 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'Tag:Synchronized' => 'Synchronized~~',
 	'ObjectRef:Archived' => 'Archived~~',
 	'ObjectRef:Obsolete' => 'Obsolete~~',
-	'UI:SearchResultsPageTitle' => 'iTop - Arama Sonuçları',
+	'UI:SearchResultsPageTitle' => 'Enixer help desk - Arama Sonuçları',
 	'UI:SearchResultsTitle' => 'Arama Sonuçları',
 	'UI:SearchResultsTitle+' => 'Full-text search results~~',
 	'UI:Search:NoSearch' => 'Nothing to search for',
@@ -824,28 +824,28 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:FullTextSearchTitle_Text' => '"%1$s" için arama sonuçları:',
 	'UI:Search:Count_ObjectsOf_Class_Found' => '%2$s sınıfına ait %1$d nesne bulundu.',
 	'UI:Search:NoObjectFound' => 'Kayıt bulunamadı.',
-	'UI:ModificationPageTitle_Object_Class' => 'iTop - %1$s - %2$s modifikasyon',
+	'UI:ModificationPageTitle_Object_Class' => 'Enixer help desk - %1$s - %2$s modifikasyon',
 	'UI:ModificationTitle_Class_Object' => '%1$s: <span class=\\"hilite\\">%2$s</span> modifikasyonu',
-	'UI:ClonePageTitle_Object_Class' => 'iTop - %1$s - %2$s modifikasyonunu klonlayınız',
+	'UI:ClonePageTitle_Object_Class' => 'Enixer help desk - %1$s - %2$s modifikasyonunu klonlayınız',
 	'UI:CloneTitle_Class_Object' => '%1$s klonu: <span class=\\"hilite\\">%2$s</span>',
-	'UI:CreationPageTitle_Class' => 'iTop - Yeni %1$s yaratımı',
+	'UI:CreationPageTitle_Class' => 'Enixer help desk - Yeni %1$s yaratımı',
 	'UI:CreationTitle_Class' => 'Yeni %1$s yarat',
 	'UI:SelectTheTypeOf_Class_ToCreate' => 'Yaratılacak %1$s nesne tipini seçiniz',
 	'UI:Class_Object_NotUpdated' => 'Değişiklik tespit edilemedi, %1$s (%2$s) <strong>güncellenmedi</strong>.',
 	'UI:Class_Object_Updated' => '%1$s (%2$s) güncellendi.',
-	'UI:BulkDeletePageTitle' => 'iTop - Toplu silme işlemi',
+	'UI:BulkDeletePageTitle' => 'Enixer help desk - Toplu silme işlemi',
 	'UI:BulkDeleteTitle' => 'Silmek istediğiniz nesneleri seçiniz:',
-	'UI:PageTitle:ObjectCreated' => 'iTop Nesne yaratıldı.',
+	'UI:PageTitle:ObjectCreated' => 'Enixer help desk Nesne yaratıldı.',
 	'UI:Title:Object_Of_Class_Created' => '%1$s - %2$s yaratıldı.',
 	'UI:Apply_Stimulus_On_Object_In_State_ToTarget_State' => '%1$s işlemi %2$s durumunda %3$s nesnesine uygulanır. Bir sonraki durum: %4$s.',
 	'UI:ObjectCouldNotBeWritten' => 'Nesne kaydedilemedi: %1$s',
-	'UI:PageTitle:FatalError' => 'iTop - Kritik Hata',
+	'UI:PageTitle:FatalError' => 'Enixer help desk - Kritik Hata',
 	'UI:SystemIntrusion' => 'Bu işlem için yetkiniz yok',
-	'UI:FatalErrorMessage' => 'Kritik Hata, iTop devam edemiyor.',
+	'UI:FatalErrorMessage' => 'Kritik Hata, Enixer help desk devam edemiyor.',
 	'UI:Error_Details' => 'Hata: %1$s.',
 
-	'UI:PageTitle:ClassProjections'	=> 'iTop Kullanıcı Yönetimi - sınıf koruması',
-	'UI:PageTitle:ProfileProjections' => 'iTop Kullanıcı Yönetimi - profil koruması',
+	'UI:PageTitle:ClassProjections'	=> 'Enixer help desk Kullanıcı Yönetimi - sınıf koruması',
+	'UI:PageTitle:ProfileProjections' => 'Enixer help desk Kullanıcı Yönetimi - profil koruması',
 	'UI:UserManagement:Class' => 'Sınıf',
 	'UI:UserManagement:Class+' => 'Nesnin sınıfı',
 	'UI:UserManagement:ProjectedObject' => 'Nesne',
@@ -945,8 +945,8 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'Menu:NotificationsMenu+' => 'Uyarıların yapılandırılması', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:NotificationsMenu:Title' => '<span class="hilite">Uyarıların</span> yapılandırılması',
 	'UI:NotificationsMenu:Help' => 'Yardım',
-	'UI:NotificationsMenu:HelpContent' => '<p>In iTop uyarı mekanizması ihtiyaca göre uyarlanabilir. Uyarılar iki tip nesne üzerine kurulmuştur: <i>tetikleme (triggers) ve işlemler (actions)</i>.</p>
-<p><i><b>Triggers</b></i> define when a notification will be executed. There are different triggers as part of iTop core, but others can be brought by extensions:
+	'UI:NotificationsMenu:HelpContent' => '<p>In Enixer help desk uyarı mekanizması ihtiyaca göre uyarlanabilir. Uyarılar iki tip nesne üzerine kurulmuştur: <i>tetikleme (triggers) ve işlemler (actions)</i>.</p>
+<p><i><b>Triggers</b></i> define when a notification will be executed. There are different triggers as part of Enixer help desk core, but others can be brought by extensions:
 <ol>
 	<li>Some triggers are executed when an object of the specified class is <b>created</b>, <b>updated</b> or <b>deleted</b>.</li>
 	<li>Some triggers are executed when an object of a given class <b>enter</b> or <b>leave</b> a specified </b>state</b>.</li>
@@ -1051,8 +1051,8 @@ Tetikleme gerçekleştiriğinde işlemler tanımlanan sıra numarası ile gerçe
 	'UI:RelationTooltip:Redundancy' => 'Redundancy~~',
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => '# of impacted items: %1$d / %2$d~~',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => 'Critical threshold: %1$d / %2$d~~',
-	'Portal:Title' => 'iTop Kullanıcı Portalı',
-	'Portal:NoRequestMgmt' => 'Dear %1$s, you have been redirected to this page because your account is configured with the profile \'Portal user\'. Unfortunately, iTop has not been installed with the feature \'Request Management\'. Please contact your administrator.~~',
+	'Portal:Title' => 'Enixer help desk Kullanıcı Portalı',
+	'Portal:NoRequestMgmt' => 'Dear %1$s, you have been redirected to this page because your account is configured with the profile \'Portal user\'. Unfortunately, Enixer help desk has not been installed with the feature \'Request Management\'. Please contact your administrator.~~',
 	'Portal:Refresh' => 'Yenile',
 	'Portal:Back' => 'Geri',
 	'Portal:WelcomeUserOrg' => 'Welcome %1$s, from %2$s',
@@ -1380,7 +1380,7 @@ Tetikleme gerçekleştiriğinde işlemler tanımlanan sıra numarası ile gerçe
 	'UI:AddAnExisting_Class' => 'Add objects of type %1$s...~~',
 	'UI:SelectionOf_Class' => 'Selection of objects of type %1$s~~',
 
-	'UI:AboutBox' => 'About iTop...~~',
+	'UI:AboutBox' => 'About Enixer help desk...~~',
 	'UI:About:Title' => 'About iTop~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
@@ -1406,7 +1406,7 @@ Tetikleme gerçekleştiriğinde işlemler tanımlanan sıra numarası ile gerçe
 	'ExcelExport:PreparingExport' => 'Preparing the export...~~',
 	'ExcelExport:Statistics' => 'Statistics~~',
 	'portal:legacy_portal' => 'End-User Portal~~',
-	'portal:backoffice' => 'iTop Back-Office User Interface~~',
+	'portal:backoffice' => 'Enixer help desk Back-Office User Interface~~',
 
 	'UI:CurrentObjectIsLockedBy_User' => 'The object is locked since it is currently being modified by %1$s.~~',
 	'UI:CurrentObjectIsLockedBy_User_Explanation' => 'The object is currently being modified by %1$s. Your modifications cannot be submitted since they would be overwritten.~~',
@@ -1559,7 +1559,7 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 ));
 
 //
-// iTop Newsroom menu
+// Enixer help desk Newsroom menu
 //
 Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'UI:Newsroom:NoNewMessage' => 'No new message~~',

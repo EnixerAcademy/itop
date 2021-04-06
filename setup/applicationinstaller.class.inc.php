@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 require_once(APPROOT.'setup/parameters.class.inc.php');
 require_once(APPROOT.'setup/xmldataloader.class.inc.php');
@@ -497,7 +497,7 @@ class ApplicationInstaller
 
 		$oFactory = new ModelFactory($aDirsToScan);
 		
-		$oDictModule = new MFDictModule('dictionaries', 'iTop Dictionaries', APPROOT.'dictionaries');
+		$oDictModule = new MFDictModule('dictionaries', 'Enixer help desk Dictionaries', APPROOT.'dictionaries');
 		$oFactory->LoadModule($oDictModule);
 		
 		$sDeltaFile = APPROOT.'core/datamodel.core.xml';
@@ -550,7 +550,7 @@ class ApplicationInstaller
 		{
 			$sContent = file_get_contents($sFileToPatch);
 			
-			$sContent = str_replace("require_once(APPROOT.'modules/itop-welcome-itil/model.itop-welcome-itil.php');", "//\n// The line below is no longer needed in iTop 2.0 -- patched by the setup program\n// require_once(APPROOT.'modules/itop-welcome-itil/model.itop-welcome-itil.php');", $sContent);
+			$sContent = str_replace("require_once(APPROOT.'modules/itop-welcome-itil/model.itop-welcome-itil.php');", "//\n// The line below is no longer needed in Enixer help desk 2.0 -- patched by the setup program\n// require_once(APPROOT.'modules/itop-welcome-itil/model.itop-welcome-itil.php');", $sContent);
 			
 			file_put_contents($sFileToPatch, $sContent);
 		}

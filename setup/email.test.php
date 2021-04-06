@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2012 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 
 /**
@@ -25,7 +25,7 @@
  */
 
 /**
- * Wizard to configure and initialize the iTop application
+ * Wizard to configure and initialize the Enixer help desk application
  */
 require_once('../approot.inc.php');
 require_once(APPROOT.'/application/utils.inc.php');
@@ -38,7 +38,7 @@ require_once(APPROOT.'/application/loginwebpage.class.inc.php');
 LoginWebPage::DoLogin(true); // Check user rights and prompt if needed (must be admin)
 
 $sOperation = Utils::ReadParam('operation', 'step1');
-$oP = new SetupPage('iTop email test utility');
+$oP = new SetupPage('Enixer help desk email test utility');
 
 
 /**
@@ -124,7 +124,7 @@ function CheckEmailSetting($oP)
 		$oP->info("SMTP configuration (from config-itop.php): host: $sHost, port: $sPort, user: $sDisplayUserName, password: $sDisplayPassword, encryption: $sDisplayEncryption.");
 		if (($sHost == 'localhost') && ($sPort == '25') && ($sUserName == '') && ($sPassword == '') )
 		{
-			$oP->warning("The default settings may not be suitable for your environment. You may want to adjust these values by editing iTop's configuration file (".utils::GetConfigFilePathRelative().").");
+			$oP->warning("The default settings may not be suitable for your environment. You may want to adjust these values by editing Enixer help desk's configuration file (".utils::GetConfigFilePathRelative().").");
 		}
 		break;
 		
@@ -210,7 +210,7 @@ function DisplayStep2(SetupPage $oP, $sFrom, $sTo)
 	$oEmail = new Email();
 	$oEmail->SetRecipientTO($sTo);
 	$oEmail->SetRecipientFrom($sFrom);
-	$oEmail->SetSubject("Test iTop");
+	$oEmail->SetSubject("Test Enixer help desk");
 	$oEmail->SetBody("<p>Hello,</p><p>The email function is now working fine.</p><p>You may now be able to use the notification function.</p><p>iTop</p>");
 	$iRes = $oEmail->Send($aIssues, true /* force synchronous exec */);
 	switch ($iRes)

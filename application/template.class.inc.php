@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 
 /**
@@ -26,7 +26,7 @@
 
 require_once(APPROOT.'/application/displayblock.class.inc.php');
 /**
- * This class manages the special template format used internally to build the iTop web pages
+ * This class manages the special template format used internally to build the Enixer help desk web pages
  */
 class DisplayTemplate
 {
@@ -194,7 +194,7 @@ class DisplayTemplate
 				$oPage->SetCurrentTab(Dict::S(str_replace('_', ' ', $aAttributes['name'])));
 				$oTemplate = new DisplayTemplate($sContent);
 				$oTemplate->Render($oPage, array()); // no params to apply, they have already been applied
-				//$oPage->p('iTop Tab Content:<pre>'.htmlentities($sContent, ENT_QUOTES, 'UTF-8').'</pre>');
+				//$oPage->p('Enixer help desk Tab Content:<pre>'.htmlentities($sContent, ENT_QUOTES, 'UTF-8').'</pre>');
 				$oPage->SetCurrentTab('');
 			break;
 			
@@ -204,7 +204,7 @@ class DisplayTemplate
 				$oPage->StartCollapsibleSection(Dict::S($sName), $bOpen);
 				$oTemplate = new DisplayTemplate($sContent);
 				$oTemplate->Render($oPage, array()); // no params to apply, they have already been applied
-				//$oPage->p('iTop Tab Content:<pre>'.htmlentities($sContent, ENT_QUOTES, 'UTF-8').'</pre>');
+				//$oPage->p('Enixer help desk Tab Content:<pre>'.htmlentities($sContent, ENT_QUOTES, 'UTF-8').'</pre>');
 				$oPage->EndCollapsibleSection();
 			break;
 			

@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 
 /**
@@ -550,8 +550,8 @@ abstract class UserInternal extends User
 interface iSelfRegister
 {
 	/**
-	 * Called when no user is found in iTop for the corresponding 'name'. This method
-	 * can create/synchronize the User in iTop with an external source (such as AD/LDAP) on the fly
+	 * Called when no user is found in Enixer help desk for the corresponding 'name'. This method
+	 * can create/synchronize the User in Enixer help desk with an external source (such as AD/LDAP) on the fly
 	 * @param string $sName The typed-in user name
 	 * @param string $sPassword The typed-in password
 	 * @param string $sLoginMode The login method used (cas|form|basic|url)
@@ -561,7 +561,7 @@ interface iSelfRegister
 	public static function CheckCredentialsAndCreateUser($sName, $sPassword, $sLoginMode, $sAuthentication);
 	
 	/**
-	 * Called after the user has been authenticated and found in iTop. This method can
+	 * Called after the user has been authenticated and found in Enixer help desk.This method can
 	 * Update the user's definition on the fly (profiles...) to keep it in sync with an external source 
 	 * @param User $oUser The user to update/synchronize
 	 * @param string $sLoginMode The login mode used (cas|form|basic|url)
@@ -1554,8 +1554,8 @@ class StimulusChecker extends ActionChecker
 class CAS_SelfRegister implements iSelfRegister
 {
 	/**
-	 * Called when no user is found in iTop for the corresponding 'name'. This method
-	 * can create/synchronize the User in iTop with an external source (such as AD/LDAP) on the fly
+	 * Called when no user is found in Enixer help desk for the corresponding 'name'. This method
+	 * can create/synchronize the User in Enixer help desk with an external source (such as AD/LDAP) on the fly
 	 * @param string $sName The CAS authenticated user name
 	 * @param string $sPassword Ignored
 	 * @param string $sLoginMode The login mode used (cas|form|basic|url)
@@ -1621,7 +1621,7 @@ class CAS_SelfRegister implements iSelfRegister
 							}
 							else
 							{
-								phpCAS::log("User ".phpCAS::getUser()." cannot be created in iTop. Logging off...");
+								phpCAS::log("User ".phpCAS::getUser()." cannot be created in Enixer help desk.Logging off...");
 							}
 						}
 						else
@@ -1646,7 +1646,7 @@ class CAS_SelfRegister implements iSelfRegister
 		else
 		{
 			// No membership: no way to create the user that should exist prior to authentication
-			phpCAS::log("User ".phpCAS::getUser().": missing user account in iTop (or iTop badly configured, Cf setting cas_memberof)");
+			phpCAS::log("User ".phpCAS::getUser().": missing user account in Enixer help desk (or Enixer help desk badly configured, Cf setting cas_memberof)");
 			$bFound = false;
 		}
 		
@@ -1666,7 +1666,7 @@ class CAS_SelfRegister implements iSelfRegister
 	}
 	
 	/**
-	 * Called after the user has been authenticated and found in iTop. This method can
+	 * Called after the user has been authenticated and found in Enixer help desk.This method can
 	 * Update the user's definition (profiles...) on the fly to keep it in sync with an external source 
 	 * @param User $oUser The user to update/synchronize
 	 * @param string $sLoginMode The login mode used (cas|form|basic|url)
@@ -1713,7 +1713,7 @@ class CAS_SelfRegister implements iSelfRegister
 			switch($oSet->Count())
 			{
 				case 0:
-				phpCAS::log("Error: found no contact with the email: '$sEmail'. Cannot create the user in iTop.");
+				phpCAS::log("Error: found no contact with the email: '$sEmail'. Cannot create the user in Enixer help desk.");
 				return false;
 
 				case 1:
@@ -1781,7 +1781,7 @@ class CAS_SelfRegister implements iSelfRegister
 			$aAllProfiles[strtolower($oProfile->GetName())] = $oProfile->GetKey();
 		}
 		
-		// Translate the CAS/LDAP group names into iTop profile names
+		// Translate the CAS/LDAP group names into Enixer help desk profile names
 		$aProfiles = array();
 		$sPattern = MetaModel::GetConfig()->Get('cas_profile_pattern');
 		foreach($aGroups as $sGroupName)
@@ -1795,12 +1795,12 @@ class CAS_SelfRegister implements iSelfRegister
 				}
 				else
 				{
-					phpCAS::log("Warning: {$aMatches[1]} is not a valid iTop profile (extracted from group name: '$sGroupName'). Ignored.");
+					phpCAS::log("Warning: {$aMatches[1]} is not a valid Enixer help desk profile (extracted from group name: '$sGroupName'). Ignored.");
 				}
 			}
 			else
 			{
-				phpCAS::log("Info: The CAS group '$sGroupName' does not seem to match an iTop pattern. Ignored.");
+				phpCAS::log("Info: The CAS group '$sGroupName' does not seem to match an Enixer help desk pattern. Ignored.");
 			}
 		}
 		if (count($aProfiles) == 0)
@@ -1819,7 +1819,7 @@ class CAS_SelfRegister implements iSelfRegister
 				}
 				else
 				{
-					phpCAS::log("Warning: the default profile {$sDefaultProfileName} is not a valid iTop profile. Ignored.");
+					phpCAS::log("Warning: the default profile {$sDefaultProfileName} is not a valid Enixer help desk profile. Ignored.");
 				}
 			}
 			

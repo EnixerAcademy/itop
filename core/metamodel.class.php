@@ -1,20 +1,20 @@
 <?php
 // Copyright (c) 2010-2018 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 //
 
 require_once(APPROOT.'core/modulehandler.class.inc.php');
@@ -80,7 +80,7 @@ define('OPT_ATT_MUSTCHANGE', 8);
 define('OPT_ATT_MUSTPROMPT', 16);
 /**
  * Specifies that the attribute is in 'slave' mode compared to one data exchange task:
- * it should not be edited inside iTop anymore
+ * it should not be edited inside Enixer help desk anymore
  *
  * @package     iTopORM
  */
@@ -6842,7 +6842,7 @@ abstract class MetaModel
 			$oSearch = DBObjectSearch::FromOQL('SELECT CMDBChangeOpDelete WHERE objclass = :objclass AND objkey = :objkey', array('objclass' => $sRootClass, 'objkey' => $iKey));
 			$oSet = new DBObjectSet($oSearch);
 			$oRecord = $oSet->Fetch();
-			// An empty fname is obtained with iTop < 2.0
+			// An empty fname is obtained with Enixer help desk < 2.0
 			if (is_null($oRecord) || (strlen(trim($oRecord->Get('fname'))) == 0))
 			{
 				$sName = Dict::Format('Core:UnknownObjectLabel', $sTargetClass, $iKey);

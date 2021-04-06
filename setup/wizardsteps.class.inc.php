@@ -1,23 +1,23 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 /**
- * All the steps of the iTop installation wizard
+ * All the steps of the Enixer help desk installation wizard
  * @copyright   Copyright (C) 2010-2017 Combodo SARL
  * @license     http://opensource.org/licenses/AGPL-3.0
  */
@@ -30,7 +30,7 @@ require_once(APPROOT.'core/mutex.class.inc.php');
 require_once(APPROOT.'setup/extensionsmap.class.inc.php');
 
 /**
- * First step of the iTop Installation Wizard: Welcome screen
+ * First step of the Enixer help desk Installation Wizard: Welcome screen
  */
 class WizStepWelcome extends WizardStep
 {
@@ -157,7 +157,7 @@ EOF
 }
 
 /**
- * Second step of the iTop Installation Wizard: Install or Upgrade
+ * Second step of the Enixer help desk Installation Wizard: Install or Upgrade
  */
 class WizStepInstallOrUpgrade extends WizardStep
 {
@@ -652,7 +652,7 @@ EOF
 			);
 			if ($oMutex->IsLocked())
 			{
-				$oPage->p("<img src=\"../images/error.png\"/>&nbsp;An iTop CRON process is being executed on the target database. It is highly recommended to stop any iTop CRON process prior to running the setup program.");
+				$oPage->p("<img src=\"../images/error.png\"/>&nbsp;An Enixer help desk CRON process is being executed on the target database. It is highly recommended to stop any Enixer help desk CRON process prior to running the setup program.");
 			}
 		}
 	}
@@ -2529,7 +2529,7 @@ class WizStepDone extends WizardStep
 
 		// Form goes here.. No back button since the job is done !
 		$oPage->add('<table id="placeholder" style="width:600px;border:0;padding:0;"><tr>');
-		$oPage->add("<td><a style=\"background:transparent;padding:0;\" title=\"Free: Register your iTop version.\" href=\"http://www.combodo.com/register?product=iTop&version=".urlencode(ITOP_VERSION." revision ".ITOP_REVISION)."\" target=\"_blank\"><img style=\"border:0\" src=\"../images/setup-register.gif\"/></td></a>");
+		$oPage->add("<td><a style=\"background:transparent;padding:0;\" title=\"Free: Register your Enixer help desk version.\" href=\"http://www.combodo.com/register?product=iTop&version=".urlencode(ITOP_VERSION." revision ".ITOP_REVISION)."\" target=\"_blank\"><img style=\"border:0\" src=\"../images/setup-register.gif\"/></td></a>");
 		$oPage->add("<td><a style=\"background:transparent;padding:0;\" title=\"Get Professional Support from Combodo\" href=\"http://www.combodo.com/itopsupport\" target=\"_blank\"><img style=\"border:0\" src=\"../images/setup-support.gif\"/></td></a>");
 		$oPage->add("<td><a style=\"background:transparent;padding:0;\" title=\"Get Professional Training from Combodo\" href=\"http://www.combodo.com/itoptraining\" target=\"_blank\"><img style=\"border:0\" src=\"../images/setup-training.gif\"/></td></a>");
 		$oPage->add('</tr></table>');

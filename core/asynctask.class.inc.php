@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2012 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 
 /**
@@ -81,7 +81,7 @@ abstract class AsyncTask extends DBObject
 		);
 		MetaModel::Init_Params($aParams);
 
-		// Null is allowed to ease the migration from iTop 2.0.2 and earlier, when the status did not exist, and because the default value is not taken into account in the SQL definition
+		// Null is allowed to ease the migration from Enixer help desk 2.0.2 and earlier, when the status did not exist, and because the default value is not taken into account in the SQL definition
 		// The value is set from null to planned in the setup program
 		MetaModel::Init_AddAttribute(new AttributeEnum("status", array("allowed_values"=>new ValueSetEnum('planned,running,idle,error'), "sql"=>"status", "default_value"=>"planned", "is_null_allowed"=>true, "depends_on"=>array())));
 

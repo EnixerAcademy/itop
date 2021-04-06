@@ -1,9 +1,9 @@
 <?php
 /**
- * Локализация интерфейса Combodo iTop подготовлена сообществом iTop по-русски http://community.itop-itsm.ru.
+ * Локализация интерфейса Combodo Enixer help desk подготовлена сообществом Enixer help desk по-русски http://community.itop-itsm.ru.
  *
  * @author      Vladimir Kunin <v.b.kunin@gmail.com>
- * @link        http://community.itop-itsm.ru  iTop Russian Community
+ * @link        http://community.itop-itsm.ru  Enixer help desk Russian Community
  * @link        https://github.com/itop-itsm-ru/itop-rus
  * @license     http://opensource.org/licenses/AGPL-3.0
  *
@@ -114,7 +114,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => 'Учетная запись пользователя не принадлежит вашим разрешенным организациям.',
 	'Class:User/Error:PersonIsMandatory' => 'Необходимо выбрать персону.',
 	'Class:UserInternal' => 'Внутренний пользователь',
-	'Class:UserInternal+' => 'Учетная запись создана внутри iTop',
+	'Class:UserInternal+' => 'Учетная запись создана внутри Enixer help desk',
 ));
 
 //
@@ -317,12 +317,12 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'BooleanLabel:yes' => 'да',
 	'BooleanLabel:no' => 'нет',
-	'UI:Login:Title' => 'Вход в iTop',
+	'UI:Login:Title' => 'Вход в Enixer help desk',
 	'Menu:WelcomeMenu' => 'Добро пожаловать', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenu+' => 'Добро пожаловать в iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:WelcomeMenu+' => 'Добро пожаловать в Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => 'Добро пожаловать', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenuPage+' => 'Добро пожаловать в iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'UI:WelcomeMenu:Title' => 'Добро пожаловать в iTop',
+	'Menu:WelcomeMenuPage+' => 'Добро пожаловать в Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'UI:WelcomeMenu:Title' => 'Добро пожаловать в Enixer help desk',
 
 	'UI:WelcomeMenu:LeftBlock' => '<p>iTop является порталом оперативного централизованного управления IT инфраструктурой с открытым исходным кодом.</p>
 <ul>Он включает:
@@ -486,14 +486,14 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:SearchValue:CheckAll' => 'Выбрать все',
 	'UI:SearchValue:UncheckAll' => 'Сбросить',
 	'UI:SelectOne' => '-- выбрать --',
-	'UI:Login:Welcome' => 'Добро пожаловать в iTop!',
+	'UI:Login:Welcome' => 'Добро пожаловать в Enixer help desk!',
 	'UI:Login:IncorrectLoginPassword' => 'Неправильный логин/пароль. Пожалуйста, попробуйте еще раз.',
 	'UI:Login:IdentifyYourself' => 'Представьтесь, прежде чем продолжить',
 	'UI:Login:UserNamePrompt' => 'Имя пользователя',
 	'UI:Login:PasswordPrompt' => 'Пароль',
 	'UI:Login:ForgotPwd' => 'Забыли пароль?',
 	'UI:Login:ForgotPwdForm' => 'Восстановление пароля',
-	'UI:Login:ForgotPwdForm+' => 'Введите свой логин для входа в систему и нажмите "Отправить". iTop отправит email с инструкциями по восстановлению пароля на ваш электронный адрес.',
+	'UI:Login:ForgotPwdForm+' => 'Введите свой логин для входа в систему и нажмите "Отправить". Enixer help desk отправит email с инструкциями по восстановлению пароля на ваш электронный адрес.',
 	'UI:Login:ResetPassword' => 'Отправить',
 	'UI:Login:ResetPwdFailed' => 'Не удалось отправить email: %1$s',
 
@@ -506,7 +506,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:ResetPwd-Error-Send' => 'технические проблемы с отправкой электронной почты. Пожалуйста, обратитесь к администратору.',
 	'UI:ResetPwd-EmailSent' => 'Пожалуйста, проверьте свой почтовый ящик и следуйте инструкциям.',
 	'UI:ResetPwd-EmailSubject' => 'Восстановление пароля',
-	'UI:ResetPwd-EmailBody' => '<body><p>Вы запросили восстановление пароля iTop.</p><p>Пожалуйста, воспользуйтесь <a href="%1$s">этой ссылкой</a> для задания нового пароля.</p></body>',
+	'UI:ResetPwd-EmailBody' => '<body><p>Вы запросили восстановление пароля Enixer help desk.</p><p>Пожалуйста, воспользуйтесь <a href="%1$s">этой ссылкой</a> для задания нового пароля.</p></body>',
 
 	'UI:ResetPwd-Title' => 'Восстановление пароля',
 	'UI:ResetPwd-Error-InvalidToken' => 'Извините, недействительная ссылка. Если вы запрашивали восстановление пароля несколько раз подряд, пожалуйста, убедитесь, что используете ссылку из последнего полученного письма.',
@@ -521,7 +521,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:Login:RetypeNewPasswordPrompt' => 'Повторите новый пароль',
 	'UI:Login:IncorrectOldPassword' => 'Ошибка: старый пароль неверный',
 	'UI:LogOffMenu' => 'Выход',
-	'UI:LogOff:ThankYou' => 'Спасибо за использование iTop',
+	'UI:LogOff:ThankYou' => 'Спасибо за использование Enixer help desk',
 	'UI:LogOff:ClickHereToLoginAgain' => 'Нажмите здесь, чтобы снова войти...',
 	'UI:ChangePwdMenu' => 'Изменить пароль...',
 	'UI:Login:PasswordChanged' => 'Пароль успешно изменён!',
@@ -530,8 +530,8 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:ApplicationEnvironment' => 'Application environment: %1$s~~',
 	'UI:Login:RetypePwdDoesNotMatch' => 'Пароли не совпадают',
 	'UI:Button:Login' => 'Войти',
-	'UI:Login:Error:AccessRestricted' => 'Доступ к iTop ограничен. Пожалуйста, свяжитесь с администратором iTop.',
-	'UI:Login:Error:AccessAdmin' => 'Доступ ограничен для лиц с административными привилегиями. Пожалуйста, свяжитесь с администратором iTop.',
+	'UI:Login:Error:AccessRestricted' => 'Доступ к Enixer help desk ограничен. Пожалуйста, свяжитесь с администратором Enixer help desk.',
+	'UI:Login:Error:AccessAdmin' => 'Доступ ограничен для лиц с административными привилегиями. Пожалуйста, свяжитесь с администратором Enixer help desk.',
 	'UI:CSVImport:MappingSelectOne' => '-- выбрать один --',
 	'UI:CSVImport:MappingNotApplicable' => '-- игнорировать это поле --',
 	'UI:CSVImport:NoData' => 'Пустой набор данных..., пожалуйста введите что-нибудь!',
@@ -541,7 +541,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:CSVImport:DataLine1' => 'Строка данных 1',
 	'UI:CSVImport:DataLine2' => 'Строка данных 2',
 	'UI:CSVImport:idField' => 'id (Первичный ключ)',
-	'UI:Title:BulkImport' => 'iTop - Пакетный импорт',
+	'UI:Title:BulkImport' => 'Enixer help desk - Пакетный импорт',
 	'UI:Title:BulkImport+' => 'Мастер импорта CSV',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class' => 'Synchronization of %1$d objects of class %2$s~~',
 	'UI:CSVImport:ClassesSelectOne' => '-- выбрать один --',
@@ -590,7 +590,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:CSVImport:AlertMultipleMapping' => 'Please make sure that a target field is mapped only once.',
 	'UI:CSVImport:AlertNoSearchCriteria' => 'Необходимо выбрать, по крайней мере один критерий',
 	'UI:CSVImport:Encoding' => 'Кодировка символов',
-	'UI:UniversalSearchTitle' => 'iTop - Универсальный поиск',
+	'UI:UniversalSearchTitle' => 'Enixer help desk - Универсальный поиск',
 	'UI:UniversalSearch:Error' => 'Ошибка: %1$s',
 	'UI:UniversalSearch:LabelSelectTheClass' => 'Выбор класса для поиска: ',
 
@@ -638,9 +638,9 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:CSVExport:AdvancedMode' => 'Расширенный режим',
 	'UI:CSVExport:AdvancedMode+' => 'In advanced mode, several columns are added to the export: the id of the object, the id of external keys and their reconciliation attributes.',
 	'UI:CSVExport:LostChars' => 'Проблема кодировки',
-	'UI:CSVExport:LostChars+' => 'The downloaded file will be encoded into %1$s. iTop has detected some characters that are not compatible with this format. Those characters will either be replaced by a substitute (e.g. accentuated chars losing the accent), or they will be discarded. You can copy/paste the data from your web browser. Alternatively, you can contact your administrator to change the encoding (See parameter \'csv_file_default_charset\').',
+	'UI:CSVExport:LostChars+' => 'The downloaded file will be encoded into %1$s. Enixer help desk has detected some characters that are not compatible with this format. Those characters will either be replaced by a substitute (e.g. accentuated chars losing the accent), or they will be discarded. You can copy/paste the data from your web browser. Alternatively, you can contact your administrator to change the encoding (See parameter \'csv_file_default_charset\').',
 
-	'UI:Audit:Title' => 'iTop - Аудит CMDB',
+	'UI:Audit:Title' => 'Enixer help desk - Аудит CMDB',
 	'UI:Audit:InteractiveAudit' => 'Интерактивный аудит',
 	'UI:Audit:HeaderAuditRule' => 'Правило аудита',
 	'UI:Audit:HeaderNbObjects' => '# Объекты',
@@ -649,7 +649,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:Audit:ErrorIn_Rule_Reason' => 'OQL ошибка в правиле %1$s: %2$s.~~',
 	'UI:Audit:ErrorIn_Category_Reason' => 'OQL ошибка в категории %1$s: %2$s.~~',
 
-	'UI:RunQuery:Title' => 'iTop - Оценка запросов OQL',
+	'UI:RunQuery:Title' => 'Enixer help desk - Оценка запросов OQL',
 	'UI:RunQuery:QueryExamples' => 'Примеры запросов',
 	'UI:RunQuery:HeaderPurpose' => 'Цель',
 	'UI:RunQuery:HeaderPurpose+' => 'Объяснение запросов',
@@ -661,8 +661,8 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:RunQuery:SerializedFilter' => 'Сериализованные фильты: ',
 	'UI:RunQuery:Error' => 'Ошибка при выполнении запроса: %1$s',
 	'UI:Query:UrlForExcel' => 'URL to use for MS-Excel web queries~~',
-	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested here below points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of iTop. <br/>Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.',
-	'UI:Schema:Title' => 'iTop схема объектов',
+	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested here below points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of Enixer help desk. <br/>Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.',
+	'UI:Schema:Title' => 'Enixer help desk схема объектов',
 	'UI:Schema:CategoryMenuItem' => 'Категория <b>%1$s</b>',
 	'UI:Schema:Relationships' => 'Отношения',
 	'UI:Schema:AbstractClass' => 'Абстрактный класс: используется для наследования свойств, объекты этого класса не создаются.',
@@ -777,9 +777,9 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:Delete:PleaseDoTheManualOperations' => 'Необходимо выполнить указанные операции в ручную до удаления этого объекта',
 	'UI:Delect:Confirm_Object' => 'Подтвердите удаление %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Подтвердите удаление %1$d объектов класса %2$s.',
-	'UI:WelcomeToITop' => 'Добро пожаловать в iTop',
-	'UI:DetailsPageTitle' => 'iTop - %1$s - %2$s подробности',
-	'UI:ErrorPageTitle' => 'iTop - Ошибка',
+	'UI:WelcomeToITop' => 'Добро пожаловать в Enixer help desk',
+	'UI:DetailsPageTitle' => 'Enixer help desk - %1$s - %2$s подробности',
+	'UI:ErrorPageTitle' => 'Enixer help desk - Ошибка',
 	'UI:ObjectDoesNotExist' => 'Извните, этот объект не существует (или вы не можете его видеть).',
 	'UI:ObjectArchived' => 'Этот объект заархивирован. Включите режим просмотра архива или обратитесь к администратору.',
 	'Tag:Archived' => 'Архивный',
@@ -789,7 +789,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'Tag:Synchronized' => 'Синхронизированный',
 	'ObjectRef:Archived' => 'Архивный',
 	'ObjectRef:Obsolete' => 'Устаревший',
-	'UI:SearchResultsPageTitle' => 'iTop - Результаты поиска',
+	'UI:SearchResultsPageTitle' => 'Enixer help desk - Результаты поиска',
 	'UI:SearchResultsTitle' => 'Результаты поиска',
 	'UI:SearchResultsTitle+' => 'Результаты полнотекстового поиска',
 	'UI:Search:NoSearch' => 'Ничего не найдено',
@@ -799,28 +799,28 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:FullTextSearchTitle_Text' => 'Результаты для "%1$s":',
 	'UI:Search:Count_ObjectsOf_Class_Found' => '%1$d объект(ы) класса %2$s найдено.',
 	'UI:Search:NoObjectFound' => 'Объекты не найдены.',
-	'UI:ModificationPageTitle_Object_Class' => 'iTop - Изменение объекта %2$s - %1$s',
+	'UI:ModificationPageTitle_Object_Class' => 'Enixer help desk - Изменение объекта %2$s - %1$s',
 	'UI:ModificationTitle_Class_Object' => 'Изменение объекта %1$s: <span class=\\"hilite\\">%2$s</span>',
-	'UI:ClonePageTitle_Object_Class' => 'iTop - Клон %1$s - %2$s модификация',
+	'UI:ClonePageTitle_Object_Class' => 'Enixer help desk - Клон %1$s - %2$s модификация',
 	'UI:CloneTitle_Class_Object' => 'Клон %1$s: <span class=\\"hilite\\">%2$s</span>',
-	'UI:CreationPageTitle_Class' => 'iTop - Создание объекта %1$s',
+	'UI:CreationPageTitle_Class' => 'Enixer help desk - Создание объекта %1$s',
 	'UI:CreationTitle_Class' => 'Создание объекта %1$s',
 	'UI:SelectTheTypeOf_Class_ToCreate' => 'Выбор типа %1$s для создания:',
 	'UI:Class_Object_NotUpdated' => 'Изменений не обнаружено, %1$s (%2$s) <strong>не</strong> был изменён.',
 	'UI:Class_Object_Updated' => '%1$s (%2$s) обновлён.',
-	'UI:BulkDeletePageTitle' => 'iTop - Пакетное удаление',
+	'UI:BulkDeletePageTitle' => 'Enixer help desk - Пакетное удаление',
 	'UI:BulkDeleteTitle' => 'Выбор объектов для удаления:',
-	'UI:PageTitle:ObjectCreated' => 'iTop Объект создан.',
+	'UI:PageTitle:ObjectCreated' => 'Enixer help desk Объект создан.',
 	'UI:Title:Object_Of_Class_Created' => '%1$s - %2$s создан.',
 	'UI:Apply_Stimulus_On_Object_In_State_ToTarget_State' => 'Применение %1$s на объект: %2$s в состоянии %3$s для целевого класса: %4$s.',
 	'UI:ObjectCouldNotBeWritten' => 'Объект не может быть записан: %1$s',
-	'UI:PageTitle:FatalError' => 'iTop - Критическая ошибка',
+	'UI:PageTitle:FatalError' => 'Enixer help desk - Критическая ошибка',
 	'UI:SystemIntrusion' => 'Доступ запрещён. Вы пытаетесь выполнить неразрешённую операцию.',
-	'UI:FatalErrorMessage' => 'Критическая ошибка, iTop не может продолжать работу.',
+	'UI:FatalErrorMessage' => 'Критическая ошибка, Enixer help desk не может продолжать работу.',
 	'UI:Error_Details' => 'Ошибка: %1$s.',
 
-	'UI:PageTitle:ClassProjections'	=> 'iTop управление пользователями - проектирование классов',
-	'UI:PageTitle:ProfileProjections' => 'iTop управление пользователями - проектирование профилей',
+	'UI:PageTitle:ClassProjections'	=> 'Enixer help desk управление пользователями - проектирование классов',
+	'UI:PageTitle:ProfileProjections' => 'Enixer help desk управление пользователями - проектирование профилей',
 	'UI:UserManagement:Class' => 'Классs',
 	'UI:UserManagement:Class+' => 'Класс объектов',
 	'UI:UserManagement:ProjectedObject' => 'Объект',
@@ -920,7 +920,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'Menu:NotificationsMenu+' => 'Конфигурация уведомлений', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:NotificationsMenu:Title' => 'Конфигурация <span class="hilite">Уведомлений</span>',
 	'UI:NotificationsMenu:Help' => 'Помощь',
-	'UI:NotificationsMenu:HelpContent' => '<p>В iTop уведомления полностью настраиваемые. Они основаны на двух наборах объектов: <i>триггеры</i> и <i>действия</i>.</p>
+	'UI:NotificationsMenu:HelpContent' => '<p>В Enixer help desk уведомления полностью настраиваемые. Они основаны на двух наборах объектов: <i>триггеры</i> и <i>действия</i>.</p>
 <p><i><b>Триггеры</b></i> оперделяют когда уведомление будет выполнено. Есть 3 типа триггеров обробатывающих 3 разных фазы жизненного цикла объекта:
 <ol>
 	<li>"OnCreate" триггеры сработают когда объект заданного класса будет создан</li>
@@ -1026,8 +1026,8 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:RelationTooltip:Redundancy' => 'Избыточность',
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => 'Кол-во затронутых элементов: %1$d / %2$d',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => 'Критический порог: %1$d / %2$d',
-	'Portal:Title' => 'Пользовательский портал iTop',
-	'Portal:NoRequestMgmt' => 'Уважаемый %1$s, вы были перенаправлены на потрал, потому что ваш аккаунт содержит профиль \'Portal user\'. К сожалению, iTop не содержит модуля \'Request Management\'. Пожалуйста, свяжитесь с вашим администратором.',
+	'Portal:Title' => 'Пользовательский портал Enixer help desk',
+	'Portal:NoRequestMgmt' => 'Уважаемый %1$s, вы были перенаправлены на потрал, потому что ваш аккаунт содержит профиль \'Portal user\'. К сожалению, Enixer help desk не содержит модуля \'Request Management\'. Пожалуйста, свяжитесь с вашим администратором.',
 	'Portal:Refresh' => 'Обновить',
 	'Portal:Back' => 'Назад',
 	'Portal:WelcomeUserOrg' => 'Добро пожаловать, %1$s (%2$s)',
@@ -1355,8 +1355,8 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:AddAnExisting_Class' => 'Добавить объекты класса %1$s...',
 	'UI:SelectionOf_Class' => 'Выбор объектов класса %1$s',
 
-	'UI:AboutBox' => 'Об этом iTop...',
-	'UI:About:Title' => 'Об этом iTop',
+	'UI:AboutBox' => 'Об этом Enixer help desk...',
+	'UI:About:Title' => 'Об этом Enixer help desk',
 	'UI:About:DataModel' => 'Модель данных',
 	'UI:About:Support' => 'Информация для технической поддержки',
 	'UI:About:Licenses' => 'Лицензии',
@@ -1381,7 +1381,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'ExcelExport:PreparingExport' => 'Подготовка к экспорту...',
 	'ExcelExport:Statistics' => 'Статистика',
 	'portal:legacy_portal' => 'Пользовательский портал',
-	'portal:backoffice' => 'iTop Back-Office интерфейс',
+	'portal:backoffice' => 'Enixer help desk Back-Office интерфейс',
 
 	'UI:CurrentObjectIsLockedBy_User' => 'Объект заблокирован, поскольку в настоящее время редактируется пользователем %1$s.',
 	'UI:CurrentObjectIsLockedBy_User_Explanation' => 'Объект в настоящее время редактируется пользователем %1$s. Ваши изменения не будут сохранены, поскольку они могут быть перезаписаны.',
@@ -1534,7 +1534,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 ));
 
 //
-// iTop Newsroom menu
+// Enixer help desk Newsroom menu
 //
 Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'UI:Newsroom:NoNewMessage' => 'Нет новых сообщений',

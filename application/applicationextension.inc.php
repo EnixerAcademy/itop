@@ -1,27 +1,27 @@
 <?php
 // Copyright (C) 2010-2015 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 require_once(APPROOT.'application/newsroomprovider.class.inc.php');
 
 /**
  * Management of application plugins
  * 
- * Definition of interfaces that can be implemented to customize iTop.
+ * Definition of interfaces that can be implemented to customize Enixer help desk.
  * You may implement such interfaces in a module file (e.g. main.mymodule.php) 
  *
  * @package     Extensibility
@@ -33,7 +33,7 @@ require_once(APPROOT.'application/newsroomprovider.class.inc.php');
 /**
  * Implement this interface to change the behavior of the GUI for some objects.
  *
- * All methods are invoked by iTop for a given object. There are basically two usages:
+ * All methods are invoked by Enixer help desk for a given object. There are basically two usages:
  * 
  * 1) To tweak the form of an object, you will have to implement a specific behavior within:
  *  
@@ -266,7 +266,7 @@ interface iApplicationObjectExtension
 }
 
 /**
- * New extension to add menu items in the "popup" menus inside iTop. Provides a greater flexibility than
+ * New extension to add menu items in the "popup" menus inside Enixer help desk.Provides a greater flexibility than
  * iApplicationUIExtension::EnumAllowedActions.
  * 
  * To add some menus into iTop, declare a class that implements this interface, it will be called automatically
@@ -380,7 +380,7 @@ abstract class ApplicationPopupMenuItem
 	/**
 	 *	Constructor
 	 *	
-	 * @param string $sUID The unique identifier of this menu in iTop... make sure you pass something unique enough
+	 * @param string $sUID The unique identifier of this menu in Enixer help desk... make sure you pass something unique enough
      * @param string $sLabel The display label of the menu (must be localized)
      * @param array $aCssClasses The CSS classes to add to the menu
 	 */
@@ -474,7 +474,7 @@ class URLPopupMenuItem extends ApplicationPopupMenuItem
 	/**
 	 * Constructor
 	 * 	 
-	 * @param string $sUID The unique identifier of this menu in iTop... make sure you pass something unique enough
+	 * @param string $sUID The unique identifier of this menu in Enixer help desk... make sure you pass something unique enough
 	 * @param string $sLabel The display label of the menu (must be localized)
 	 * @param string $sURL If the menu is an hyperlink, provide the absolute hyperlink here
 	 * @param string $sTarget In case the menu is an hyperlink and a specific target is needed (_blank for example), pass it here
@@ -509,7 +509,7 @@ class JSPopupMenuItem extends ApplicationPopupMenuItem
 	
 	/**
 	 * Class for adding an item that triggers some Javascript code
-	 * @param string $sUID The unique identifier of this menu in iTop... make sure you pass something unique enough
+	 * @param string $sUID The unique identifier of this menu in Enixer help desk... make sure you pass something unique enough
 	 * @param string $sLabel The display label of the menu (must be localized)
 	 * @param string $sJSCode In case the menu consists in executing some havascript code inside the page, pass it here. If supplied $sURL ans $sTarget will be ignored
 	 * @param array $aIncludeJSFiles An array of file URLs to be included (once) to provide some JS libraries for the page.

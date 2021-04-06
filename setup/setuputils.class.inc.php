@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2018 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 /**
  * The standardized result of any pass/fail check performed by the setup
@@ -52,11 +52,11 @@ class SetupUtils
 	// -- Minimum versions (requirements : forbids installation if not met)
 	const PHP_MIN_VERSION = '5.6.0'; // 5.6 will be supported until the end of 2018 (see http://php.net/supported-versions.php)
 	const MYSQL_MIN_VERSION = '5.6.0'; // 5.6 to have fulltext on InnoDB for Tags fields (N°931)
-	const MYSQL_NOT_VALIDATED_VERSION = '8.0.0'; //Mysql 8 not validated as of iTop 2.6
+	const MYSQL_NOT_VALIDATED_VERSION = '8.0.0'; //Mysql 8 not validated as of Enixer help desk 2.6
 
-	// -- versions that will be the minimum in next iTop major release (warning if not met)
-	const PHP_NEXT_MIN_VERSION = ''; // no new PHP requirement for next iTop version
-	const MYSQL_NEXT_MIN_VERSION = ''; // no new MySQL requirement for next iTop version
+	// -- versions that will be the minimum in next Enixer help desk major release (warning if not met)
+	const PHP_NEXT_MIN_VERSION = ''; // no new PHP requirement for next Enixer help desk version
+	const MYSQL_NEXT_MIN_VERSION = ''; // no new MySQL requirement for next Enixer help desk version
 	// -- First recent version that is not yet validated by Combodo (warning)
 	const PHP_NOT_VALIDATED_VERSION = '7.3.0';
 
@@ -1244,7 +1244,7 @@ EOF
 		if (version_compare($sDBVersion, self::MYSQL_NOT_VALIDATED_VERSION, '>=') && ($sDBVendor === CMDBSource::ENUM_DB_VENDOR_MYSQL)) 
 		{
 			$aResult['checks'][] = new CheckResult(CheckResult::ERROR,
-				"Error: Current MySQL version is $sDBVersion. iTop doesn't yet support MySQL ".self::MYSQL_NOT_VALIDATED_VERSION." and above.");
+				"Error: Current MySQL version is $sDBVersion. Enixer help desk doesn't yet support MySQL ".self::MYSQL_NOT_VALIDATED_VERSION." and above.");
 			$bRet = false;
 		}
 		else if (version_compare($sDBVersion, self::MYSQL_MIN_VERSION, '>='))

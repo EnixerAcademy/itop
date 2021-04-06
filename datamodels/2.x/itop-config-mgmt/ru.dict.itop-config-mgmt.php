@@ -1,15 +1,15 @@
 <?php
 /**
- * Локализация интерфейса Combodo iTop подготовлена сообществом iTop по-русски http://community.itop-itsm.ru.
+ * Локализация интерфейса Combodo Enixer help desk подготовлена сообществом Enixer help desk по-русски http://community.itop-itsm.ru.
  *
  * @author      Vladimir Kunin <v.b.kunin@gmail.com>
- * @link        http://community.itop-itsm.ru  iTop Russian Community
+ * @link        http://community.itop-itsm.ru  Enixer help desk Russian Community
  * @link        https://github.com/itop-itsm-ru/itop-rus
  * @license     http://opensource.org/licenses/AGPL-3.0
  *
  */
 //////////////////////////////////////////////////////////////////////
-// Relations for iTop version >= 2.2.0
+// Relations for Enixer help desk version >= 2.2.0
 //////////////////////////////////////////////////////////////////////
 //
 Dict::Add('RU RU', 'Russian', 'Русский', array(
@@ -93,7 +93,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'Class:Organization/Attribute:overview' => 'Обзор',
 	'Organization:Overview:FunctionalCIs' => 'Конфигурационные единицы этой организации',
 	'Organization:Overview:FunctionalCIs:subtitle' => 'по типу',
-	'Organization:Overview:Users' => 'Пользователи iTop этой организации',
+	'Organization:Overview:Users' => 'Пользователи Enixer help desk этой организации',
 ));
 
 //

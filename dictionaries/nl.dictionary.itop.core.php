@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2018 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 /**
  * @author	LinProfs <info@linprofs.com>
  * 
@@ -670,9 +670,9 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'Class:SynchroDataSource/Attribute:notify_contact_id' => 'Verwittig dit contact',
 	'Class:SynchroDataSource/Attribute:notify_contact_id+' => 'Verwittig dit contact',
 	'Class:SynchroDataSource/Attribute:url_icon' => 'Hyperlink van de Icoon',
-	'Class:SynchroDataSource/Attribute:url_icon+' => 'Hyperlink een (kleine) afbeelding die de applicatie waarmee iTop is gesynchroniseerd',
+	'Class:SynchroDataSource/Attribute:url_icon+' => 'Hyperlink een (kleine) afbeelding die de applicatie waarmee Enixer help desk is gesynchroniseerd',
 	'Class:SynchroDataSource/Attribute:url_application' => 'Hyperlink van de applicatie',
-	'Class:SynchroDataSource/Attribute:url_application+' => 'Hyperlink naar het iTop object in de externe applicatie waarmee iTop is gesynchroniseerd (indien van toepassing). Mogelijke procurators: $this->attribute$ and $replica->primary_key$',
+	'Class:SynchroDataSource/Attribute:url_application+' => 'Hyperlink naar het Enixer help desk object in de externe applicatie waarmee Enixer help desk is gesynchroniseerd (indien van toepassing). Mogelijke procurators: $this->attribute$ and $replica->primary_key$',
 	'Class:SynchroDataSource/Attribute:reconciliation_policy' => 'Reconciliation-beleid',
 	'Class:SynchroDataSource/Attribute:full_load_periodicity' => 'Vernieuwingsinterval',
 	'Class:SynchroDataSource/Attribute:full_load_periodicity+' => 'Het volledige herladen van alle data moet minstens om deze tijd gebeuren.',

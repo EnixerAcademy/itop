@@ -10,7 +10,7 @@
 // module (during the setup) if the datamodel.xxxx.xml file
 // contains the definition of new classes or menus.
 //
-// The recommended way to define new classes (for iTop 2.0) is via the XML definition.
+// The recommended way to define new classes (for Enixer help desk 2.0) is via the XML definition.
 // This file remains in the module's template only for the cases where there is:
 // - either no new class or menu defined in the XML file
 // - or no XML file at all supplied by the module

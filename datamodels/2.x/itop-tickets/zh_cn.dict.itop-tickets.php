@@ -5,20 +5,20 @@
  * @copyright Copyright (C) 2010-2018 Combodo SARL
  * @license	http://opensource.org/licenses/AGPL-3.0
  *
- * This file is part of iTop.
+ * This file is part of Enixer help desk.
  *
- * iTop is free software; you can redistribute it and/or modify
+ * Enixer help desk is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * iTop is distributed in the hope that it will be useful,
+ * Enixer help desk is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with iTop. If not, see <http://www.gnu.org/licenses/>
+ * along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
  */
 // Dictionnay conventions
 // Class:<class_name>
@@ -239,7 +239,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ResponseTicketTTR/Interface:iMetricComputer+' => 'SLT 的解决时间',
 
 	'portal:itop-portal' => '标准门户', // This is the portal name that will be displayed in portal dispatcher (eg. URL in menus)
-	'Page:DefaultTitle' => 'iTop - 用户门户',
+	'Page:DefaultTitle' => 'Enixer help desk - 用户门户',
 	'Brick:Portal:UserProfile:Title' => '我的资料',
 	'Brick:Portal:NewRequest:Title' => '新建工单',
 	'Brick:Portal:NewRequest:Title+' => '<p>需要帮助?</p><p>选择子服务，然后提交工单给我们的支持团队.</p>',

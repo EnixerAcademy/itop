@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2018 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 /**
  * @author	LinProfs <info@linprofs.com>
  * 
@@ -144,7 +144,7 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => 'De gebruikersaccount behoort niet tot de organisaties waar je zelf rechten voor hebt.',
 	'Class:User/Error:PersonIsMandatory' => 'Het contact is verplicht.',
 	'Class:UserInternal' => 'Interne gebruiker',
-	'Class:UserInternal+' => 'Gebruiker gedefinieerd in iTop',
+	'Class:UserInternal+' => 'Gebruiker gedefinieerd in Enixer help desk',
 ));
 
 //
@@ -347,12 +347,12 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'BooleanLabel:yes' => 'Ja',
 	'BooleanLabel:no' => 'Nee',
-    'UI:Login:Title' => 'Aanmelden in iTop',
+    'UI:Login:Title' => 'Aanmelden in Enixer help desk',
 	'Menu:WelcomeMenu' => 'Welkom', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenu+' => 'Welkom in iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:WelcomeMenu+' => 'Welkom in Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => 'Welkom', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenuPage+' => 'Welkom in iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'UI:WelcomeMenu:Title' => 'Welkom in iTop',
+	'Menu:WelcomeMenuPage+' => 'Welkom in Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'UI:WelcomeMenu:Title' => 'Welkom in Enixer help desk',
 
 	'UI:WelcomeMenu:LeftBlock' => '<p>iTop is een compleet en open source Portaal voor IT-operaties.</p>
 <ul>Inclusief op maat van jouw IT-omgeving:
@@ -516,14 +516,14 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:SearchValue:CheckAll' => 'Vink alles aan',
 	'UI:SearchValue:UncheckAll' => 'Vink alles uit',
 	'UI:SelectOne' => '-- selecteer --',
-	'UI:Login:Welcome' => 'Welkom in iTop!',
+	'UI:Login:Welcome' => 'Welkom in Enixer help desk!',
 	'UI:Login:IncorrectLoginPassword' => 'Ongeldige gebruikersnaam of wachtwoord, probeer opnieuw.',
 	'UI:Login:IdentifyYourself' => 'Identificeer jezelf voordat je verder gaat',
 	'UI:Login:UserNamePrompt' => 'Gebruikersnaam',
 	'UI:Login:PasswordPrompt' => 'Wachtwoord',
 	'UI:Login:ForgotPwd' => 'Wachtwoord vergeten?',
 	'UI:Login:ForgotPwdForm' => 'Wachtwoord vergeten',
-	'UI:Login:ForgotPwdForm+' => 'iTop kan je een e-mail sturen waarin de instructies voor het resetten van jouw account staan.',
+	'UI:Login:ForgotPwdForm+' => 'Enixer help desk kan je een e-mail sturen waarin de instructies voor het resetten van jouw account staan.',
 	'UI:Login:ResetPassword' => 'Stuur nu!',
 	'UI:Login:ResetPwdFailed' => 'E-mail sturen mislukt: %1$s',
 
@@ -551,16 +551,16 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:Login:RetypeNewPasswordPrompt' => 'Herhaal nieuwe wachtwoord',
 	'UI:Login:IncorrectOldPassword' => 'Fout: het oude wachtwoord is incorrect',
 	'UI:LogOffMenu' => 'Log uit',
-	'UI:LogOff:ThankYou' => 'Bedankt voor het gebruiken van iTop',
+	'UI:LogOff:ThankYou' => 'Bedankt voor het gebruiken van Enixer help desk',
 	'UI:LogOff:ClickHereToLoginAgain' => 'Klik hier om in te loggen',
 	'UI:ChangePwdMenu' => 'Verander wachtwoord',
 	'UI:Login:PasswordChanged' => 'Wachtwoord met succes veranderd',
-	'UI:AccessRO-All' => 'iTop is alleen-lezen',
-	'UI:AccessRO-Users' => 'iTop is alleen-lezen voor eindgebruikers',
+	'UI:AccessRO-All' => 'Enixer help desk is alleen-lezen',
+	'UI:AccessRO-Users' => 'Enixer help desk is alleen-lezen voor eindgebruikers',
 	'UI:ApplicationEnvironment' => 'Omgeving van de applicatie: %1$s',
 	'UI:Login:RetypePwdDoesNotMatch' => 'Het nieuwe wachtwoord en de herhaling van het nieuwe wachtwoord komen niet overeen',
-	'UI:Button:Login' => 'Enter iTop',
-	'UI:Login:Error:AccessRestricted' => 'Geen toegang tot iTop. Neem contact op met een iTop-beheerder.',
+	'UI:Button:Login' => 'Enter Enixer help desk',
+	'UI:Login:Error:AccessRestricted' => 'Geen toegang tot Enixer help desk.Neem contact op met een iTop-beheerder.',
 	'UI:Login:Error:AccessAdmin' => 'Alleen toegankelijk voor mensen met beheerdersrechten. Neem contact op met een iTop-beheerder',
 	'UI:CSVImport:MappingSelectOne' => '-- Selecteer --',
 	'UI:CSVImport:MappingNotApplicable' => '-- Negeer dit veld --',
@@ -571,7 +571,7 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:CSVImport:DataLine1' => 'Dataregel 1',
 	'UI:CSVImport:DataLine2' => 'Dataregel 2',
 	'UI:CSVImport:idField' => 'id (Primaire sleutel (key))',
-	'UI:Title:BulkImport' => 'iTop - Bulk import',
+	'UI:Title:BulkImport' => 'Enixer help desk - Bulk import',
 	'UI:Title:BulkImport+' => 'CSV Import Wizard',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class' => 'Synchronisatie van %1$d objecten van klasse %2$s',
 	'UI:CSVImport:ClassesSelectOne' => '-- selecteer een --',
@@ -620,7 +620,7 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:CSVImport:AlertMultipleMapping' => 'Zorg dat er voor elk veld slechts één mapping is',
 	'UI:CSVImport:AlertNoSearchCriteria' => 'Selecteer tenminste een zoekcriterium.',
 	'UI:CSVImport:Encoding' => 'Tekstencodering',	
-	'UI:UniversalSearchTitle' => 'iTop - Universele zoekopdracht',
+	'UI:UniversalSearchTitle' => 'Enixer help desk - Universele zoekopdracht',
 	'UI:UniversalSearch:Error' => 'Fout: %1$s',
 	'UI:UniversalSearch:LabelSelectTheClass' => 'Selecteer de klasse om te zoeken: ',
 
@@ -668,9 +668,9 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:CSVExport:AdvancedMode' => 'Geavanceerde mode',
 	'UI:CSVExport:AdvancedMode+' => 'In geavanceerde mode worden verscheidene kolommen toegevoegd aan de export: het id van het object, het id van de externe codes en hun reconciliation-attributen.',
 	'UI:CSVExport:LostChars' => 'Tekstcoderingsprobleem',
-	'UI:CSVExport:LostChars+' => 'Het gedownloade bestand zal worden gecodeerd in %1$s. iTop heeft een aantal karakters gedetecteerd die niet compatibel zijn met dit formaat. Deze karakters zullen worden vervangen door een ander karakter (bijvoorbeeld karakters met accent kunnen het accent verliezen), of ze zullen worden verwijderd. Je kan data kopiëren en plakken van jouw webbrowser. Ook kan je de beheerder contacteren om de codes te veranderen (Zie parameter \'csv_file_default_charset\').',
+	'UI:CSVExport:LostChars+' => 'Het gedownloade bestand zal worden gecodeerd in %1$s. Enixer help desk heeft een aantal karakters gedetecteerd die niet compatibel zijn met dit formaat. Deze karakters zullen worden vervangen door een ander karakter (bijvoorbeeld karakters met accent kunnen het accent verliezen), of ze zullen worden verwijderd. Je kan data kopiëren en plakken van jouw webbrowser. Ook kan je de beheerder contacteren om de codes te veranderen (Zie parameter \'csv_file_default_charset\').',
 
-	'UI:Audit:Title' => 'iTop - CMDB Audit',
+	'UI:Audit:Title' => 'Enixer help desk - CMDB Audit',
 	'UI:Audit:InteractiveAudit' => 'Interactieve Audit',
 	'UI:Audit:HeaderAuditRule' => 'Auditregel',
 	'UI:Audit:HeaderNbObjects' => '# objecten',
@@ -679,7 +679,7 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:Audit:ErrorIn_Rule_Reason' => 'OQL-fout in de regel %1$s: %2$s.',
 	'UI:Audit:ErrorIn_Category_Reason' => 'OQL-fout in de categorie %1$s: %2$s.',
 
-	'UI:RunQuery:Title' => 'iTop - Evaluatie van OQL-query',
+	'UI:RunQuery:Title' => 'Enixer help desk - Evaluatie van OQL-query',
 	'UI:RunQuery:QueryExamples' => 'Voorbeelden van queries',
 	'UI:RunQuery:HeaderPurpose' => 'Doel',
 	'UI:RunQuery:HeaderPurpose+' => 'Uitleg over de query',
@@ -691,8 +691,8 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:RunQuery:SerializedFilter' => 'Serialized filter: ',
 	'UI:RunQuery:Error' => 'Er trad een fout op tijdens het uitvoeren van deze query: %1$s',
 	'UI:Query:UrlForExcel' => 'URL om te gebruiken voor MS Excel-webqueries',
-	'UI:Query:UrlV1' => 'De lijst van velden is leeg gelaten. De pagina <em>export-V2.php</em> kan niet aangeroepen worden zonder deze informatie.Daarom verwijst de onderstaande link naar de oude export-pagina: <em>export.php</em>. Deze verouderde versie heeft enkele beperkingen: de lijst van geëxporteerde velden kan verschillen afhankelijk van het gekozen export-formaat en het datamodel van iTop. Als je wil dat de lijst van geëxporteerde kolommen hetzelfde blijft over lange tijd, dan moet je een waarde opgeven voor het attribuut "Velden" en de pagina <em>export-V2.php</em> gebruiken.',
-	'UI:Schema:Title' => 'iTop objecten schema',
+	'UI:Query:UrlV1' => 'De lijst van velden is leeg gelaten. De pagina <em>export-V2.php</em> kan niet aangeroepen worden zonder deze informatie.Daarom verwijst de onderstaande link naar de oude export-pagina: <em>export.php</em>. Deze verouderde versie heeft enkele beperkingen: de lijst van geëxporteerde velden kan verschillen afhankelijk van het gekozen export-formaat en het datamodel van Enixer help desk.Als je wil dat de lijst van geëxporteerde kolommen hetzelfde blijft over lange tijd, dan moet je een waarde opgeven voor het attribuut "Velden" en de pagina <em>export-V2.php</em> gebruiken.',
+	'UI:Schema:Title' => 'Enixer help desk objecten schema',
 	'UI:Schema:CategoryMenuItem' => 'Categorie <b>%1$s</b>',
 	'UI:Schema:Relationships' => 'Relaties',
 	'UI:Schema:AbstractClass' => 'Abstracte klasse: objecten van deze klasse kunnen niet worden geïnstantieerd.',
@@ -807,9 +807,9 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:Delete:PleaseDoTheManualOperations' => 'Verricht eerst de manuele handelingen die hierboven staan voordat je dit object verwijdert',
 	'UI:Delect:Confirm_Object' => 'Bevestig dat je  %1$s wil verwijderen.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Bevestig dat je de volgende %1$d objecten van klasse %2$s wilt verwijderen.',
-	'UI:WelcomeToITop' => 'Welcome in iTop',
-	'UI:DetailsPageTitle' => 'iTop - %1$s - %2$s details',
-	'UI:ErrorPageTitle' => 'iTop - Foutmelding',
+	'UI:WelcomeToITop' => 'Welcome in Enixer help desk',
+	'UI:DetailsPageTitle' => 'Enixer help desk - %1$s - %2$s details',
+	'UI:ErrorPageTitle' => 'Enixer help desk - Foutmelding',
 	'UI:ObjectDoesNotExist' => 'Sorry, dit object bestaat niet (of je bent niet gemachtigd het te bekijken).',
 	'UI:ObjectArchived' => 'Dit object werd gearchiveerd. Gelieve de Archief-mode in te schakelen of je beheerder te contacteren.',
 	'Tag:Archived' => 'Gearchiveerd',
@@ -819,7 +819,7 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'Tag:Synchronized' => 'Gesynchroniseerd',
 	'ObjectRef:Archived' => 'Gearchiveerd',
 	'ObjectRef:Obsolete' => 'Buiten dienst',
-	'UI:SearchResultsPageTitle' => 'iTop - Zoekresultaten',
+	'UI:SearchResultsPageTitle' => 'Enixer help desk - Zoekresultaten',
 	'UI:SearchResultsTitle' => 'Zoekresultaten',
 	'UI:SearchResultsTitle+' => 'Volledige tekst - zoekresultaten',
 	'UI:Search:NoSearch' => 'Geen zoekopdracht',
@@ -829,28 +829,28 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:FullTextSearchTitle_Text' => 'Resultaten voor "%1$s":',
 	'UI:Search:Count_ObjectsOf_Class_Found' => '%1$d object(en) van klasse %2$s gevonden.',
 	'UI:Search:NoObjectFound' => 'Geen object gevonden.',
-	'UI:ModificationPageTitle_Object_Class' => 'iTop - %1$s - %2$s modificatie',
+	'UI:ModificationPageTitle_Object_Class' => 'Enixer help desk - %1$s - %2$s modificatie',
 	'UI:ModificationTitle_Class_Object' => 'Modificatie van %1$s: <span class="hilite">%2$s</span>',
-	'UI:ClonePageTitle_Object_Class' => 'iTop - Kloon %1$s - %2$s modificatie',
+	'UI:ClonePageTitle_Object_Class' => 'Enixer help desk - Kloon %1$s - %2$s modificatie',
 	'UI:CloneTitle_Class_Object' => 'Kloon van %1$s: <span class="hilite">%2$s</span>',
-	'UI:CreationPageTitle_Class' => 'iTop - Nieuwe %1$s aangemaakt',
+	'UI:CreationPageTitle_Class' => 'Enixer help desk - Nieuwe %1$s aangemaakt',
 	'UI:CreationTitle_Class' => '%1$s aanmaken',
 	'UI:SelectTheTypeOf_Class_ToCreate' => 'Selecteer het type %1$s dat moet worden aangemaakt:',
 	'UI:Class_Object_NotUpdated' => 'Geen verandering waargenomen, %1$s (%2$s) is <strong>not</strong> gemodificeerd.',
 	'UI:Class_Object_Updated' => '%1$s (%2$s) geüpdated.',
-	'UI:BulkDeletePageTitle' => 'iTop - Meerdere objecten verwijderen',
+	'UI:BulkDeletePageTitle' => 'Enixer help desk - Meerdere objecten verwijderen',
 	'UI:BulkDeleteTitle' => 'Selecteer de objecten die je wilt verwijderen:',
 	'UI:PageTitle:ObjectCreated' => 'Object Aangemaakt.',
 	'UI:Title:Object_Of_Class_Created' => '%1$s - %2$s aangemaakt.',
 	'UI:Apply_Stimulus_On_Object_In_State_ToTarget_State' => 'Bezig met het toepassen van %1$s op object: %2$s in state %3$s tot target state: %4$s.',
 	'UI:ObjectCouldNotBeWritten' => 'Het object kon niet geschreven worden: %1$s',
-	'UI:PageTitle:FatalError' => 'iTop - Fatale Fout',
+	'UI:PageTitle:FatalError' => 'Enixer help desk - Fatale Fout',
 	'UI:SystemIntrusion' => 'Toegang geweigerd. U hebt een actie aangevraagd waarvoor je niet gemachtigd bent.',
-	'UI:FatalErrorMessage' => 'Fatale fout, iTop kan niet doorgaan.',
+	'UI:FatalErrorMessage' => 'Fatale fout, Enixer help desk kan niet doorgaan.',
 	'UI:Error_Details' => 'Fout: %1$s.',
 
-	'UI:PageTitle:ClassProjections'	=> 'iTop gebruikersmanagement - klasse-projecties',
-	'UI:PageTitle:ProfileProjections' => 'iTop gebuikersmanagement - profiel-projecties',
+	'UI:PageTitle:ClassProjections'	=> 'Enixer help desk gebruikersmanagement - klasse-projecties',
+	'UI:PageTitle:ProfileProjections' => 'Enixer help desk gebuikersmanagement - profiel-projecties',
 	'UI:UserManagement:Class' => 'Klasse',
 	'UI:UserManagement:Class+' => 'Klasse van objecten',
 	'UI:UserManagement:ProjectedObject' => 'Object',
@@ -950,8 +950,8 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'Menu:NotificationsMenu+' => 'Configuratie van de Notificaties', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:NotificationsMenu:Title' => 'Configuratie van <span class="hilite">Notificaties</span>',
 	'UI:NotificationsMenu:Help' => 'Help',
-	'UI:NotificationsMenu:HelpContent' => '<p>In iTop zijn de notificaties volledig aan te passen. Ze zijn gebaseerd op twee sets van objecten: <i>triggers and actions</i>.</p>
-<p><i><b>Triggers</b></i> bepalen wanneer een melding wordt uitgevoerd. Er zijn verschillende triggers als onderdeel van iTop core, maar andere kunnen door middel van uitbreidingen worden gebracht:
+	'UI:NotificationsMenu:HelpContent' => '<p>In Enixer help desk zijn de notificaties volledig aan te passen. Ze zijn gebaseerd op twee sets van objecten: <i>triggers and actions</i>.</p>
+<p><i><b>Triggers</b></i> bepalen wanneer een melding wordt uitgevoerd. Er zijn verschillende triggers als onderdeel van Enixer help desk core, maar andere kunnen door middel van uitbreidingen worden gebracht:
 <ol>
 	<li>Sommige triggers worden uitgevoerd wanneer een object van de gespecificeerde klasse wordt <b>aangemaakt</b>, <b>bijgewerkt</b> of <b>verwijderd</b>.</li>
 	<li>Sommige triggers worden uitgevoerd wanneer een object van een bepaalde klasse een gespecificeerde <b>status</b> <b>binnenkomt</b> of <b>verlaat</b>.</li>
@@ -1055,8 +1055,8 @@ Indien gekoppeld aan een Trigger, wordt aan elke actie een "orde" nummer gegeven
 	'UI:RelationTooltip:Redundancy' => 'Redundantie',
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => '# geïmpacteerde items: %1$d / %2$d',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => 'Kritische drempelwaarde: %1$d / %2$d',
-	'Portal:Title' => 'iTop gebruikersportaal',
-	'Portal:NoRequestMgmt' => 'Beste %1$s, je bent naar deze pagina doorverwezen omdat jouw account is geconfigureerd met het profiel \'Portal user\'. Helaas is iTop niet geïnstalleerd met de feature \'Request Management\'. Neem contact op met jouw beheerder.',
+	'Portal:Title' => 'Enixer help desk gebruikersportaal',
+	'Portal:NoRequestMgmt' => 'Beste %1$s, je bent naar deze pagina doorverwezen omdat jouw account is geconfigureerd met het profiel \'Portal user\'. Helaas is Enixer help desk niet geïnstalleerd met de feature \'Request Management\'. Neem contact op met jouw beheerder.',
 	'Portal:Refresh' => 'Herlaad',
 	'Portal:Back' => 'Vorige',
 	'Portal:WelcomeUserOrg' => 'Welkom %1$s, van %2$s',
@@ -1140,7 +1140,7 @@ Indien gekoppeld aan een Trigger, wordt aan elke actie een "orde" nummer gegeven
 	'UI:Favorites:ShowObsoleteData+' => 'Toon \'Buiten dienst\'-data in zoekresultaten en in keuzelijsten.',
 	'UI:NavigateAwayConfirmationMessage' => 'Bewerkingen zullen worden genegeerd.',
 	'UI:CancelConfirmationMessage' => 'Je zult jouw aanpassingen verliezen. Wil je alsnog doorgaan?',
-	'UI:AutoApplyConfirmationMessage' => 'Sommige veranderingen zijn nog niet doorgevoerd. Wilt je dat iTop deze meeneemt?',
+	'UI:AutoApplyConfirmationMessage' => 'Sommige veranderingen zijn nog niet doorgevoerd. Wilt je dat Enixer help desk deze meeneemt?',
 	'UI:Create_Class_InState' => 'Maak %1$s aan met status: ',
 	'UI:OrderByHint_Values' => 'Sorteervolgorde: %1$s',
 	'UI:Menu:AddToDashboard' => 'Voeg toe aan Dashboard...',
@@ -1384,8 +1384,8 @@ Indien gekoppeld aan een Trigger, wordt aan elke actie een "orde" nummer gegeven
 	'UI:AddAnExisting_Class' => 'Voeg objecten van type %1$s toe...',
 	'UI:SelectionOf_Class' => 'Selectie van objecten van type %1$s',
 
-	'UI:AboutBox' => 'Over iTop...',
-	'UI:About:Title' => 'Over iTop',
+	'UI:AboutBox' => 'Over Enixer help desk...',
+	'UI:About:Title' => 'Over Enixer help desk',
 	'UI:About:DataModel' => 'Datamodel',
 	'UI:About:Support' => 'Support informatie',
 	'UI:About:Licenses' => 'Licenties',
@@ -1410,7 +1410,7 @@ Indien gekoppeld aan een Trigger, wordt aan elke actie een "orde" nummer gegeven
 	'ExcelExport:PreparingExport' => 'Export aan het voorbereiden...',
 	'ExcelExport:Statistics' => 'Statistieken',
 	'portal:legacy_portal' => 'Portaal voor eindgebruikers',
-	'portal:backoffice' => 'iTop Back-Office User Interface',
+	'portal:backoffice' => 'Enixer help desk Back-Office User Interface',
 
 	'UI:CurrentObjectIsLockedBy_User' => 'Het object is vergrendeld omdat het momenteel aangepast wordt door %1$s.',
 	'UI:CurrentObjectIsLockedBy_User_Explanation' => 'Het object wordt aangepast door %1$s. Jouw wijzigingen kunnen niet opgeslagen worden omdat ze een conflict kunnen veroorzaken.',
@@ -1563,7 +1563,7 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 ));
 
 //
-// iTop Newsroom menu
+// Enixer help desk Newsroom menu
 //
 Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:Newsroom:NoNewMessage' => 'Geen nieuw bericht',

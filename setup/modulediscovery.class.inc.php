@@ -2,20 +2,20 @@
 /**
  * Copyright (c) 2010-2018 Combodo SARL
  *
- * This file is part of iTop.
+ * This file is part of Enixer help desk.
  *
- * iTop is free software; you can redistribute it and/or modify
+ * Enixer help desk is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * iTop is distributed in the hope that it will be useful,
+ * Enixer help desk is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with iTop. If not, see <http://www.gnu.org/licenses/>
+ * along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
  *
  */
 
@@ -339,8 +339,8 @@ class ModuleDiscovery
 	}
 
 	/**
-	 * Search (on the disk) for all defined iTop modules, load them and returns the list (as an array)
-	 * of the possible iTop modules to install
+	 * Search (on the disk) for all defined Enixer help desk modules, load them and returns the list (as an array)
+	 * of the possible Enixer help desk modules to install
 	 *
 	 * @param $aSearchDirs array of directories to search (absolute paths)
 	 * @param bool $bAbortOnMissingDependency ...

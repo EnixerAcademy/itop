@@ -81,7 +81,7 @@ function CheckParam($sParamName)
 
 function Usage($oP)
 {
-	$oP->p('Perform a backup of the iTop database by running mysqldump');
+	$oP->p('Perform a backup of the Enixer help desk database by running mysqldump');
 	$oP->p('Parameters:');
 	if (utils::IsModeCLI())
 	{
@@ -197,7 +197,7 @@ if ($bSimulate)
 }
 elseif (MetaModel::GetConfig()->Get('demo_mode'))
 {
-	$oP->p("Sorry, iTop is in demonstration mode: the feature is disabled");
+	$oP->p("Sorry, Enixer help desk is in demonstration mode: the feature is disabled");
 }
 else
 {

@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2017 Combodo SARL
 //
-// This file is part of iTop.
+// This file is part of Enixer help desk.
 //
-// iTop is free software; you can redistribute it and/or modify
+// Enixer help desk is free software; you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// iTop is distributed in the hope that it will be useful,
+// Enixer help desk is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Affero General Public License for more details.
 //
 // You should have received a copy of the GNU Affero General Public License
-// along with iTop. If not, see <http://www.gnu.org/licenses/>
+// along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 /**
  * Handles various ajax requests - called through pages/exec.php
@@ -359,7 +359,7 @@ try
 				$aSelectedExtensionCodes[] = $oExtension->sCode;
 			}
 			$aSelectedExtensions = $oExtensionsMap->GetChoices();
-			$oRuntimeEnv->RecordInstallation($oConfig, $sDataModelVersion, $aSelectedModules, $aSelectedExtensionCodes, 'Done by the iTop Hub Connector');
+			$oRuntimeEnv->RecordInstallation($oConfig, $sDataModelVersion, $aSelectedModules, $aSelectedExtensionCodes, 'Done by the Enixer help desk Hub Connector');
 			
 			// Report the success in a way that will be detected by the ajax caller
 			SetupPage::log_info('Deployment successfully completed.');

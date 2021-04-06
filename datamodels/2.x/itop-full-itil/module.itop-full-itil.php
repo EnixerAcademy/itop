@@ -1,7 +1,7 @@
 <?php
 
 //
-// iTop module definition file
+// Enixer help desk module definition file
 //
 
 SetupWebPage::AddModule(

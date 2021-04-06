@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 /**
  * @copyright   Copyright (C) 2010-2017 Combodo SARL
  * @license     http://opensource.org/licenses/AGPL-3.0
@@ -328,12 +328,12 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'BooleanLabel:yes' => 'Igen',
 	'BooleanLabel:no' => 'Nem',
-    'UI:Login:Title' => 'iTop login~~',
+    'UI:Login:Title' => 'Enixer help desk login~~',
 	'Menu:WelcomeMenu' => 'Üdvözlöm', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenu+' => '', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => 'Üdvözlöm', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage+' => '', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'UI:WelcomeMenu:Title' => 'Üdvözli az iTop',
+	'UI:WelcomeMenu:Title' => 'Üdvözli az Enixer help desk',
 
 	'UI:WelcomeMenu:LeftBlock' => '<p>iTop egy teljeskörű, OpenSource, IT üzemeltetés támogató portál.</p>
 <ul>A következőket tartalmazza:
@@ -347,13 +347,13 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 <p>Mindegyik modul önállóan telepíthető és használható.</p>',
 
 	'UI:WelcomeMenu:RightBlock' => '<p>iTop egy szolgáltatás orientált megoldás, amely segít az IT szakembereknek több ügyfél és szervezet egyidejű menedzselését.
-<ul>az iTop az üzleti folyamatok javításához egy hatékony eszköz, mert:
+<ul>az Enixer help desk az üzleti folyamatok javításához egy hatékony eszköz, mert:
 <li>javítja az IT menedzsment hatékonyságát</li> 
 <li>növeli IT üzemeltetés teljesítményét</li> 
 <li>növeli az ügyfél elégedettséget és a vezetők számára lehetőséget ad az üzleti teljesítmény növelésére</li>
 </ul>
 </p>
-<p>Az iTop teljesn nyílt ezért, egyszerűen integrálható a jelenlegi IT infrastruktúrába</p>
+<p>Az Enixer help desk teljesn nyílt ezért, egyszerűen integrálható a jelenlegi IT infrastruktúrába</p>
 <p>
 <ul>Az üzemeltetési portál bevezetésével:
 <li>jobban menedzselhető az egyre komplexebb IT infrstruktúra</li>
@@ -497,14 +497,14 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:SearchValue:CheckAll' => 'Check All~~',
 	'UI:SearchValue:UncheckAll' => 'Uncheck All~~',
 	'UI:SelectOne' => '-- válasszon ki egyet --',
-	'UI:Login:Welcome' => 'Üdvözli az iTop!',
+	'UI:Login:Welcome' => 'Üdvözli az Enixer help desk!',
 	'UI:Login:IncorrectLoginPassword' => 'Nem megfelelő bejelentkezési név/jelszó, kérjük próbálja újra.',
 	'UI:Login:IdentifyYourself' => 'Folytatás előtt azonosítsa magát',
 	'UI:Login:UserNamePrompt' => 'Felhasználó név',
 	'UI:Login:PasswordPrompt' => 'Jelszó',
 	'UI:Login:ForgotPwd' => 'Forgot your password?~~',
 	'UI:Login:ForgotPwdForm' => 'Forgot your password~~',
-	'UI:Login:ForgotPwdForm+' => 'iTop can send you an email in which you will find instructions to follow to reset your account.~~',
+	'UI:Login:ForgotPwdForm+' => 'Enixer help desk can send you an email in which you will find instructions to follow to reset your account.~~',
 	'UI:Login:ResetPassword' => 'Send now!~~',
 	'UI:Login:ResetPwdFailed' => 'Failed to send an email: %1$s~~',
 
@@ -516,8 +516,8 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:ResetPwd-Error-NoEmail' => 'missing an email address. Please Contact your administrator.~~',
 	'UI:ResetPwd-Error-Send' => 'email transport technical issue. Please Contact your administrator.~~',
 	'UI:ResetPwd-EmailSent' => 'Please check your email box and follow the instructions...~~',
-	'UI:ResetPwd-EmailSubject' => 'Reset your iTop password~~',
-	'UI:ResetPwd-EmailBody' => '<body><p>You have requested to reset your iTop password.</p><p>Please follow this link (single usage) to <a href="%1$s">enter a new password</a></p>.~~',
+	'UI:ResetPwd-EmailSubject' => 'Reset your Enixer help desk password~~',
+	'UI:ResetPwd-EmailBody' => '<body><p>You have requested to reset your Enixer help desk password.</p><p>Please follow this link (single usage) to <a href="%1$s">enter a new password</a></p>.~~',
 
 	'UI:ResetPwd-Title' => 'Reset password~~',
 	'UI:ResetPwd-Error-InvalidToken' => 'Sorry, either the password has already been reset, or you have received several emails. Please make sure that you use the link provided in the very last email received.~~',
@@ -536,13 +536,13 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:LogOff:ClickHereToLoginAgain' => 'Ismételt bejelentkezéshez kattintson ide',
 	'UI:ChangePwdMenu' => 'Jelszó módosítás...',
 	'UI:Login:PasswordChanged' => 'Jelszó sikeresen beállítva!',
-	'UI:AccessRO-All' => 'iTop csak olvasás módban',
-	'UI:AccessRO-Users' => 'iTop csak olvasás módban a végfelhasználók számára',
+	'UI:AccessRO-All' => 'Enixer help desk csak olvasás módban',
+	'UI:AccessRO-Users' => 'Enixer help desk csak olvasás módban a végfelhasználók számára',
 	'UI:ApplicationEnvironment' => 'Application environment: %1$s~~',
 	'UI:Login:RetypePwdDoesNotMatch' => 'Az új jelszó és ismételten beírt érték nem egyezik!',
-	'UI:Button:Login' => 'Belépés az iTop alkalmazásba',
-	'UI:Login:Error:AccessRestricted' => 'iTop hozzáférés korlátozva. Kérem forduljon az iTop adminisztrátorhoz!',
-	'UI:Login:Error:AccessAdmin' => 'Adminisztrátori hozzáférés korlátozott. Kérem forduljon az iTop adminisztrátorhoz!',
+	'UI:Button:Login' => 'Belépés az Enixer help desk alkalmazásba',
+	'UI:Login:Error:AccessRestricted' => 'Enixer help desk hozzáférés korlátozva. Kérem forduljon az Enixer help desk adminisztrátorhoz!',
+	'UI:Login:Error:AccessAdmin' => 'Adminisztrátori hozzáférés korlátozott. Kérem forduljon az Enixer help desk adminisztrátorhoz!',
 	'UI:CSVImport:MappingSelectOne' => '-- válasszon ki egyet --',
 	'UI:CSVImport:MappingNotApplicable' => '-- mező figyelmen kívül hagyása --',
 	'UI:CSVImport:NoData' => 'Üres mező..., kérem agyjon meg adatot!',
@@ -552,7 +552,7 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:CSVImport:DataLine1' => 'Adatsor 1',
 	'UI:CSVImport:DataLine2' => 'Adatsor 2',
 	'UI:CSVImport:idField' => 'id (elsődeges kulcs)',
-	'UI:Title:BulkImport' => 'iTop - tömeges betöltés',
+	'UI:Title:BulkImport' => 'Enixer help desk - tömeges betöltés',
 	'UI:Title:BulkImport+' => '',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class' => '%2$s osztály %1$d objektumának szinkronizációja',
 	'UI:CSVImport:ClassesSelectOne' => '-- válasszon ki egyet --',
@@ -601,7 +601,7 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:CSVImport:AlertMultipleMapping' => 'Please make sure that a target field is mapped only once.~~',
 	'UI:CSVImport:AlertNoSearchCriteria' => 'Kérem adjon eg legalább egy keresési kritériumot',
 	'UI:CSVImport:Encoding' => 'Karakter kódolása',	
-	'UI:UniversalSearchTitle' => 'iTop - Univerzális kereső',
+	'UI:UniversalSearchTitle' => 'Enixer help desk - Univerzális kereső',
 	'UI:UniversalSearch:Error' => 'Hiba: %1$s',
 	'UI:UniversalSearch:LabelSelectTheClass' => 'Keresendő osztály kiválasztása:',
 
@@ -649,9 +649,9 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:CSVExport:AdvancedMode' => 'Advanced mode~~',
 	'UI:CSVExport:AdvancedMode+' => 'In advanced mode, several columns are added to the export: the id of the object, the id of external keys and their reconciliation attributes.~~',
 	'UI:CSVExport:LostChars' => 'Encoding issue~~',
-	'UI:CSVExport:LostChars+' => 'The downloaded file will be encoded into %1$s. iTop has detected some characters that are not compatible with this format. Those characters will either be replaced by a substitute (e.g. accentuated chars losing the accent), or they will be discarded. You can copy/paste the data from your web browser. Alternatively, you can contact your administrator to change the encoding (See parameter \'csv_file_default_charset\').~~',
+	'UI:CSVExport:LostChars+' => 'The downloaded file will be encoded into %1$s. Enixer help desk has detected some characters that are not compatible with this format. Those characters will either be replaced by a substitute (e.g. accentuated chars losing the accent), or they will be discarded. You can copy/paste the data from your web browser. Alternatively, you can contact your administrator to change the encoding (See parameter \'csv_file_default_charset\').~~',
 
-	'UI:Audit:Title' => 'iTop - CMDB Audit',
+	'UI:Audit:Title' => 'Enixer help desk - CMDB Audit',
 	'UI:Audit:InteractiveAudit' => 'Interaktív Audit',
 	'UI:Audit:HeaderAuditRule' => 'Audit szabály',
 	'UI:Audit:HeaderNbObjects' => '# Objektumok',
@@ -660,7 +660,7 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:Audit:ErrorIn_Rule_Reason' => 'OQL Error in the Rule %1$s: %2$s.~~',
 	'UI:Audit:ErrorIn_Category_Reason' => 'OQL Error in the Category %1$s: %2$s.~~',
 
-	'UI:RunQuery:Title' => 'iTop - OQL lekérdezés értékelés',
+	'UI:RunQuery:Title' => 'Enixer help desk - OQL lekérdezés értékelés',
 	'UI:RunQuery:QueryExamples' => 'Lekérdezés példák',
 	'UI:RunQuery:HeaderPurpose' => 'Cél',
 	'UI:RunQuery:HeaderPurpose+' => '',
@@ -672,8 +672,8 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:RunQuery:SerializedFilter' => 'Szerializált szűrő: ',
 	'UI:RunQuery:Error' => 'A lekérdezés futtatása közben a következő hiba jelentkezett: %1$s',
 	'UI:Query:UrlForExcel' => 'URL to use for MS-Excel web queries~~',
-	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested herebelow points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of iTop. Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.~~',
-	'UI:Schema:Title' => 'iTop objektum séma',
+	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested herebelow points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of Enixer help desk. Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.~~',
+	'UI:Schema:Title' => 'Enixer help desk objektum séma',
 	'UI:Schema:CategoryMenuItem' => '<b>%1$s</b> kategória',
 	'UI:Schema:Relationships' => 'Kapcsolatok',
 	'UI:Schema:AbstractClass' => 'Absztrakt osztály: nem példányosítható belőle objektum.',
@@ -788,9 +788,9 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:Delete:PleaseDoTheManualOperations' => 'Kérem hajtsa végre a következő listában található műveleteket manuálisan az objektum törlésének kéréséhez',
 	'UI:Delect:Confirm_Object' => 'Kérjük hagyja jóvá a %1$s törlését!',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => 'Kérjük hagyja jóvá a %2$s ostály %1$d objektumának törlését!',
-	'UI:WelcomeToITop' => 'Üdvözli az iTop',
-	'UI:DetailsPageTitle' => 'iTop - %1$s - %2$s részletek',
-	'UI:ErrorPageTitle' => 'iTop - Hiba',
+	'UI:WelcomeToITop' => 'Üdvözli az Enixer help desk',
+	'UI:DetailsPageTitle' => 'Enixer help desk - %1$s - %2$s részletek',
+	'UI:ErrorPageTitle' => 'Enixer help desk - Hiba',
 	'UI:ObjectDoesNotExist' => 'Sajnálom ez az objektum nem létezik (vagy a megtekintése nem engedélyezett a felhasználó számára).',
 	'UI:ObjectArchived' => 'This object has been archived. Please enable the archive mode or contact your administrator.~~',
 	'Tag:Archived' => 'Archived~~',
@@ -800,7 +800,7 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'Tag:Synchronized' => 'Synchronized~~',
 	'ObjectRef:Archived' => 'Archived~~',
 	'ObjectRef:Obsolete' => 'Obsolete~~',
-	'UI:SearchResultsPageTitle' => 'iTop - Keresés eredményei',
+	'UI:SearchResultsPageTitle' => 'Enixer help desk - Keresés eredményei',
 	'UI:SearchResultsTitle' => 'Keresés eredményei',
 	'UI:SearchResultsTitle+' => 'Full-text search results~~',
 	'UI:Search:NoSearch' => 'Nincs keresés',
@@ -810,28 +810,28 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:FullTextSearchTitle_Text' => '"%1$s" keresés eredményei:',
 	'UI:Search:Count_ObjectsOf_Class_Found' => '%2$s osztály %1$d objektuma',
 	'UI:Search:NoObjectFound' => 'Objektum nem található',
-	'UI:ModificationPageTitle_Object_Class' => 'iTop - %1$s - %2$s módosítása',
+	'UI:ModificationPageTitle_Object_Class' => 'Enixer help desk - %1$s - %2$s módosítása',
 	'UI:ModificationTitle_Class_Object' => '%1$s: <span class=\\"hilite\\">%2$s</span> módosítása',
-	'UI:ClonePageTitle_Object_Class' => 'iTop - %1$s - %2$s klón módosítása',
+	'UI:ClonePageTitle_Object_Class' => 'Enixer help desk - %1$s - %2$s klón módosítása',
 	'UI:CloneTitle_Class_Object' => '%1$s: <span class=\\"hilite\\">%2$s</span> klón',
-	'UI:CreationPageTitle_Class' => 'iTop - %1$s létrehozása',
+	'UI:CreationPageTitle_Class' => 'Enixer help desk - %1$s létrehozása',
 	'UI:CreationTitle_Class' => '%1$s létrehozása',
 	'UI:SelectTheTypeOf_Class_ToCreate' => 'Válassza ki a létrehozni kívánt %1$s osztály típusát:',
 	'UI:Class_Object_NotUpdated' => 'Változás nem történt, %1$s (%2$s) <strong>NEM</strong> lett módosítva.',
 	'UI:Class_Object_Updated' => '%1$s (%2$s) frissítve.',
-	'UI:BulkDeletePageTitle' => 'iTop - Tömeges törlés',
+	'UI:BulkDeletePageTitle' => 'Enixer help desk - Tömeges törlés',
 	'UI:BulkDeleteTitle' => 'Válassza ki a törölni kívánt objektumokat:',
-	'UI:PageTitle:ObjectCreated' => 'iTop objektum létrehozva.',
+	'UI:PageTitle:ObjectCreated' => 'Enixer help desk objektum létrehozva.',
 	'UI:Title:Object_Of_Class_Created' => '%1$s - %2$s létrehozva.',
 	'UI:Apply_Stimulus_On_Object_In_State_ToTarget_State' => 'Alkalmazva %1$s objektumon: %2$s.Kinduló állapot: %3$s cél állapot: %4$s.',
 	'UI:ObjectCouldNotBeWritten' => 'Au objektum írása sikertlen: %1$s',
-	'UI:PageTitle:FatalError' => 'iTop - Fatális hiba',
+	'UI:PageTitle:FatalError' => 'Enixer help desk - Fatális hiba',
 	'UI:SystemIntrusion' => 'Hozzáférés megtagadva. A művelet végrehajtása nem engedélyezett.',
-	'UI:FatalErrorMessage' => 'Fatális hiba, iTop nem tudja a működését folytatni',
+	'UI:FatalErrorMessage' => 'Fatális hiba, Enixer help desk nem tudja a működését folytatni',
 	'UI:Error_Details' => 'Hiba: %1$s.',
 
-	'UI:PageTitle:ClassProjections'	=> 'iTop felhasználó menedzsmet - osztály nézet',
-	'UI:PageTitle:ProfileProjections' => 'iTop felhasználó menedzsmet - profil nézet',
+	'UI:PageTitle:ClassProjections'	=> 'Enixer help desk felhasználó menedzsmet - osztály nézet',
+	'UI:PageTitle:ProfileProjections' => 'Enixer help desk felhasználó menedzsmet - profil nézet',
 	'UI:UserManagement:Class' => 'Osztály',
 	'UI:UserManagement:Class+' => '',
 	'UI:UserManagement:ProjectedObject' => 'Objektum',
@@ -931,8 +931,8 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'Menu:NotificationsMenu+' => '', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:NotificationsMenu:Title' => '<span class="hilite">Értesítések</span> beállítása',
 	'UI:NotificationsMenu:Help' => 'Segítség',
-	'UI:NotificationsMenu:HelpContent' => '<p>Az iTop alkalmazásban az értesítések teljesen testreszabhatók. Értesítések az objektumok két csoportjára épülnek: <i>kiváltó okok és akciók</i>.</p>
-<p><i><b>Triggers</b></i> define when a notification will be executed. There are different triggers as part of iTop core, but others can be brought by extensions:
+	'UI:NotificationsMenu:HelpContent' => '<p>Az Enixer help desk alkalmazásban az értesítések teljesen testreszabhatók. Értesítések az objektumok két csoportjára épülnek: <i>kiváltó okok és akciók</i>.</p>
+<p><i><b>Triggers</b></i> define when a notification will be executed. There are different triggers as part of Enixer help desk core, but others can be brought by extensions:
 <ol>
 	<li>Some triggers are executed when an object of the specified class is <b>created</b>, <b>updated</b> or <b>deleted</b>.</li>
 	<li>Some triggers are executed when an object of a given class <b>enter</b> or <b>leave</b> a specified </b>state</b>.</li>
@@ -1036,8 +1036,8 @@ Akció kiváltó okhoz rendelésekor kap egy sorszámot , amely meghatározza az
 	'UI:RelationTooltip:Redundancy' => 'Redundancy~~',
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => '# of impacted items: %1$d / %2$d~~',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => 'Critical threshold: %1$d / %2$d~~',
-	'Portal:Title' => 'iTop felhasználói portál',
-	'Portal:NoRequestMgmt' => 'Dear %1$s, you have been redirected to this page because your account is configured with the profile \'Portal user\'. Unfortunately, iTop has not been installed with the feature \'Request Management\'. Please contact your administrator.~~',
+	'Portal:Title' => 'Enixer help desk felhasználói portál',
+	'Portal:NoRequestMgmt' => 'Dear %1$s, you have been redirected to this page because your account is configured with the profile \'Portal user\'. Unfortunately, Enixer help desk has not been installed with the feature \'Request Management\'. Please contact your administrator.~~',
 	'Portal:Refresh' => 'Frissítés',
 	'Portal:Back' => 'Vissza',
 	'Portal:WelcomeUserOrg' => 'Welcome %1$s, from %2$s',
@@ -1365,7 +1365,7 @@ Akció kiváltó okhoz rendelésekor kap egy sorszámot , amely meghatározza az
 	'UI:AddAnExisting_Class' => 'Add objects of type %1$s...~~',
 	'UI:SelectionOf_Class' => 'Selection of objects of type %1$s~~',
 
-	'UI:AboutBox' => 'About iTop...~~',
+	'UI:AboutBox' => 'About Enixer help desk...~~',
 	'UI:About:Title' => 'About iTop~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
@@ -1391,7 +1391,7 @@ Akció kiváltó okhoz rendelésekor kap egy sorszámot , amely meghatározza az
 	'ExcelExport:PreparingExport' => 'Preparing the export...~~',
 	'ExcelExport:Statistics' => 'Statistics~~',
 	'portal:legacy_portal' => 'End-User Portal~~',
-	'portal:backoffice' => 'iTop Back-Office User Interface~~',
+	'portal:backoffice' => 'Enixer help desk Back-Office User Interface~~',
 
 	'UI:CurrentObjectIsLockedBy_User' => 'The object is locked since it is currently being modified by %1$s.~~',
 	'UI:CurrentObjectIsLockedBy_User_Explanation' => 'The object is currently being modified by %1$s. Your modifications cannot be submitted since they would be overwritten.~~',
@@ -1544,7 +1544,7 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 ));
 
 //
-// iTop Newsroom menu
+// Enixer help desk Newsroom menu
 //
 Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:Newsroom:NoNewMessage' => 'No new message~~',

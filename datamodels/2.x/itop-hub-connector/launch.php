@@ -2,23 +2,23 @@
 
 // Copyright (C) 2017-2018 Combodo SARL
 //
-// This file is part of iTop.
+// This file is part of Enixer help desk.
 //
-// iTop is free software; you can redistribute it and/or modify
+// Enixer help desk is free software; you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// iTop is distributed in the hope that it will be useful,
+// Enixer help desk is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Affero General Public License for more details.
 //
 // You should have received a copy of the GNU Affero General Public License
-// along with iTop. If not, see <http://www.gnu.org/licenses/>
+// along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 /**
- * iTop Hub Launch Page
+ * Enixer help desk Hub Launch Page
  * Collect the information to be posted to iTopHub
  *
  * @copyright Copyright (c) 2017-2018 Combodo SARL
@@ -56,7 +56,7 @@
  * 		},
  * 		"itop_extensions" : {
  * 			"itop-extra-extension": {
- * 				"label": "Super Nice Addon for iTop",
+ * 				"label": "Super Nice Addon for Enixer help desk",
  * 				"value": "1.2.0"
  * 			},
  * 			"itop-hyper-extension": {
@@ -192,7 +192,7 @@ function collect_configuration()
 		$aConfiguration['php_settings'][$iniGet] = (string) ini_get($iniGet);
 	}
 	
-	// iTop modules
+	// Enixer help desk modules
 	$oConfig = MetaModel::GetConfig();
 	$sLatestInstallationDate = CMDBSource::QueryToScalar("SELECT max(installed) FROM ".$oConfig->Get('db_subname')."priv_module_install");
 	// Get the latest installed modules, without the "root" ones (iTop version and datamodel version)
@@ -203,7 +203,7 @@ function collect_configuration()
 		$aConfiguration['itop_modules'][$aDBInfo['name']] = $aDBInfo['version'];
 	}
 	
-	// iTop Installation Options, i.e. "Extensions"
+	// Enixer help desk Installation Options, i.e. "Extensions"
 	$oExtensionMap = new iTopExtensionsMap();
 	$oExtensionMap->LoadChoicesFromDatabase($oConfig);
 	$aConfiguration['itop_extensions'] = array();
@@ -333,7 +333,7 @@ try
 		
 		if (MetaModel::GetConfig()->Get('demo_mode'))
 		{
-			$oPage->add("<div class=\"header_message message_info\">Sorry, iTop is in <b>demonstration mode</b>: the connection to iTop Hub is disabled.</div>");
+			$oPage->add("<div class=\"header_message message_info\">Sorry, Enixer help desk is in <b>demonstration mode</b>: the connection to Enixer help desk Hub is disabled.</div>");
 		}
 		
 		$oPage->add('<div id="hub_top_banner"></div>');
@@ -344,7 +344,7 @@ try
 		$oPage->add('</div>');
 		$oPage->add('<h1><img src="'.$sLogoUrl.'"><span>'.$sTitle.'</span></h1>');
 		$oPage->add($sText);
-		$oPage->add('<p><button type="button" id="CancelBtn" title="Go back to iTop"><img src="'.$sCloseUrl.'"><span>'.Dict::S('iTopHub:CloseBtn').'</span></button><span class="horiz-spacer"> </span><button class="positive" type="button" id="GoToHubBtn" title="'.Dict::S('iTopHub:GoBtn:Tooltip').'"><span>'.Dict::S('iTopHub:GoBtn').'</span><img src="'.$sArrowUrl.'"></button></p>');
+		$oPage->add('<p><button type="button" id="CancelBtn" title="Go back to Enixer help desk"><img src="'.$sCloseUrl.'"><span>'.Dict::S('iTopHub:CloseBtn').'</span></button><span class="horiz-spacer"> </span><button class="positive" type="button" id="GoToHubBtn" title="'.Dict::S('iTopHub:GoBtn:Tooltip').'"><span>'.Dict::S('iTopHub:GoBtn').'</span><img src="'.$sArrowUrl.'"></button></p>');
 		$sFormTarget = appUserPreferences::GetPref('itophub_open_in_new_window', 1) ? 'target="_blank"' : '';
 		$oPage->add('<form '.$sFormTarget.' id="hub_launch_form" action="'.$sHubUrl.'" method="post">');
 		$oPage->add('<input type="hidden" name="json" value="'.htmlentities(json_encode($aDataToPost), ENT_QUOTES, 'UTF-8').'">');

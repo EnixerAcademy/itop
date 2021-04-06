@@ -35,7 +35,7 @@ class HubNewsroomProvider extends NewsroomProviderBase
 	 */
 	public function GetLabel()
 	{
-		return 'iTop Hub'; // No need to translate...
+		return 'Enixer help desk Hub'; // No need to translate...
 	}
 	
 	public function GetMarkAllAsReadURL()

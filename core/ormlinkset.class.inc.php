@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 require_once('dbobjectiterator.php');
 
@@ -139,7 +139,7 @@ class ormLinkSet implements iDBObjectSetIterator, Iterator, SeekableIterator
     /**
      * @param DBObject $oObject
      * @param string $sClassAlias
-     * @deprecated Since iTop 2.4, use ormLinkset->AddItem() instead.
+     * @deprecated Since Enixer help desk 2.4, use ormLinkset->AddItem() instead.
      */
 	public function AddObject(DBObject $oObject, $sClassAlias = '')
     {
@@ -234,7 +234,7 @@ class ormLinkSet implements iDBObjectSetIterator, Iterator, SeekableIterator
     /**
      * @param bool $bWithId
      * @return array
-     * @deprecated Since iTop 2.4, use foreach($this as $oItem){} instead
+     * @deprecated Since Enixer help desk 2.4, use foreach($this as $oItem){} instead
      */
     public function ToArray($bWithId = true)
     {

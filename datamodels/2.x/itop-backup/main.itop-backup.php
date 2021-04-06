@@ -31,7 +31,7 @@ class BackupHandler extends ModuleHandlerAPI
 			$oRestoreMutex = new iTopMutex('restore.'.utils::GetCurrentEnvironment());
 			if ($oRestoreMutex->IsLocked())
 			{
-				IssueLog::Info(__class__.'::'.__function__.' A user is trying to use iTop while a restore is running. The requested page is in read-only mode.');
+				IssueLog::Info(__class__.'::'.__function__.' A user is trying to use Enixer help desk while a restore is running. The requested page is in read-only mode.');
 				MetaModel::GetConfig()->Set('access_mode', ACCESS_READONLY, 'itop-backup');
 				MetaModel::GetConfig()->Set('access_message', ' - '.dict::S('bkp-restore-running'), 'itop-backup');
 			}

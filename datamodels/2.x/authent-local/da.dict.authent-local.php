@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2012 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 /**
  * @author	Erik Bøg <erik@boegmoeller.dk>
  * @copyright   Copyright (C) 2010-2012 Combodo SARL
@@ -22,7 +22,7 @@
  */
 Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'Class:UserLocal' => 'iTop-Bruger',
-	'Class:UserLocal+' => 'Bruger der godkendes af iTop',
+	'Class:UserLocal+' => 'Bruger der godkendes af Enixer help desk',
 	'Class:UserLocal/Attribute:password' => 'Password',
 	'Class:UserLocal/Attribute:password+' => 'Brugerens password',
 ));

@@ -1,9 +1,9 @@
 <?php
 /**
- * Локализация интерфейса Combodo iTop подготовлена сообществом iTop по-русски http://community.itop-itsm.ru.
+ * Локализация интерфейса Combodo Enixer help desk подготовлена сообществом Enixer help desk по-русски http://community.itop-itsm.ru.
  *
  * @author      Vladimir Kunin <v.b.kunin@gmail.com>
- * @link        http://community.itop-itsm.ru  iTop Russian Community
+ * @link        http://community.itop-itsm.ru  Enixer help desk Russian Community
  * @link        https://github.com/itop-itsm-ru/itop-rus
  * @license     http://opensource.org/licenses/AGPL-3.0
  *
@@ -12,9 +12,9 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'Menu:DataSources' => 'Синхронизация данных',
 	'Menu:DataSources+' => 'Синхронизация данных',
 	'Menu:WelcomeMenu' => 'Добро пожаловать',
-	'Menu:WelcomeMenu+' => 'Добро пожаловать в iTop',
+	'Menu:WelcomeMenu+' => 'Добро пожаловать в Enixer help desk',
 	'Menu:WelcomeMenuPage' => 'Добро пожаловать',
-	'Menu:WelcomeMenuPage+' => 'Добро пожаловать в iTop',
+	'Menu:WelcomeMenuPage+' => 'Добро пожаловать в Enixer help desk',
 	'Menu:AdminTools' => 'Инструменты администратора',
 	'Menu:AdminTools+' => 'Инструменты администратора',
 	'Menu:AdminTools?' => 'Инструменты доступны только для пользователей c правами администратора',

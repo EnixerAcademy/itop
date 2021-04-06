@@ -1,30 +1,30 @@
 <?php
 // Copyright (C) 2010-2012 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 
 /**
  * Authent External
- * User authentication Module, for authentication outside of the iTop application
+ * User authentication Module, for authentication outside of the Enixer help desk application
  * for example using a .htaccess file. The web server is in charge of authentifying the users
  * and providing the name (= 'login') of the authentified user in the $_SERVER['REMOTE_USER']
- * variable that is passed to PHP. iTop will not make any attempt to authentify such users.
+ * variable that is passed to PHP. Enixer help desk will not make any attempt to authentify such users.
  * Similarly once inside iTop, there is no way for the users to change their password or
- * log off from the iTop application, this has to be handled outside of iTop.
+ * log off from the Enixer help desk application, this has to be handled outside of Enixer help desk.
  *
  * @copyright   Copyright (C) 2010-2012 Combodo SARL
  * @license     http://opensource.org/licenses/AGPL-3.0
@@ -65,7 +65,7 @@ class UserExternal extends User
 	 */
 	public function CheckCredentials($sPassword)
 	{
-		// External authentication: for iTop it's always Ok
+		// External authentication: for Enixer help desk it's always Ok
 		return true;
 	}
 
@@ -76,7 +76,7 @@ class UserExternal extends User
 
 	public function CanChangePassword()
 	{
-		// External authentication: iTop has no way to change a user's password
+		// External authentication: Enixer help desk has no way to change a user's password
 		return false;
 	}
 

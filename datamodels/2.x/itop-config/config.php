@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2014-2016 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 
 /**
@@ -115,7 +115,7 @@ try
 
 	if (MetaModel::GetConfig()->Get('demo_mode'))
 	{
-		$oP->add("<div class=\"header_message message_info\">Sorry, iTop is in <b>demonstration mode</b>: the configuration file cannot be edited.</div>");
+		$oP->add("<div class=\"header_message message_info\">Sorry, Enixer help desk is in <b>demonstration mode</b>: the configuration file cannot be edited.</div>");
 	}
 	else if (MetaModel::GetModuleSetting('itop-config', 'config_editor', '') == 'disabled')
 	{
@@ -166,7 +166,7 @@ try
                         // Note:
                         // The actual raw PHP code will anyhow be interpreted exactly twice: once in TestConfig() above
                         // and a second time during the load of the Config object below.
-                        // If you are really concerned about an iTop administrator crafting some malicious
+                        // If you are really concerned about an Enixer help desk administrator crafting some malicious
                         // PHP code inside the config file, then turn off the interactive configuration
                         // editor by adding the configuration parameter:
                         // 'itop-config' => array(

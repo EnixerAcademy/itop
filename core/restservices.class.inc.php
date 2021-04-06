@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2013-2015 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify	
+//   Enixer help desk is free software; you can redistribute it and/or modify	
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 /**
  * REST/json services
@@ -257,11 +257,11 @@ class CoreServices implements iRestServiceProvider
 	 */
 	public function ListOperations($sVersion)
 	{
-		// 1.4 - iTop 2.5.2, 2.6.1, 2.7.0, Verb 'core/get': added pagination parameters limit and page
-		// 1.3 - iTop 2.2.0, Verb 'get_related': added the options 'redundancy' and 'direction' to take into account the redundancy in the impact analysis
+		// 1.4 - Enixer help desk 2.5.2, 2.6.1, 2.7.0, Verb 'core/get': added pagination parameters limit and page
+		// 1.3 - Enixer help desk 2.2.0, Verb 'get_related': added the options 'redundancy' and 'direction' to take into account the redundancy in the impact analysis
 		// 1.2 - was documented in the wiki but never released ! Same as 1.3
 		// 1.1 - In the reply, objects have a 'key' entry so that it is no more necessary to split class::key programmaticaly
-		// 1.0 - Initial implementation in iTop 2.0.1
+		// 1.0 - Initial implementation in Enixer help desk 2.0.1
 		//
 		$aOps = array();
 		if (in_array($sVersion, array('1.0', '1.1', '1.2', '1.3', '1.4')))

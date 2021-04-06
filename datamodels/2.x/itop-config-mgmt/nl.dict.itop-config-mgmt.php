@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2010-2012 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 /**
  * @author	LinProfs <info@linprofs.com>
  * 
@@ -112,7 +112,7 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'Class:Organization/Attribute:overview' => 'Overzicht',
 	'Organization:Overview:FunctionalCIs' => 'Configuratie-items van deze organisatie',
 	'Organization:Overview:FunctionalCIs:subtitle' => 'per type',
-	'Organization:Overview:Users' => 'iTop Users in deze organisatie',
+	'Organization:Overview:Users' => 'Enixer help desk Users in deze organisatie',
 ));
 
 //

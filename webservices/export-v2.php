@@ -1,20 +1,20 @@
 <?php
 // Copyright (C) 2015-2017 Combodo SARL
 //
-//   This file is part of iTop.
+//   This file is part of Enixer help desk.
 //
-//   iTop is free software; you can redistribute it and/or modify
+//   Enixer help desk is free software; you can redistribute it and/or modify
 //   it under the terms of the GNU Affero General Public License as published by
 //   the Free Software Foundation, either version 3 of the License, or
 //   (at your option) any later version.
 //
-//   iTop is distributed in the hope that it will be useful,
+//   Enixer help desk is distributed in the hope that it will be useful,
 //   but WITHOUT ANY WARRANTY; without even the implied warranty of
 //   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 //   GNU Affero General Public License for more details.
 //
 //   You should have received a copy of the GNU Affero General Public License
-//   along with iTop. If not, see <http://www.gnu.org/licenses/>
+//   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
 /**
  * Export data specified by an OQL or a query phrasebook entry
@@ -82,8 +82,8 @@ function Usage(Page $oP)
 	{
 		$oP->p('Usage: php '.basename(__FILE__).' --auth_user=<user> --auth_pwd=<password> --expression=<OQL Query> --query=<phrasebook_id> [--arg_xxx=<query_arguments>] [--no_localize=0|1] [--format=<format>] [--format-options...]');
 		$oP->p("Parameters:");
-		$oP->p(" * auth_user: the iTop user account for authentication");
-		$oP->p(" * auth_pwd: the password of the iTop user account");
+		$oP->p(" * auth_user: the Enixer help desk user account for authentication");
+		$oP->p(" * auth_pwd: the password of the Enixer help desk user account");
 	}
 	else
 	{
@@ -374,7 +374,7 @@ EOF
 	}
 	else
 	{
-		$oP = new iTopWebPage('iTop Export');
+		$oP = new iTopWebPage('Enixer help desk Export');
 		$oP->SetBreadCrumbEntry('ui-tool-export', Dict::S('Menu:ExportMenu'), Dict::S('Menu:ExportMenu+'), '', utils::GetAbsoluteUrlAppRoot().'images/wrench.png');
 	}
 	
@@ -734,19 +734,19 @@ try
 			// Note: Using NiceWebPage only for HTML export as it includes JS scripts & files, which makes no sense in other export formats. More over, it breaks Excel spreadsheet import.
 			if($oExporter instanceof HTMLBulkExport)
 			{
-				$oP = new NiceWebPage('iTop export');
+				$oP = new NiceWebPage('Enixer help desk export');
 				$oP->add_ready_script("$('table.listResults').tablesorter({widgets: ['MyZebra']});");
 			}
 			else
 			{
-				$oP = new WebPage('iTop export');
+				$oP = new WebPage('Enixer help desk export');
                 $oP->add_style("table br { mso-data-placement:same-cell; }"); // Trick for Excel: keep line breaks inside the same cell !
 			}
 			$oP->add_style("body { overflow: auto; }");
 		}
 		else
 		{
-			$oP = new ajax_page('iTop export');
+			$oP = new ajax_page('Enixer help desk export');
 			$oP->SetContentType($oExporter->GetMimeType());
 		}
 		DoExport($oP, $oExporter, false);
@@ -755,14 +755,14 @@ try
 }
 catch (BulkExportMissingParameterException $e)
 {
-	$oP = new ajax_page('iTop Export');
+	$oP = new ajax_page('Enixer help desk Export');
 	$oP->add($e->getMessage());
 	Usage($oP);
 	$oP->output();
 }
 catch (Exception $e)
 {
-	$oP = new WebPage('iTop Export');
+	$oP = new WebPage('Enixer help desk Export');
 	$oP->add('Error: '.$e->getMessage());
 	IssueLog::Error($e->getMessage()."\n".$e->getTraceAsString());
 	$oP->output();
