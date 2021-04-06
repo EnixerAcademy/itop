@@ -119,7 +119,7 @@ try
 	}
 	else if (MetaModel::GetModuleSetting('itop-config', 'config_editor', '') == 'disabled')
 	{
-		$oP->add("<div class=\"header_message message_info\">iTop interactive edition of the configuration as been disabled. See <tt>'config_editor' => 'disabled'</tt> in the configuration file.</div>");
+		$oP->add("<div class=\"header_message message_info\">Enixer help desk interactive edition of the configuration as been disabled. See <tt>'config_editor' => 'disabled'</tt> in the configuration file.</div>");
 	}
 	else
 	{

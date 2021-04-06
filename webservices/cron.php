@@ -37,7 +37,7 @@ const EXIT_CODE_FATAL = -2;
 $sConfigFile = APPCONF.ITOP_DEFAULT_ENV.'/'.ITOP_CONFIG_FILE;
 if (!file_exists($sConfigFile))
 {
-	echo "iTop is not yet installed. Exiting...\n";
+	echo "Enixer help desk is not yet installed. Exiting...\n";
 	exit(EXIT_CODE_ERROR);
 }
 
@@ -466,11 +466,11 @@ set_time_limit(0); // Some background actions may really take long to finish (li
 
 if (utils::IsModeCLI())
 {
-	$oP = new CLIPage("iTop - CRON");
+	$oP = new CLIPage("Enixer help desk - CRON");
 }
 else
 {
-	$oP = new WebPage("iTop - CRON");
+	$oP = new WebPage("Enixer help desk - CRON");
 }
 
 try

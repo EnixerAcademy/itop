@@ -352,7 +352,7 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Menu:WelcomeMenuPage+' => 'Welcome to Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Welcome to Enixer help desk',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop is a complete, OpenSource, IT Operational Portal.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk is a complete, OpenSource, IT Operational Portal.</p>
 <ul>It includes:
 <li>A complete CMDB (Configuration management database) to document and manage the IT inventory.</li>
 <li>An Incident management module to track and communicate about all issues occurring in the IT.</li>
@@ -363,14 +363,14 @@ Dict::Add('EN US', 'English', 'English', array(
 </ul>
 <p>All the modules can be setup, step by step, indepently of each other.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop is service provider oriented, it allows IT engineers to manage easily multiple customers or organizations.
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk is service provider oriented, it allows IT engineers to manage easily multiple customers or organizations.
 <ul>iTop, delivers a feature-rich set of business processes that:
 <li>Enhances IT management effectiveness</li> 
 <li>Drives IT operations performance</li> 
 <li>Improves customer satisfaction and provides executives with insights into business performance.</li>
 </ul>
 </p>
-<p>iTop is completely open to be integrated within your current IT Management infrastructure.</p>
+<p>Enixer help desk is completely open to be integrated within your current IT Management infrastructure.</p>
 <p>
 <ul>Adopting this new generation of IT Operational portal will help you to:
 <li>Better manage a more and more complex IT environment.</li>

@@ -350,7 +350,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Menu:WelcomeMenuPage+' => 'Vítejte v Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Vítejte v Enixer help desk',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop je komplexní „opensource” provozní IT portál.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk je komplexní „opensource” provozní IT portál.</p>
 <ul>Obsahuje:
 <li>Kompletní CMDB (databázi pro správu konfigurací) sloužící pro dokumentování a správu evidovaného IT.</li>
 <li>Modul pro řízení rizik umožňující sledovat veškeré problémy, které se vyskytly v souvislosti s provozem IT.</li>
@@ -361,14 +361,14 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 </ul>
 <p>Každý modul může být nastaven "krok za krokem" nezávisle na ostatních modulech.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop je servisně orientovaný produkt, který umožňuje správcům IT velmi jednoduše spravovat více zákazníků nebo organizací.
-<ul>iTop přináší mnoho dalších výhod umožňujících "optimální" nastavení podnikových procesů které:
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk je servisně orientovaný produkt, který umožňuje správcům IT velmi jednoduše spravovat více zákazníků nebo organizací.
+<ul>Enixer help desk přináší mnoho dalších výhod umožňujících "optimální" nastavení podnikových procesů které:
 <li>Zvyšují účinnost řízení IT.</li>
 <li>Efektivně řídí operace prováděné nad IT infrastrukturou.</li>
 <li>Zvyšují spokojenost zákazníků a poskytují vedoucím pracovníkům ucelený pohled na výkonnost organizace.</li>
 </ul>
 </p>
-<p>iTop je zcela otevřený a umožňuje bezproblémovou integraci s Vaším současným IT systémem pro správu infrastruktury.</p>
+<p>Enixer help desk je zcela otevřený a umožňuje bezproblémovou integraci s Vaším současným IT systémem pro správu infrastruktury.</p>
 <p>
 <ul>Zavedení nové generace provozního IT portálu Vám pomůže:
 <li>Lépe řídit stále více a více komplexní IT prostředí.</li>

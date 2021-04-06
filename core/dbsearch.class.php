@@ -23,7 +23,7 @@ require_once('dbunionsearch.class.php');
 /**
  * An object search
  * 
- * Note: in the ancient times of iTop, a search was named after DBObjectSearch.
+ * Note: in the ancient times ofEnixer help desk, a search was named after DBObjectSearch.
  *  When the UNION has been introduced, it has been decided to:
  *  - declare a hierarchy of search classes, with two leafs :
  *    - one class to cope with a single query (A JOIN B... WHERE...)

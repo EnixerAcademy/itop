@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>iTop Installation Help</title>
+	<title>Enixer help desk Installation Help</title>
 	<style>
 		body {
 			font-family: Verdana, Arial, Helvetica, Sans-Serif;
@@ -103,7 +103,8 @@
 			<li><b>Check ticket SLA</b>. Tickets reaching the limits will be passed into Escalation TTO/TTR states</li>
 		</ul>
 		</p>
-		<p>For more information about cron.php, check the <a href="http://wiki.openitop.org/doku.php">iTop Wiki</a></p>
+		<p>For more information about cron.php, check the <a href="http://wiki.openitop.org/doku.php">Enixer help desk
+				Wiki</a></p>
 		<h2>Scheduling cron.php on Windows</h2>
 		<ol>
 			<li>Copy the file <em>&lt;itop root&gt</em>/webservices/<b>cron.distrib</b> to <em>&lt;itop
@@ -115,7 +116,7 @@
 			<li>Edit the file <em>&lt;itop root&gt</em>/webservices/<b>cron.cmd</b>, and set the relevant path for your
 				installation of PHP.</li>
 			<li>Schedule the execution of cron.cmd:
-				<pre>schtasks.exe /create /tn "iTop CRON" /sc minute /mo 1 /tr "\"<em>&lt;itop root&gt</em>/webservices/cron.cmd\""</pre>
+				<pre>schtasks.exe /create /tn "Enixer help desk CRON" /sc minute /mo 1 /tr "\"<em>&lt;itop root&gt</em>/webservices/cron.cmd\""</pre>
 			</li>
 		</ol>
 

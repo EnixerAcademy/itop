@@ -1686,7 +1686,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -2173,7 +2173,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -2735,7 +2735,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -3063,7 +3063,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -3213,7 +3213,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -3344,7 +3344,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -3536,7 +3536,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -3672,7 +3672,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -3817,7 +3817,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -3962,7 +3962,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -4332,7 +4332,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -4465,7 +4465,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>
@@ -4607,7 +4607,7 @@
       <methods>
         <method id="GetRelationQueries">
           <comment>/**
-	 * Placeholder for backward compatibility (iTop &lt;= 2.1.0)
+	 * Placeholder for backward compatibility (Enixer help desk &lt;= 2.1.0)
 	 * in case an extension attempts to redefine this function...	 
 	 */</comment>
           <static>true</static>

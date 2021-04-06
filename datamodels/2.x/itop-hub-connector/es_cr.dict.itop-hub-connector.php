@@ -30,7 +30,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
     'Menu:iTopHub:MyExtensions+' => 'Vea la lista de extensiones instalada en esta instancia de Enixer help desk',
     'Menu:iTopHub:BrowseExtensions' => 'Obtener extensiones de Enixer help desk Hub',
     'Menu:iTopHub:BrowseExtensions+' => 'Navegue por más extensiones en Enixer help desk Hub',
-    'Menu:iTopHub:BrowseExtensions:Description' => '<p>Vea en "iTop Hub’s store", su único lugar para encontrar extensiones de Enixer help desk.</br>Encuentre aquellas que le ayuden a personalizar y adaptar Enixer help desk a sus procesos.</br><br/>Mediante la conexión al Hub desde esta página, usted compartirá información acerca de esta instancia de Enixer help desk en el Hub.</p>',
+    'Menu:iTopHub:BrowseExtensions:Description' => '<p>Vea en "Enixer help desk Hub’s store", su único lugar para encontrar extensiones de Enixer help desk.</br>Encuentre aquellas que le ayuden a personalizar y adaptar Enixer help desk a sus procesos.</br><br/>Mediante la conexión al Hub desde esta página, usted compartirá información acerca de esta instancia de Enixer help desk en el Hub.</p>',
     'iTopHub:GoBtn' => 'Ir a Enixer help desk Hub',
 	'iTopHub:CloseBtn' => 'Cerrar',
 	'iTopHub:GoBtn:Tooltip' => 'Ir a www.itophub.io',
@@ -51,7 +51,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
 
 	'iTopHub:InstalledExtensions' => 'Extensiones instaladas en esta instancia',
 	'iTopHub:ExtensionCategory:Manual' => 'Extensiones instaladas manualmente',
-	'iTopHub:ExtensionCategory:Manual+' => 'Las siguientes extensiones fueron instaladas copiandolas manualmente en el directorio %1$s de iTop:',
+	'iTopHub:ExtensionCategory:Manual+' => 'Las siguientes extensiones fueron instaladas copiandolas manualmente en el directorio %1$s deEnixer help desk:',
 	'iTopHub:ExtensionCategory:Remote' => 'Extensiones instaladas desde Enixer help desk Hub',
 	'iTopHub:ExtensionCategory:Remote+' => 'Las siguientes extensiones fueron instaladas de Enixer help desk Hub:',
 	'iTopHub:NoExtensionInThisCategory' => 'No hay extensiones en está categoría.<br/><br/>Navegue en Enixer help desk Hub para encontrar aquellas que le ayuden a personalizar y adaptar Enixer help desk a sus procesos.',

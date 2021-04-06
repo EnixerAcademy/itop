@@ -42,14 +42,14 @@ function ReportErrorAndExit($sErrorMessage)
 {
 	if (utils::IsModeCLI())
 	{
-		$oP = new CLIPage("iTop - Export");
+		$oP = new CLIPage("Enixer help desk - Export");
 		$oP->p('ERROR: '.$sErrorMessage);
 		$oP->output();
 		exit(-1);
 	}
 	else
 	{
-		$oP = new WebPage("iTop - Export");
+		$oP = new WebPage("Enixer help desk - Export");
 		$oP->p('ERROR: '.$sErrorMessage);
 		$oP->output();
 		exit(-1);
@@ -60,7 +60,7 @@ function ReportErrorAndUsage($sErrorMessage)
 {
 	if (utils::IsModeCLI())
 	{
-		$oP = new CLIPage("iTop - Export");
+		$oP = new CLIPage("Enixer help desk - Export");
 		$oP->p('ERROR: '.$sErrorMessage);
 		Usage($oP);
 		$oP->output();
@@ -68,7 +68,7 @@ function ReportErrorAndUsage($sErrorMessage)
 	}
 	else
 	{
-		$oP = new WebPage("iTop - Export");
+		$oP = new WebPage("Enixer help desk - Export");
 		$oP->p('ERROR: '.$sErrorMessage);
 		Usage($oP);
 		$oP->output();

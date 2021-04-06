@@ -61,7 +61,7 @@ function CheckEmailSetting($oP)
 	switch($sTransport)
 	{
 		case 'PHPMail':
-		$oP->info("iTop is configured to use PHP's <a style=\"background:transparent;padding:0;color:#000;text-decoration:underline;\" href=\"http://www.php.net/manual/en/function.mail.php\" target=\"_blank\">mail</a> function to send emails.");
+		$oP->info("Enixer help desk is configured to use PHP's <a style=\"background:transparent;padding:0;color:#000;text-decoration:underline;\" href=\"http://www.php.net/manual/en/function.mail.php\" target=\"_blank\">mail</a> function to send emails.");
 		$bIsWindows = (array_key_exists('WINDIR', $_SERVER) || array_key_exists('windir', $_SERVER));
 		if ($bIsWindows)
 		{	
@@ -112,7 +112,7 @@ function CheckEmailSetting($oP)
 		break;
 		
 		case 'SMTP':
-		$oP->info("iTop is configured to use the <b>SMTP</b> transport.");
+		$oP->info("Enixer help desk is configured to use the <b>SMTP</b> transport.");
 		$sHost = MetaModel::GetConfig()->Get('email_transport_smtp.host');
 		$sPort = MetaModel::GetConfig()->Get('email_transport_smtp.port');
 		$sEncryption = MetaModel::GetConfig()->Get('email_transport_smtp.encryption');
@@ -129,12 +129,12 @@ function CheckEmailSetting($oP)
 		break;
 		
 		case 'Null':
-		$oP->warning("iTop is configured to use the <b>Null</b> transport: emails sending will have no effect.");
+		$oP->warning("Enixer help desk is configured to use the <b>Null</b> transport: emails sending will have no effect.");
 		$bRet = false;
 		break;
 		
 		case 'LogFile':
-		$oP->warning("iTop is configured to use the <b>LogFile</b> transport: emails will <em>not</em> be sent but logged to the file: 'log/mail.log'.");
+		$oP->warning("Enixer help desk is configured to use the <b>LogFile</b> transport: emails will <em>not</em> be sent but logged to the file: 'log/mail.log'.");
 		$bRet = true;
 		break;
 		
@@ -149,7 +149,7 @@ function CheckEmailSetting($oP)
 	$bConfigAsync = MetaModel::GetConfig()->Get('email_asynchronous');
 	if ($bConfigAsync)
 	{
-		$oP->warning("iTop is configured to send emails <em>asynchronously</em>. Make sure that cron.php is scheduled to run in the background, otherwise regular emails will <em>not</em> be sent. For the purpose of this test, the email will be sent <em>synchronously</em>.");
+		$oP->warning("Enixer help desk is configured to send emails <em>asynchronously</em>. Make sure that cron.php is scheduled to run in the background, otherwise regular emails will <em>not</em> be sent. For the purpose of this test, the email will be sent <em>synchronously</em>.");
 	}
 	
 	return $bRet;
@@ -163,7 +163,7 @@ function CheckEmailSetting($oP)
 function DisplayStep1(SetupPage $oP)
 {
 	$sNextOperation = 'step2';
-	$oP->add("<h1>iTop email test</h1>\n");
+	$oP->add("<h1>Enixer help desk email test</h1>\n");
 	$oP->add("<h2>Checking prerequisites</h2>\n");
 	if (CheckEmailSetting($oP))
 	{
@@ -202,7 +202,7 @@ function DisplayStep1(SetupPage $oP)
 function DisplayStep2(SetupPage $oP, $sFrom, $sTo)
 {
 	//$sNextOperation = 'step3';
-	$oP->add("<h1>iTop configuration wizard</h1>\n");
+	$oP->add("<h1>Enixer help desk configuration wizard</h1>\n");
 	$oP->add("<h2>Step 2: send an email</h2>\n");
 	$oP->add("<p>Sending an email to '".htmlentities($sTo, ENT_QUOTES, 'utf-8')."'... (From: '".htmlentities($sFrom, ENT_QUOTES, 'utf-8')."')</p>\n");
 	$oP->add("<form method=\"post\">\n");

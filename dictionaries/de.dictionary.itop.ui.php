@@ -336,7 +336,7 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 	'Menu:WelcomeMenuPage+' => 'Willkommen bei Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Willkommen bei Enixer help desk',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop ist ein ein vollständiges, ITIL- und webbasiertes IT-Service-Management-Tool (ITSM)</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk ist ein ein vollständiges, ITIL- und webbasiertes IT-Service-Management-Tool (ITSM)</p>
 <ul>Es umfasst...
 <li>eine vollständige CMDB (Configuration Management Database), um das IT-Portfolio zu dokumentieren und zu managen,</li>
 <li>ein Incident Management-Modul, um alle Störfälle in der IT-Landschaft zu beobachten und diese zu kommunizieren,</li>
@@ -347,14 +347,14 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 </ul>
 <p>Alle Module können nacheinander und vollständig unabhängig voneinander eingerichtet werden.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop ist mandantenfähig, es erlaubt IT-Technikern, auf einfache Art eine Vielzahl an Kunden und Firmen zu verwalten.
-<ul>iTop bietet ein umfangreiches Set an Business-Prozessen, die
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk ist mandantenfähig, es erlaubt IT-Technikern, auf einfache Art eine Vielzahl an Kunden und Firmen zu verwalten.
+<ul>Enixer help desk bietet ein umfangreiches Set an Business-Prozessen, die
 <li>die Effizienz des IT-Managements steigern,</li>
 <li>die die Performance des IT-Betriebs steuern,</li>
 <li>die Kundenzufriedenheit verbessern und Führungskräften Einsicht in die Business Performance ermöglichen.</li>
 </ul>
 </p>
-<p>iTop ist komplett offen, damit es sich bestmöglich in Ihre derzeitige IT-Management-Infrastruktur integriert.</p>
+<p>Enixer help desk ist komplett offen, damit es sich bestmöglich in Ihre derzeitige IT-Management-Infrastruktur integriert.</p>
 <p>
 <ul>Die neue Generation des IT Operational Portals ermöglicht Ihnen
 <li>ein besseres Management in einer immer komplexeren IT-Landschaft,</li>
@@ -517,7 +517,7 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 	'UI:ResetPwd-Error-NoEmail' => 'die email Adresse dieses Accounts fehlt. Bitte kontaktieren Sie Ihren Administrator.',
 	'UI:ResetPwd-Error-Send' => 'Beim Versenden der Email trat ein technisches Problem auf. Bitte kontaktieren Sie Ihren Administrator.',
 	'UI:ResetPwd-EmailSent' => 'Bitte schauen Sie in Ihre Mailbox und folgen Sie den Anweisungen.',
-	'UI:ResetPwd-EmailSubject' => 'Zurücksetzen Ihres iTop-Passworts',
+	'UI:ResetPwd-EmailSubject' => 'Zurücksetzen IhresEnixer help desk-Passworts',
 	'UI:ResetPwd-EmailBody' => '<body><p>Sie haben das Zurücksetzen Ihres Enixer help desk Passworts angefordert.</p><p>Bitte folgen Sie diesem Link (funktioniert nur einmalig) : <a href="%1$s">neues Passwort eingeben</a></p>.',
 
 	'UI:ResetPwd-Title' => 'Passwort zurücksetzen',
@@ -542,8 +542,8 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 	'UI:ApplicationEnvironment' => 'Applikationsumgebung: %1$s',
 	'UI:Login:RetypePwdDoesNotMatch' => 'Neues Passwort und das wiederholte Passwort stimmen nicht überein!',
 	'UI:Button:Login' => 'in Enixer help desk anmelden',
-	'UI:Login:Error:AccessRestricted' => 'Der iTop-Zugang ist gesperrt. Bitte kontaktieren Sie Ihren iTop-Administrator.',
-	'UI:Login:Error:AccessAdmin' => 'Zugang nur für Personen mit Administratorrechten. Bitte kontaktieren Sie Ihren iTop-Administrator.',
+	'UI:Login:Error:AccessRestricted' => 'DerEnixer help desk-Zugang ist gesperrt. Bitte kontaktieren Sie IhrenEnixer help desk-Administrator.',
+	'UI:Login:Error:AccessAdmin' => 'Zugang nur für Personen mit Administratorrechten. Bitte kontaktieren Sie IhrenEnixer help desk-Administrator.',
 	'UI:CSVImport:MappingSelectOne' => 'Bitte wählen',
 	'UI:CSVImport:MappingNotApplicable' => '-- Dieses Feld ignorieren --',
 	'UI:CSVImport:NoData' => 'Keine Daten eingegeben ... bitte geben Sie Daten ein!',
@@ -673,7 +673,7 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 	'UI:RunQuery:SerializedFilter' => 'Serieller Filter: ',
 	'UI:RunQuery:Error' => 'Ein Fehler trat während der Abfrage auf: %1$s auf.',
 	'UI:Query:UrlForExcel' => 'URL für MS Excel Web Queries',
-	'UI:Query:UrlV1' => 'Die Liste der Felder wurde nicht spezifiziert. Die Seite <em>export-V2.php</em> kann ohne diese Angabe nicht verarbeitet werden. Deswegen, zeigt die nachstehende URL zu der Legacy-Page: <em>export.php</em>. Diese Legacy-Version des Exports hat folgende Limitierungen: Die Liste exportierter Felder kann, abhängig vom Output-Format und vom Datenmodell von iTop, variieren. Möchten Sie garantieren, dass die Liste aller exportierten Spalten stabil bleibt, müssen Sie einen Wert für das Attribut Feld angeben und die Seite <em>export-V2.php</em> nutzen.',
+	'UI:Query:UrlV1' => 'Die Liste der Felder wurde nicht spezifiziert. Die Seite <em>export-V2.php</em> kann ohne diese Angabe nicht verarbeitet werden. Deswegen, zeigt die nachstehende URL zu der Legacy-Page: <em>export.php</em>. Diese Legacy-Version des Exports hat folgende Limitierungen: Die Liste exportierter Felder kann, abhängig vom Output-Format und vom Datenmodell vonEnixer help desk, variieren. Möchten Sie garantieren, dass die Liste aller exportierten Spalten stabil bleibt, müssen Sie einen Wert für das Attribut Feld angeben und die Seite <em>export-V2.php</em> nutzen.',
 	'UI:Schema:Title' => 'Enixer help desk Objekte-Schema',
 	'UI:Schema:CategoryMenuItem' => 'Kategorie <b>%1$s</b>',
 	'UI:Schema:Relationships' => 'Wechselseite Beziehungen',
@@ -793,7 +793,7 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 	'UI:DetailsPageTitle' => 'Enixer help desk - %1$s - %2$s Details',
 	'UI:ErrorPageTitle' => 'Enixer help desk - Fehler',
 	'UI:ObjectDoesNotExist' => 'Leider existiert dieses Objekt nicht oder Sie sind nicht berechtigt es einzusehen.',
-	'UI:ObjectArchived' => 'Dieses Objekt wurde archiviert. Bitte aktivieren Sie die Archiv-Modus oder kontaktieren Sie Ihren iTop-Administrator.',
+	'UI:ObjectArchived' => 'Dieses Objekt wurde archiviert. Bitte aktivieren Sie die Archiv-Modus oder kontaktieren Sie IhrenEnixer help desk-Administrator.',
 	'Tag:Archived' => 'Archiviert',
 	'Tag:Archived+' => 'Auf dieses Objekt kann nur im Archiv-Modus zugegriffen werden',
 	'Tag:Obsolete' => 'Obsolet (Veraltet)',
@@ -933,7 +933,7 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 	'UI:NotificationsMenu:Title' => 'Einstellungen der <span class="hilite">Benachrichtigungen</span>',
 	'UI:NotificationsMenu:Help' => 'Hilfe',
 	'UI:NotificationsMenu:HelpContent' => '<p>In Enixer help desk sind Benachrichtigungen vollständig anpassbar. Sie basieren auf zwei Gruppen an Objekten: <i>Trigger und Aktionen</i>.</p>
-<p><i><b>Trigger</b></i> definieren, wann eine Benachrichtigung ausgeführt wird. Es gibt verschiedene Auslöser als Teil des iTop-Kerns, aber andere können durch Erweiterungen eingebracht werden:
+<p><i><b>Trigger</b></i> definieren, wann eine Benachrichtigung ausgeführt wird. Es gibt verschiedene Auslöser als Teil desEnixer help desk-Kerns, aber andere können durch Erweiterungen eingebracht werden:
 <ol>
 	<li>Einige Trigger werden ausgeführt, wenn ein Objekt der angegebenen Klasse <b>angelegt</b>, <b>aktualisiert</b> oder <b>gelöscht wird</b>.</li>
 	<li>Einige Trigger werden ausgeführt, wenn ein Objekt einer bestimmten Klasse einen bestimmten <b>Zustand</b> <b>erreicht</b> oder <b>verlässt</b>.</li>

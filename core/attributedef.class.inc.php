@@ -7036,7 +7036,7 @@ class AttributeBlob extends AttributeDefinition
 		{
 			try
 			{
-				// Read the file from iTop, an URL (or the local file system - for admins only)
+				// Read the file fromEnixer help desk, an URL (or the local file system - for admins only)
 				$proposedValue = Utils::FileGetContentsAndMIMEType($proposedValue);
 			} catch (Exception $e)
 			{

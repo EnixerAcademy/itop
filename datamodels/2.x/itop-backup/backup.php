@@ -130,11 +130,11 @@ set_time_limit(0);
 
 if (utils::IsModeCLI())
 {
-	$oP = new CLIPage("iTop - Database Backup");
+	$oP = new CLIPage("Enixer help desk - Database Backup");
 }
 else
 {
-	$oP = new WebPage("iTop - Database Backup");
+	$oP = new WebPage("Enixer help desk - Database Backup");
 }
 
 try

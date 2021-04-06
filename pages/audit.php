@@ -201,7 +201,7 @@ try
 		
 		if ($sFileName != null)
 		{
-			$oP = new CSVPage("iTop - Export");
+			$oP = new CSVPage("Enixer help desk - Export");
 			$sCharset = MetaModel::GetConfig()->Get('csv_file_default_charset');
 			$sCSVData = cmdbAbstractObject::GetSetAsCSV($oErrorObjectSet, array('localize_values' => true, 'fields_advanced' => $bAdvanced), $sCharset);
 			if ($sCharset == 'UTF-8')

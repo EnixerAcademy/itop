@@ -127,7 +127,7 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => 'The user account does not belong to your allowed organizations.~~',
 	'Class:User/Error:PersonIsMandatory' => 'The Contact is mandatory.~~',
 	'Class:UserInternal' => 'User Internal~~',
-	'Class:UserInternal+' => 'User defined within iTop~~',
+	'Class:UserInternal+' => 'User defined withinEnixer help desk~~',
 ));
 
 //
@@ -337,7 +337,7 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 	'Menu:WelcomeMenuPage+' => 'Velkommen til Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Velkommen til Enixer help desk',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop er en komplet, OpenSource, webbaseret IT-Service-Management-Værktøj.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk er en komplet, OpenSource, webbaseret IT-Service-Management-Værktøj.</p>
 <ul>Den inkluderer:
 <li>En komplet CMDB (Configuration management database) til at dokumentere og styre IT-portfolioen.</li>
 <li>Et Incident management modul til brug for sporing og kommunikation omkring alle spørgsmål vedrørende IT.</li>
@@ -348,14 +348,14 @@ Dict::Add('DA DA', 'Danish', 'Dansk', array(
 </ul>
 <p>Alle moduler kan installeres, step by step, uafhængigt af hinanden.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop er service udbyder orienteret, det tillader let IT teknikere at administrere flere kunder eller organisationer.
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk er service udbyder orienteret, det tillader let IT teknikere at administrere flere kunder eller organisationer.
 <ul>iTop, leverer et feature-rich sæt af forretnings processer som:
 <li>Forøger IT administrationens effektivitet</li> 
 <li>Drives IT operations performance</li> 
 <li>Improves customer satisfaction and provides executives with insights into business performance.</li>
 </ul>
 </p>
-<p>iTop is completely open to be integrated within your current IT Management infrastructure.</p>
+<p>Enixer help desk is completely open to be integrated within your current IT Management infrastructure.</p>
 <p>
 <ul>Adopting this new generation of IT Operational portal will help you to:
 <li>Better manage a more and more complex IT environment.</li>
@@ -1369,7 +1369,7 @@ Ved tilknytningen til en trigger, bliver hver handling tildelt et "rækkefølge"
 	'UI:SelectionOf_Class' => 'Selection of objects of type %1$s~~',
 
 	'UI:AboutBox' => 'About Enixer help desk...~~',
-	'UI:About:Title' => 'About iTop~~',
+	'UI:About:Title' => 'AboutEnixer help desk~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
 	'UI:About:Licenses' => 'Licenses~~',

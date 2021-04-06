@@ -138,7 +138,7 @@ Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => 'The user account does not belong to your allowed organizations.~~',
 	'Class:User/Error:PersonIsMandatory' => 'The Contact is mandatory.~~',
 	'Class:UserInternal' => 'User Internal~~',
-	'Class:UserInternal+' => 'User defined within iTop~~',
+	'Class:UserInternal+' => 'User defined withinEnixer help desk~~',
 ));
 
 //
@@ -348,7 +348,7 @@ Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
 	'Menu:WelcomeMenuPage+' => 'Bem-vindo ao Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Bem-vindo ao Enixer help desk',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop é um completo, OpenSource, portal de operação IT.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk é um completo, OpenSource, portal de operação IT.</p>
 <ul>Inclui:
 <li>completo CMDB (Configuration management database) documentar e gerenciar inventários IT</li>
 <li>módulo Gerenciador Incidentes para monitorar e comunicar sobre todas as questões que ocorrem na TI</li>
@@ -1380,7 +1380,7 @@ When associated with a trigger, each action is given an "order" number, specifyi
 	'UI:SelectionOf_Class' => 'Selecionar objetos do tipo %1$s',
 
 	'UI:AboutBox' => 'About Enixer help desk...~~',
-	'UI:About:Title' => 'About iTop~~',
+	'UI:About:Title' => 'AboutEnixer help desk~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
 	'UI:About:Licenses' => 'Licenses~~',

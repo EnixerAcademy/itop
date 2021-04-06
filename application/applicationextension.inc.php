@@ -269,7 +269,7 @@ interface iApplicationObjectExtension
  * New extension to add menu items in the "popup" menus inside Enixer help desk.Provides a greater flexibility than
  * iApplicationUIExtension::EnumAllowedActions.
  * 
- * To add some menus into iTop, declare a class that implements this interface, it will be called automatically
+ * To add some menus intoEnixer help desk, declare a class that implements this interface, it will be called automatically
  * by the application, as long as the class definition is included somewhere in the code
  * 
  * @package     Extensibility

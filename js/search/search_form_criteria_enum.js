@@ -1,4 +1,4 @@
-//iTop Search form criteria enum
+//Enixer help desk Search form criteria enum
 ;
 $(function () {
 	// the widget definition, where 'itop' is the namespace,

@@ -335,7 +335,7 @@ Dict::Add('FR FR', 'French', 'Français', array(
 	'Menu:WelcomeMenuPage+' => 'Bienvenue dans Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Bienvenue dans Enixer help desk',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop est un portail opérationnel complet et libre pour gérer votre SI.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk est un portail opérationnel complet et libre pour gérer votre SI.</p>
 <ul>il contient:
 <li>Une base de gestion des configuration (CMDB - Configuration management database) pour documenter et gérer votre parc informatique.</li>
 <li>Un module de gestion des incidents pour suivre les incidents d\'exploitation et gérer la communication à propos de ces incidents.</li>
@@ -346,14 +346,14 @@ Dict::Add('FR FR', 'French', 'Français', array(
 </ul>
 <p>Tous ces modules peuvent être installés séparément, à votre rythme.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop a été conçu pour les fournisseurs de service, il permet à vos équipes IT de gérer facilement de multiples clients et organisations.
-<ul>iTop fournit un riche ensemble de processus métier&nbsp;pour:
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk a été conçu pour les fournisseurs de service, il permet à vos équipes IT de gérer facilement de multiples clients et organisations.
+<ul>Enixer help desk fournit un riche ensemble de processus métier&nbsp;pour:
 <li>Augmenter l\'efficacité de la gestion de votre SI</li> 
 <li>Accroitre la performance de vos équipes d\'exploitation</li> 
 <li>Améliorer la satisfaction client et fournir aux responsables des vues sur la performance interne du SI.</li>
 </ul>
 </p>
-<p>iTop est complètement ouvert pour s\'intéger avec votre environnement informatique.</p>
+<p>Enixer help desk est complètement ouvert pour s\'intéger avec votre environnement informatique.</p>
 <p>
 <ul>Grâce à ce portail opérationnel de nouvelle génération:
 <li>Gérez un environnement informatique de plus en plus complexe.</li>

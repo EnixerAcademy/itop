@@ -125,7 +125,7 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => 'The user account does not belong to your allowed organizations.~~',
 	'Class:User/Error:PersonIsMandatory' => 'The Contact is mandatory.~~',
 	'Class:UserInternal' => 'User Internal~~',
-	'Class:UserInternal+' => 'User defined within iTop~~',
+	'Class:UserInternal+' => 'User defined withinEnixer help desk~~',
 ));
 
 //
@@ -335,7 +335,7 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'Menu:WelcomeMenuPage+' => '', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Üdvözli az Enixer help desk',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop egy teljeskörű, OpenSource, IT üzemeltetés támogató portál.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk egy teljeskörű, OpenSource, IT üzemeltetés támogató portál.</p>
 <ul>A következőket tartalmazza:
 <li>Teljeskörű CMDB (Konfiguráció menedzsment adatbázis) az IT eszközök dokumentálására és verzió kezelésére.</li>
 <li>Incidens menedzsment modul az összes IT-hez kapcsolódó kérés életciklusának követésére.</li>
@@ -346,7 +346,7 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 </ul>
 <p>Mindegyik modul önállóan telepíthető és használható.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop egy szolgáltatás orientált megoldás, amely segít az IT szakembereknek több ügyfél és szervezet egyidejű menedzselését.
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk egy szolgáltatás orientált megoldás, amely segít az IT szakembereknek több ügyfél és szervezet egyidejű menedzselését.
 <ul>az Enixer help desk az üzleti folyamatok javításához egy hatékony eszköz, mert:
 <li>javítja az IT menedzsment hatékonyságát</li> 
 <li>növeli IT üzemeltetés teljesítményét</li> 
@@ -532,7 +532,7 @@ Dict::Add('HU HU', 'Hungarian', 'Magyar', array(
 	'UI:Login:RetypeNewPasswordPrompt' => 'Új jelszó ismét',
 	'UI:Login:IncorrectOldPassword' => 'Hiba: a jelenlegi jelszó hibás',
 	'UI:LogOffMenu' => 'Kilépés',
-	'UI:LogOff:ThankYou' => 'Köszönjük, hogy az iTop-ot használja!',
+	'UI:LogOff:ThankYou' => 'Köszönjük, hogy azEnixer help desk-ot használja!',
 	'UI:LogOff:ClickHereToLoginAgain' => 'Ismételt bejelentkezéshez kattintson ide',
 	'UI:ChangePwdMenu' => 'Jelszó módosítás...',
 	'UI:Login:PasswordChanged' => 'Jelszó sikeresen beállítva!',
@@ -1366,7 +1366,7 @@ Akció kiváltó okhoz rendelésekor kap egy sorszámot , amely meghatározza az
 	'UI:SelectionOf_Class' => 'Selection of objects of type %1$s~~',
 
 	'UI:AboutBox' => 'About Enixer help desk...~~',
-	'UI:About:Title' => 'About iTop~~',
+	'UI:About:Title' => 'AboutEnixer help desk~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
 	'UI:About:Licenses' => 'Licenses~~',

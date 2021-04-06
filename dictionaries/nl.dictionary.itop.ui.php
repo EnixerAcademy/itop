@@ -354,7 +354,7 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'Menu:WelcomeMenuPage+' => 'Welkom in Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Welkom in Enixer help desk',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop is een compleet en open source Portaal voor IT-operaties.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk is een compleet en open source Portaal voor IT-operaties.</p>
 <ul>Inclusief op maat van jouw IT-omgeving:
 <li>Een complete CMDB (Configuration Management Database) voor het documenteren en beheren van de IT-inventaris.</li>
 <li>Een Incident Management-module voor het vinden van en communiceren over alle problemen die optreden .</li>
@@ -365,14 +365,14 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 </ul>
 <p>Alle modules kunnen volledig onafhankelijk van elkaar worden opgezet, stap voor stap.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop is gericht op serviceproviders, het zorgt ervoor dat IT-engineers gemakkelijk meerdere klanten of organisaties kunnen beheren.
-<ul>iTop levert een uitgebreide set van bedrijfsprocessen die:
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk is gericht op serviceproviders, het zorgt ervoor dat IT-engineers gemakkelijk meerdere klanten of organisaties kunnen beheren.
+<ul>Enixer help desk levert een uitgebreide set van bedrijfsprocessen die:
 <li>De effectiviteit van het IT-management verbetert</li> 
 <li>De prestatie van IT-operaties verbetert</li> 
 <li>De klanttevredenheid verhoogt en leidinggevenden inzicht biedt in hun bedrijfsperformantie.</li>
 </ul>
 </p>
-<p>iTop is klaar om te worden geïntegreerd met jouw huidige infrastructuur rond IT Management.</p>
+<p>Enixer help desk is klaar om te worden geïntegreerd met jouw huidige infrastructuur rond IT Management.</p>
 <p>
 <ul>De adoptie van dit IT-operationele portaal zal je helpen met:
 <li>Het beter beheren van een steeds complexere IT-omgeving.</li>
@@ -436,7 +436,7 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:Error:IncorrectLinkDefinition_LinkedClass_Class' => 'Incorrecte linkdefinitie: de klasse %1$s om objecten te beheren werd niet gevonden als externe sleutel (key) in de klasse %2$s',
 	'UI:Error:Object_Class_Id_NotFound' => 'Object: %1$s:%2$d niet gevonden',
 	'UI:Error:WizardCircularReferenceInDependencies' => 'Fout: cirkelverwijzing in de afhankelijke variabelen tussen de velden. Controleer het datamodel.',
-	'UI:Error:UploadedFileTooBig' => 'Het geüploade bestand is te groot. De maximale grootte is %1$s. Contacteer jouw iTop-beheerder om deze limiet aan te passen. (Check de PHP-configuratie voor upload_max_filesize en post_max_size op de server).',
+	'UI:Error:UploadedFileTooBig' => 'Het geüploade bestand is te groot. De maximale grootte is %1$s. Contacteer jouwEnixer help desk-beheerder om deze limiet aan te passen. (Check de PHP-configuratie voor upload_max_filesize en post_max_size op de server).',
 	'UI:Error:UploadedFileTruncated.' => 'Het geüploade bestand is ingekort!',
 	'UI:Error:NoTmpDir' => 'De tijdelijke opslagruimte is niet gedefinieerd.',
 	'UI:Error:CannotWriteToTmp_Dir' => 'Niet mogelijk om het tijdelijke bestand naar een tijdelijke map weg te schrijven. upload_tmp_dir = "%1$s".',
@@ -535,8 +535,8 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:ResetPwd-Error-NoEmail' => 'Er mist een e-mailadres. Neem contact op met jouw beheerder.',
 	'UI:ResetPwd-Error-Send' => 'Er is een technisch probleem bij het verzenden van de e-mail. Neem contact op met jouw beheerder.',
 	'UI:ResetPwd-EmailSent' => 'Kijk in jouw mailbox en volg de instructies...',
-	'UI:ResetPwd-EmailSubject' => 'Reset jouw iTop-wachtwoord',
-	'UI:ResetPwd-EmailBody' => '<body><p>U hebt een reset van jouw iTop-wachtwoord aangevraagd.</p><p>Klik op deze link (eenmalig gebruik) om <a href="%1$s">een nieuw wachtwoord in te voeren</a></p>.',
+	'UI:ResetPwd-EmailSubject' => 'Reset jouwEnixer help desk-wachtwoord',
+	'UI:ResetPwd-EmailBody' => '<body><p>U hebt een reset van jouwEnixer help desk-wachtwoord aangevraagd.</p><p>Klik op deze link (eenmalig gebruik) om <a href="%1$s">een nieuw wachtwoord in te voeren</a></p>.',
 
 	'UI:ResetPwd-Title' => 'Reset wachtwoord',
 	'UI:ResetPwd-Error-InvalidToken' => 'Sorry. Jouw wachtwoord is al gereset, of je hebt al meerdere e-mails ontvangen. Zorg ervoor dat je de link in de laatst ontvangen e-mail gebruikt.',
@@ -560,8 +560,8 @@ Dict::Add('NL NL', 'Dutch', 'Nederlands', array(
 	'UI:ApplicationEnvironment' => 'Omgeving van de applicatie: %1$s',
 	'UI:Login:RetypePwdDoesNotMatch' => 'Het nieuwe wachtwoord en de herhaling van het nieuwe wachtwoord komen niet overeen',
 	'UI:Button:Login' => 'Enter Enixer help desk',
-	'UI:Login:Error:AccessRestricted' => 'Geen toegang tot Enixer help desk.Neem contact op met een iTop-beheerder.',
-	'UI:Login:Error:AccessAdmin' => 'Alleen toegankelijk voor mensen met beheerdersrechten. Neem contact op met een iTop-beheerder',
+	'UI:Login:Error:AccessRestricted' => 'Geen toegang tot Enixer help desk.Neem contact op met eenEnixer help desk-beheerder.',
+	'UI:Login:Error:AccessAdmin' => 'Alleen toegankelijk voor mensen met beheerdersrechten. Neem contact op met eenEnixer help desk-beheerder',
 	'UI:CSVImport:MappingSelectOne' => '-- Selecteer --',
 	'UI:CSVImport:MappingNotApplicable' => '-- Negeer dit veld --',
 	'UI:CSVImport:NoData' => 'Lege data set..., voeg data toe',
@@ -1204,7 +1204,7 @@ Indien gekoppeld aan een Trigger, wordt aan elke actie een "orde" nummer gegeven
 	'UI:DashletUnknown:Label' => 'Onbekend',
 	'UI:DashletUnknown:Description' => 'Onbekende dashlet (mogelijk verwijderd)',
 	'UI:DashletUnknown:RenderText:View' => 'Kan deze dashlet niet weergeven.',
-	'UI:DashletUnknown:RenderText:Edit' => 'Kan deze dashlet niet weergeven (klasse "%1$s"). Controleer bij je iTop-beheerder of dit nog beschikbaar is.',
+	'UI:DashletUnknown:RenderText:Edit' => 'Kan deze dashlet niet weergeven (klasse "%1$s"). Controleer bij jeEnixer help desk-beheerder of dit nog beschikbaar is.',
 	'UI:DashletUnknown:RenderNoDataText:Edit' => 'Geen voorbeeld mogelijk van deze dashlet (klasse "%1$s").',
 	'UI:DashletUnknown:Prop-XMLConfiguration' => 'Configuratie (getoond als ruwe XML)',
 

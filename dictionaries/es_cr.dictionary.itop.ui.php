@@ -348,7 +348,7 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
 	'Menu:WelcomeMenuPage+' => 'Bienvenido a Enixer help desk', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Bienvenido a Enixer help desk',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop es un completo portal de administración de servicios de TI basado en código abierto.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk es un completo portal de administración de servicios de TI basado en código abierto.</p>
 <p>Incluye:</p>
 <ul><li>Una CMDB completa (Base de datos de Configuraciones) para documentar y manejar el inventario de TI.</li>
 <li>Un módulo de Administración de Incidentes, para llevar el seguimiento y comunicar los eventos que están afectando a los servicios TI.</li>
@@ -359,14 +359,14 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellaño', array(
 </ul>
 <p>Todos los módulos pueden ser configurados, paso a paso, individual e independientemente de los otros.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop está orientado a los proveedores de servicios, le permite al personal de TI administrar fácilmente múltiples Organizaciones.
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk está orientado a los proveedores de servicios, le permite al personal de TI administrar fácilmente múltiples Organizaciones.
 <p>iTop, provee un conjunto de funciones de procesos de negocio que: </p>
 <ul><li>Mejora la efectividad de la adminitración de TI</li> 
 <li>Dirige el desempeño de la operaciones de TI</li> 
 <li>Incrementa la satisfacción del cliente y provee a los ejecutivos con detalles del desempeño del negocio.</li>
 </ul>
 </p>
-<p>iTop es completamente abierto para ser integrado con su actual infraestructura de administración de TI.</p>
+<p>Enixer help desk es completamente abierto para ser integrado con su actual infraestructura de administración de TI.</p>
 <p>
 <p>Adoptar esta nueva generación de portales de operaciones de TI le ayudará a:</p>
 <ul><li>Mejorar la administración de entornos de TI más y más complejos.</li>

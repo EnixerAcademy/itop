@@ -105,7 +105,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Organization/Attribute:overview' => '概览',
 	'Organization:Overview:FunctionalCIs' => '该组织的所有配置项',
 	'Organization:Overview:FunctionalCIs:subtitle' => '按类型',
-	'Organization:Overview:Users' => '该组织里所有的iTop 用户',
+	'Organization:Overview:Users' => '该组织里所有的Enixer help desk 用户',
 ));
 
 //

@@ -58,7 +58,7 @@ if (utils::IsModeCLI())
 	} 
 	else 
 	{ 
-		$oP = new CLIPage("iTop - Export"); 
+		$oP = new CLIPage("Enixer help desk - Export"); 
 		$oP->p("Access restricted or wrong credentials ('$sAuthUser')"); 
 		$oP->output(); 
 		exit -1; 
@@ -78,7 +78,7 @@ $currentOrganization = utils::ReadParam('org_id', '');
 
 if (utils::IsArchiveMode() && !UserRights::CanBrowseArchive())
 {
-	$oP = new CLIPage("iTop - Export");
+	$oP = new CLIPage("Enixer help desk - Export");
 	$oP->p("The user account is not authorized to access the archives");
 	$oP->output();
 	exit -1;
@@ -196,7 +196,7 @@ if (!empty($sExpression))
 			switch($sFormat)
 			{
 				case 'html':
-				$oP = new NiceWebPage("iTop - Export");
+				$oP = new NiceWebPage("Enixer help desk - Export");
 				$oP->add_style('body { overflow: auto; }'); // Show scroll bars if needed
 				
 				// Integration within MS-Excel web queries + HTTPS + IIS:
@@ -236,7 +236,7 @@ if (!empty($sExpression))
 				break;
 				
 				case 'csv':
-				$oP = new CSVPage("iTop - Export");
+				$oP = new CSVPage("Enixer help desk - Export");
 				$sFields = implode(',', $aFields);
 				$sCharset = utils::ReadParam('charset', MetaModel::GetConfig()->Get('csv_file_default_charset'), true /* Allow CLI */, 'raw_data');
 				$sCSVData = cmdbAbstractObject::GetSetAsCSV($oSet, array('fields' => $sFields, 'fields_advanced' => $bFieldsAdvanced, 'localize_values' => $bLocalize), $sCharset);
@@ -261,7 +261,7 @@ if (!empty($sExpression))
 				break;
 				
 				case 'spreadsheet':
-				$oP = new WebPage("iTop - Export for spreadsheet");
+				$oP = new WebPage("Enixer help desk - Export for spreadsheet");
 
 				// Integration within MS-Excel web queries + HTTPS + IIS:
 				// MS-IIS set these header values with no-cache... while Excel fails to do the job if using HTTPS
@@ -275,7 +275,7 @@ if (!empty($sExpression))
 				break;
 
 				case 'xml':
-				$oP = new XMLPage("iTop - Export", true /* passthrough */);
+				$oP = new XMLPage("Enixer help desk - Export", true /* passthrough */);
 				cmdbAbstractObject::DisplaySetAsXML($oP, $oSet, array('localize_values' => $bLocalize));
 				break;
 				
@@ -306,14 +306,14 @@ if (!empty($sExpression))
 				break;
 				
 				default:
-				$oP = new WebPage("iTop - Export");
+				$oP = new WebPage("Enixer help desk - Export");
 				$oP->add("Unsupported format '$sFormat'. Possible values are: html, csv, spreadsheet or xml.");
 			}
 		}
 	}
 	catch(Exception $e)
 	{
-		$oP = new WebPage("iTop - Export");
+		$oP = new WebPage("Enixer help desk - Export");
 		$oP->p("Error the query can not be executed.");
 		if ($e instanceof CoreException)
 		{		
@@ -331,11 +331,11 @@ if (!$oP)
 	$bModeCLI = utils::IsModeCLI();
 	if ($bModeCLI)
 	{
-		$oP = new CLIPage("iTop - Export");
+		$oP = new CLIPage("Enixer help desk - Export");
 	}
 	else
 	{
-		$oP = new WebPage("iTop - Export");
+		$oP = new WebPage("Enixer help desk - Export");
 	} 
 	$oP->p("General purpose export page.");
 	$oP->p("Parameters:");

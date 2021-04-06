@@ -1816,7 +1816,7 @@ class utils
 		$sPageUrl = utils::GetAbsoluteUrlAppRoot().'pages/ajax.document.php';
 		if (substr($sPath, 0, strlen($sPageUrl)) == $sPageUrl)
 		{
-			// If the URL is an URL pointing to this instance of iTop, then
+			// If the URL is an URL pointing to this instance ofEnixer help desk, then
 			// extract the "query" part of the URL and analyze it
 			$sQuery = parse_url($sPath, PHP_URL_QUERY);
 			if ($sQuery !== null)

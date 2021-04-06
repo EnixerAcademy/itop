@@ -125,7 +125,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => 'The user account does not belong to your allowed organizations.~~',
 	'Class:User/Error:PersonIsMandatory' => 'The Contact is mandatory.~~',
 	'Class:UserInternal' => 'User Internal~~',
-	'Class:UserInternal+' => 'User defined within iTop~~',
+	'Class:UserInternal+' => 'User defined withinEnixer help desk~~',
 ));
 
 //
@@ -1038,7 +1038,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => '# of impacted items: %1$d / %2$d~~',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => 'Critical threshold: %1$d / %2$d~~',
 	'Portal:Title' => 'iTopユーザポータル',
-	'Portal:NoRequestMgmt' => '%1$s さん, このページにリダイレクトされました。あなたのプロファイルは、「ポータルユーザ」として登録されています。残念ながら、iTop は、「要求管理」としてインストールされていません。管理者に問い合わせてください。',
+	'Portal:NoRequestMgmt' => '%1$s さん, このページにリダイレクトされました。あなたのプロファイルは、「ポータルユーザ」として登録されています。残念ながら、Enixer help desk は、「要求管理」としてインストールされていません。管理者に問い合わせてください。',
 	'Portal:Refresh' => 'リフレッシュ',
 	'Portal:Back' => '戻る',
 	'Portal:WelcomeUserOrg' => 'ようこそ %1$s, %2$sより',
@@ -1367,7 +1367,7 @@ Dict::Add('JA JP', 'Japanese', '日本語', array(
 	'UI:SelectionOf_Class' => 'Selection of objects of type %1$s~~',
 
 	'UI:AboutBox' => 'About Enixer help desk...~~',
-	'UI:About:Title' => 'About iTop~~',
+	'UI:About:Title' => 'AboutEnixer help desk~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
 	'UI:About:Licenses' => 'Licenses~~',

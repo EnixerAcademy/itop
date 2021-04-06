@@ -1825,7 +1825,7 @@ class CAS_SelfRegister implements iSelfRegister
 			
 			if (count($aProfiles) == 0)
 			{
-				phpCAS::log("Error: The user '".$oUser->GetName()."' has no profiles in iTop, and therefore cannot be created.");
+				phpCAS::log("Error: The user '".$oUser->GetName()."' has no profiles inEnixer help desk, and therefore cannot be created.");
 				return false;
 			}
 		}

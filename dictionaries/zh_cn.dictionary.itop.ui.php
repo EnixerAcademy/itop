@@ -347,7 +347,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:WelcomeMenuPage+' => '欢迎使用iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => '欢迎使用iTop',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop 是完全开源的IT 操作门户.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk 是完全开源的IT 操作门户.</p>
 <ul>它包括:
 <li>完整的CMDB(Configuration management database)，用于登记和管理您的IT 资产.</li>
 <li>事件管理模块用于跟踪和传递所有发生在IT 系统中的事件.</li>
@@ -358,14 +358,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 </ul>
 <p>所有模块可以各自独立地、一步步地部署.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop 是面向服务供应商的, 它使得IT 工程师能够更方便地管理多客户和多组织.
-<ul>iTop 提供功能丰富的业务处理流程:
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk 是面向服务供应商的, 它使得IT 工程师能够更方便地管理多客户和多组织.
+<ul>Enixer help desk 提供功能丰富的业务处理流程:
 <li>提高IT 管理效率</li> 
 <li>提升IT 可操作能力</li> 
 <li>提高用户满意度,提升业务能力.</li>
 </ul>
 </p>
-<p>iTop 是完全开放的,可被集成到现有的IT 管理架构之中.</p>
+<p>Enixer help desk 是完全开放的,可被集成到现有的IT 管理架构之中.</p>
 <p>
 <ul>利用这个新一代的IT 操作门户, 可以帮助您:
 <li>更好地管理越来越复杂的IT 环境.</li>
@@ -509,7 +509,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:SearchValue:CheckAll' => '全选',
 	'UI:SearchValue:UncheckAll' => '反选',
 	'UI:SelectOne' => '-- 请选择 --',
-	'UI:Login:Welcome' => '欢迎使用iTop!',
+	'UI:Login:Welcome' => '欢迎使用Enixer help desk!',
 	'UI:Login:IncorrectLoginPassword' => '用户名或密码错误, 请重试.',
 	'UI:Login:IdentifyYourself' => '请完成身份认证',
 	'UI:Login:UserNamePrompt' => '用户名',
@@ -528,8 +528,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:ResetPwd-Error-NoEmail' => '缺少邮箱地址. 请联系管理员.',
 	'UI:ResetPwd-Error-Send' => '邮件传输存在技术原因. 请联系管理员.',
 	'UI:ResetPwd-EmailSent' => '请检查邮箱并按照提示操作...',
-	'UI:ResetPwd-EmailSubject' => '重置iTop 密码',
-	'UI:ResetPwd-EmailBody' => '<body><p>您已请求重置iTop 密码.</p><p>请点击这个链接 (一次性) <a href="%1$s">来输入新的密码</a></p>.',
+	'UI:ResetPwd-EmailSubject' => '重置Enixer help desk 密码',
+	'UI:ResetPwd-EmailBody' => '<body><p>您已请求重置Enixer help desk 密码.</p><p>请点击这个链接 (一次性) <a href="%1$s">来输入新的密码</a></p>.',
 
 	'UI:ResetPwd-Title' => '重置密码',
 	'UI:ResetPwd-Error-InvalidToken' => '对不起, 密码已经被重置, 请检查是否收到了多封密码重置邮件. 请点击最新邮件里的链接.',
@@ -800,7 +800,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Delete:PleaseDoTheManualOperations' => '在删除该对象之前, 请先手工完成上述列出的操作',
 	'UI:Delect:Confirm_Object' => '请确认要删除 %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => '请确认要删除下列 %2$s 类的 %1$d 个对象.',
-	'UI:WelcomeToITop' => '欢迎使用iTop ',
+	'UI:WelcomeToITop' => '欢迎使用Enixer help desk ',
 	'UI:DetailsPageTitle' => 'Enixer help desk - %1$s - %2$s 详细内容',
 	'UI:ErrorPageTitle' => 'Enixer help desk - 错误',
 	'UI:ObjectDoesNotExist' => '抱歉, 该对象不存在 (或无权浏览该对象).',
@@ -943,7 +943,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:NotificationsMenu+' => '通知的配置', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:NotificationsMenu:Title' => '配置 <span class="hilite">通知</span>',
 	'UI:NotificationsMenu:Help' => '帮助',
-	'UI:NotificationsMenu:HelpContent' => '<p>在iTop 中, 通知可以被自定义. 它们是基于两个对象集: <i>触发器和操作</i>.</p>
+	'UI:NotificationsMenu:HelpContent' => '<p>在Enixer help desk 中, 通知可以被自定义. 它们是基于两个对象集: <i>触发器和操作</i>.</p>
 <p><i><b>触发器</b></i> 定义了什么时候发送通知. Enixer help desk core 自带一些触发器, 另一些触发器可由扩展提供:
 <ol>
 	<li>Some triggers are executed when an object of the specified class is <b>created</b>, <b>updated</b> or <b>deleted</b>.</li>

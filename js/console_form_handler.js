@@ -15,7 +15,7 @@
 //   You should have received a copy of the GNU Affero General Public License
 //   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
-//iTop Form handler
+//Enixer help desk Form handler
 ;
 $(function () {
     // the widget definition, where 'itop' is the namespace,

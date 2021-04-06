@@ -32,7 +32,7 @@ LoginWebPage::DoLogin(); // Check user rights and prompt if needed
 $sOperation = utils::ReadParam('operation', 'menu');
 $oAppContext = new ApplicationContext();
 
-$oP = new iTopWebPage("iTop - Navigator");
+$oP = new iTopWebPage("Enixer help desk - Navigator");
 
 // Main program
 $sClass = utils::ReadParam('class', '');

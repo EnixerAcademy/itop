@@ -1,4 +1,4 @@
-//iTop Search form criteria date_abstract
+//Enixer help desk Search form criteria date_abstract
 ;
 $(function () {
 	// the widget definition, where 'itop' is the namespace,
@@ -101,12 +101,12 @@ $(function () {
 					var oInputElem = oOpContentElem
 						.find('input')
 						.uniqueId()
-						//.attr('data-no-auto-focus', true)
-						
+					//.attr('data-no-auto-focus', true)
+
 					oOpContentElem
 						.find('label')
 						.attr('for', oInputElem.attr('id'))
-						
+
 
 					//on arrival, the date is always formated yyy-mm-dd, we need to apply the user's formating and to write it into both the dom and the values array.
 					if (oInputParam.value_index in aValues && typeof aValues[oInputParam.value_index].value != 'undefined' && aValues[oInputParam.value_index].value != '') {
@@ -149,7 +149,7 @@ $(function () {
 					.end()
 					.find('.sfc_op_content')
 					.append(oContentElem)
-					
+
 
 
 				// once the inputs are appended into the DOM we can safely use jQuery UI
@@ -529,7 +529,7 @@ $(function () {
 							oOpElemDropdown.find('input[type="text"]:first').focus()
 						})
 						.appendTo(this.element.find('.sfc_fg_operators'))
-						
+
 
 					this._prepareDefaultOperator(oOpElemDropdown, sOpIdx, oOp)
 				}
@@ -537,7 +537,7 @@ $(function () {
 				oDropdownElem
 					.append('<option value="' + sOpIdx + '" >' + oOp.label + '</option>')
 					.data('oOp', oOp)
-					
+
 			},
 
 

@@ -138,7 +138,7 @@ Dict::Add('IT IT', 'Italian', 'Italiano', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => 'The user account does not belong to your allowed organizations.~~',
 	'Class:User/Error:PersonIsMandatory' => 'The Contact is mandatory.~~',
 	'Class:UserInternal' => 'User Internal~~',
-	'Class:UserInternal+' => 'User defined within iTop~~',
+	'Class:UserInternal+' => 'User defined withinEnixer help desk~~',
 ));
 
 //
@@ -348,7 +348,7 @@ Dict::Add('IT IT', 'Italian', 'Italiano', array(
 	'Menu:WelcomeMenuPage+' => '', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'Benveuto su Enixer help desk',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop è un completo Portale Funzionale IT, Open Source.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk è un completo Portale Funzionale IT, Open Source.</p>
 <ul>Esso include:
 <li>Un completo CMDB (Configuration management database) per documentare e gestire l\'IT di inventario.</li>
 <li>Un modulo di gestione degli incidenti per monitorare e comunicare su tutte le problematiche che si verificano nel settore IT.</li>
@@ -359,14 +359,14 @@ Dict::Add('IT IT', 'Italian', 'Italiano', array(
 </ul>
 <p>Tutti i moduli possono essere installati, passo dopo passo, indipendentemente l\'uno dall\'altro.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop è fornitore di servizi di orientamento, che consente ai progettisti di gestire più o organizzazioni o clienti con facilità.
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk è fornitore di servizi di orientamento, che consente ai progettisti di gestire più o organizzazioni o clienti con facilità.
 <ul>>iTop, offre un set ricco di funzionalità dei processi di business che:
 <li>Migliora l\'efficacia di gestione IT</li> 
 <li>Guida le prestazione delle operazioni IT</li> 
 <li>Migliora la soddisfazione del cliente e fornisce ai dirigenti un idea della performance del business.</li>
 </ul>
 </p>
-<p>iTop è completamente aperto per essere integrato all\'interno della vostra infrastruttura di gestione dell\'IT.</p>
+<p>Enixer help desk è completamente aperto per essere integrato all\'interno della vostra infrastruttura di gestione dell\'IT.</p>
 <p>
 <ul>L\'adozione di questa nuova generazione di portale funzionale IT vi aiuterà a:
 <li>Meglio gestire un ambiente IT sempre più complesso.</li>
@@ -945,7 +945,7 @@ Dict::Add('IT IT', 'Italian', 'Italiano', array(
 	'UI:NotificationsMenu:Title' => 'Configurazione delle <span class="hilite">Notifiche</span>',
 	'UI:NotificationsMenu:Help' => 'Aiuto',
 	'UI:NotificationsMenu:HelpContent' => '<p>In Enixer help desk le notifiche sono completamente personalizzabili. Essi si basano su due serie di oggetti: <i>trigger e azioni</i>.</p>
-<p><i>I <b>trigger</b></i> definiscono quando verrà eseguita una notifica. Ci sono diversi trigger come parte del nucleo di iTop, ma altri possono essere portati da estensioni:
+<p><i>I <b>trigger</b></i> definiscono quando verrà eseguita una notifica. Ci sono diversi trigger come parte del nucleo diEnixer help desk, ma altri possono essere portati da estensioni:
 <ol>
 	 <li>Alcuni trigger sono eseguiti quando un oggetto della classe specificata viene <b>creato</b>, <b>aggiornato</b> o <b>cancellato</b>.</li>
 	 <li>Alcuni trigger sono eseguiti quando un oggetto di una data classe <b>entra</b> o <b>lascia</b> uno <b>stato specificato</b>.</li>
@@ -1381,7 +1381,7 @@ Quando è associata a un trigger, ad ogni azione è assegnato un numero "ordine"
 	'UI:SelectionOf_Class' => 'Selection of objects of type %1$s~~',
 
 	'UI:AboutBox' => 'About Enixer help desk...~~',
-	'UI:About:Title' => 'About iTop~~',
+	'UI:About:Title' => 'AboutEnixer help desk~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
 	'UI:About:Licenses' => 'Licenses~~',

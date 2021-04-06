@@ -15,7 +15,7 @@
 //   You should have received a copy of the GNU Affero General Public License
 //   along with Enixer help desk. If not, see <http://www.gnu.org/licenses/>
 
-//iTop Field set
+//Enixer help desk Field set
 //Used by itop.form_handler and itop.subform_field to list their fields
 ;
 $(function () {

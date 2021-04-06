@@ -56,12 +56,12 @@ if (isset($_REQUEST['service_category']) && (!empty($_REQUEST['service_category'
 	if (!class_exists($sServiceClass))
 	{
 		// not a valid class name (not a PHP class at all)
-		throw new SoapFault("iTop SOAP server", "Invalid argument service_category: '$sServiceClass' is not a PHP class");
+		throw new SoapFault("Enixer help desk SOAP server", "Invalid argument service_category: '$sServiceClass' is not a PHP class");
 	}
 	elseif (!is_subclass_of($sServiceClass, 'WebServicesBase'))
 	{
 		// not a valid class name (not deriving from WebServicesBase)
-		throw new SoapFault("iTop SOAP server", "Invalid argument service_category: '$sServiceClass' is not derived from WebServicesBase");
+		throw new SoapFault("Enixer help desk SOAP server", "Invalid argument service_category: '$sServiceClass' is not derived from WebServicesBase");
 	}
 	else
 	{

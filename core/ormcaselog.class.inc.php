@@ -110,7 +110,7 @@ class ormCaseLog {
 
 			// Workaround: PHP < 5.3 cannot unserialize correctly DateTime objects,
 			// therefore we have changed the format. To preserve the compatibility with existing
-			// installations of iTop, both format are allowed:
+			// installations ofEnixer help desk, both format are allowed:
 			//     the 'date' item is either a DateTime object, or a unix timestamp
 			if (is_int($this->m_aIndex[$index]['date']))
 			{
@@ -237,7 +237,7 @@ class ormCaseLog {
 			$sEntry = '<div class="caselog_header" style="'.$sStyleCaseLogHeader.'">';
 			// Workaround: PHP < 5.3 cannot unserialize correctly DateTime objects,
 			// therefore we have changed the format. To preserve the compatibility with existing
-			// installations of iTop, both format are allowed:
+			// installations ofEnixer help desk, both format are allowed:
 			//     the 'date' item is either a DateTime object, or a unix timestamp
 			if (is_int($aIndex[$index]['date']))
 			{
@@ -328,7 +328,7 @@ class ormCaseLog {
 			$sEntry = '<li>';
 			// Workaround: PHP < 5.3 cannot unserialize correctly DateTime objects,
 			// therefore we have changed the format. To preserve the compatibility with existing
-			// installations of iTop, both format are allowed:
+			// installations ofEnixer help desk, both format are allowed:
 			//     the 'date' item is either a DateTime object, or a unix timestamp
 			if (is_int($aIndex[$index]['date']))
 			{
@@ -436,7 +436,7 @@ class ormCaseLog {
 			$sEntry = '<div class="caselog_header'.$sOpen.'">';
 			// Workaround: PHP < 5.3 cannot unserialize correctly DateTime objects,
 			// therefore we have changed the format. To preserve the compatibility with existing
-			// installations of iTop, both format are allowed:
+			// installations ofEnixer help desk, both format are allowed:
 			//     the 'date' item is either a DateTime object, or a unix timestamp
 			if (is_int($aIndex[$index]['date']))
 			{

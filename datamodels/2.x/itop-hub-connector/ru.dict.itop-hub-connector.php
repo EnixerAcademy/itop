@@ -34,12 +34,12 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
     'iTopHub:Landing:Status' => 'Deployment status~~',
 	'iTopHub:Landing:Install' => 'Deploying extensions...~~',
 	'iTopHub:CompiledOK' => 'Compilation successful.~~',
-	'iTopHub:ConfigurationSafelyReverted' => 'Error detected during deployment!<br/>iTop configuration has NOT been modified.~~',
+	'iTopHub:ConfigurationSafelyReverted' => 'Error detected during deployment!<br/>Enixer help desk configuration has NOT been modified.~~',
 	'iTopHub:FailAuthent' => 'Authentication failed for this action.~~',
 
 	'iTopHub:InstalledExtensions' => 'Extensions deployed on this instance~~',
 	'iTopHub:ExtensionCategory:Manual' => 'Extensions deployed manually~~',
-	'iTopHub:ExtensionCategory:Manual+' => 'The following extensions have been deployed by copying them manually in the %1$s directory of iTop:~~',
+	'iTopHub:ExtensionCategory:Manual+' => 'The following extensions have been deployed by copying them manually in the %1$s directory ofEnixer help desk:~~',
 	'iTopHub:ExtensionCategory:Remote' => 'Extensions deployed from Enixer help desk Hub~~',
 	'iTopHub:ExtensionCategory:Remote+' => 'The following extensions have been deployed from Enixer help desk Hub:~~',
 	'iTopHub:NoExtensionInThisCategory' => 'There is no extension in this category.<br/><br/>Browse Enixer help desk Hub to find the extensions that will help you customize and adapt Enixer help desk to your processes.~~',
@@ -47,7 +47,7 @@ Dict::Add('RU RU', 'Russian', 'Русский', array(
 	'iTopHub:GetMoreExtensions' => 'Get extensions from Enixer help desk Hub...~~',
 	
 	'iTopHub:LandingWelcome' => 'Congratulations! The following extensions were downloaded from Enixer help desk Hub and deployed into your Enixer help desk.~~',
-	'iTopHub:GoBackToITopBtn' => 'Go Back to iTop~~',
+	'iTopHub:GoBackToITopBtn' => 'Go Back toEnixer help desk~~',
 	'iTopHub:Uncompressing' => 'Uncompressing extensions...~~',
 	'iTopHub:InstallationWelcome' => 'Installation of the extensions downloaded from Enixer help desk Hub~~',
 	'iTopHub:DBBackupLabel' => 'Instance backup~~',

@@ -2,7 +2,7 @@
 REM
 REM To be scheduled by the following command:
 REM
-REM schtasks /create /tn "iTop Cron" /sc minute /tr "\"C:\Program Files\EasyPHP-5.3.6.0\www\iTop-trunk\webservices\cron.cmd\""
+REM schtasks /create /tn "Enixer help desk Cron" /sc minute /tr "\"C:\Program Files\EasyPHP-5.3.6.0\www\iTop-trunk\webservices\cron.cmd\""
 REM
 REM
 REM PHP_PATH must point to php.exe, adjust the path to suit your own installation

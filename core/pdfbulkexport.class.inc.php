@@ -131,7 +131,7 @@ EOF
 			break;
 			
 			default:
-			// Export from the command line (or scripted) => default format is SQL, as in previous versions of iTop, unless specified otherwise
+			// Export from the command line (or scripted) => default format is SQL, as in previous versions ofEnixer help desk, unless specified otherwise
 			$this->aStatusInfo['date_format'] = utils::ReadParam('date_format', (string)AttributeDateTime::GetSQLFormat(), true, 'raw_data');
 		}
 	}

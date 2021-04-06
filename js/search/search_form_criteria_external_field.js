@@ -1,4 +1,4 @@
-//iTop Search form criteria external_field
+//Enixer help desk Search form criteria external_field
 ;
 $(function () {
 	// the widget definition, where 'itop' is the namespace,
@@ -7,19 +7,19 @@ $(function () {
 		{
 			// the constructor
 			_create: function () {
-				this._super();
-				this.element.addClass('search_form_criteria_external_field');
+				this._super()
+				this.element.addClass('search_form_criteria_external_field')
 			},
 
 			// events bound via _bind are removed automatically
 			// revert other modifications here
 			_destroy: function () {
-				this.element.removeClass('search_form_criteria_external_field');
-				this._super();
+				this.element.removeClass('search_form_criteria_external_field')
+				this._super()
 			},
 
 			//------------------
 			// Inherited methods
 			//------------------
-		});
-});
+		})
+})

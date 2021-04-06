@@ -23,7 +23,7 @@
  * for example using a .htaccess file. The web server is in charge of authentifying the users
  * and providing the name (= 'login') of the authentified user in the $_SERVER['REMOTE_USER']
  * variable that is passed to PHP. Enixer help desk will not make any attempt to authentify such users.
- * Similarly once inside iTop, there is no way for the users to change their password or
+ * Similarly once insideEnixer help desk, there is no way for the users to change their password or
  * log off from the Enixer help desk application, this has to be handled outside of Enixer help desk.
  *
  * @copyright   Copyright (C) 2010-2012 Combodo SARL

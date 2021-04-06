@@ -218,11 +218,11 @@ function ReadMandatoryParam($oP, $sParam, $sSanitizationFilter)
 
 if (utils::IsModeCLI())
 {
-	$oP = new CLIPage("iTop - Bulk import");
+	$oP = new CLIPage("Enixer help desk - Bulk import");
 }
 else
 {
-	$oP = new CSVPage("iTop - Bulk import");
+	$oP = new CSVPage("Enixer help desk - Bulk import");
 }
 
 try

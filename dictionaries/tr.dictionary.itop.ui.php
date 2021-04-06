@@ -139,7 +139,7 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => 'The user account does not belong to your allowed organizations.~~',
 	'Class:User/Error:PersonIsMandatory' => 'The Contact is mandatory.~~',
 	'Class:UserInternal' => 'User Internal~~',
-	'Class:UserInternal+' => 'User defined within iTop~~',
+	'Class:UserInternal+' => 'User defined withinEnixer help desk~~',
 ));
 
 //
@@ -349,7 +349,7 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 	'Menu:WelcomeMenuPage+' => 'iTop\'a Hoşgeldiniz', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => 'iTop\'a Hoşgeldiniz',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop açık kaynak Bilişim İşlem Potalıdır.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>Enixer help desk açık kaynak Bilişim İşlem Potalıdır.</p>
 <ul>Kapsamı:
 <li>Bilişim altyapısının tanımlandığı ve dokümante edildiği Konfigürasyon Yönetimi CMDB (Configuration management database)modülü.</li>
 <li>Bilişim altyapısı ile ilgili tüm olayların takibi.</li>
@@ -360,14 +360,14 @@ Dict::Add('TR TR', 'Turkish', 'Türkçe', array(
 </ul>
 <p>Tüm modüller bağımsız olarak, adım adım kurulabilir.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop servis sağlayıcı maktığı ile hazırlanmış olup, birden fazla müşteri ve kuruma kolaylıkla hizmet vermeye imkan sağlar.
+	'UI:WelcomeMenu:RightBlock' => '<p>Enixer help desk servis sağlayıcı maktığı ile hazırlanmış olup, birden fazla müşteri ve kuruma kolaylıkla hizmet vermeye imkan sağlar.
 <ul>iTop, zengin iş süreçleri tanımlama imkanıyla:
 <li>Bilişim yönetim etkinliğini</li>
 <li>Operasyon performansını</li>
 <li>Müşteri memnuniyetini ve yönetimin iş performansı hakkında bilgi sahibi olmasını sağlar.</li>
 </ul>
 </p>
-<p>iTop mevcut Bilşim altyapınızla entegre edilmeye açıktır.</p>
+<p>Enixer help desk mevcut Bilşim altyapınızla entegre edilmeye açıktır.</p>
 <p>
 <ul>Yeni nesil operasyonel Bilişim portalı :
 <li>Bilişim ortamının daha iyi yönetilmesini.</li>
@@ -1381,7 +1381,7 @@ Tetikleme gerçekleştiriğinde işlemler tanımlanan sıra numarası ile gerçe
 	'UI:SelectionOf_Class' => 'Selection of objects of type %1$s~~',
 
 	'UI:AboutBox' => 'About Enixer help desk...~~',
-	'UI:About:Title' => 'About iTop~~',
+	'UI:About:Title' => 'AboutEnixer help desk~~',
 	'UI:About:DataModel' => 'Data model~~',
 	'UI:About:Support' => 'Support information~~',
 	'UI:About:Licenses' => 'Licenses~~',

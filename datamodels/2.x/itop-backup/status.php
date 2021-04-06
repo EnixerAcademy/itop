@@ -54,7 +54,7 @@ try
 
 	if (MetaModel::GetConfig()->Get('demo_mode'))
 	{
-		$oP->add("<div class=\"header_message message_info\">iTop is in <b>demonstration mode</b>: the feature is disabled.</div>");
+		$oP->add("<div class=\"header_message message_info\">Enixer help desk is in <b>demonstration mode</b>: the feature is disabled.</div>");
 	}
 
 	$sImgOk = '<img src="../images/validation_ok.png"> ';

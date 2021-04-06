@@ -34,7 +34,7 @@ LoginWebPage::DoLogin(true); // Check user rights and prompt if needed, admins o
 $sOperation = utils::ReadParam('operation', 'menu');
 $oAppContext = new ApplicationContext();
 
-$oP = new iTopWebPage("iTop - Synchro Replicas");
+$oP = new iTopWebPage("Enixer help desk - Synchro Replicas");
 
 // Main program
 $sOperation = utils::ReadParam('operation', 'details');
