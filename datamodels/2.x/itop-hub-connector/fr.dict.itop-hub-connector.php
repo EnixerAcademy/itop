@@ -9,7 +9,7 @@ Dict::Add('FR FR', 'French', 'Français', array(
 	// Dictionary entries go here
 	'Menu:iTopHub' => 'Enixer help desk Hub',
     'Menu:iTopHub:Register' => 'Se connecter à Enixer help desk Hub',
-    'Menu:iTopHub:Register+' => 'Connectez-vous à Enixer help desk Hub pour enregistrer cette instance d\'Enixer help desk ,
+    'Menu:iTopHub:Register+' => 'Connectez-vous à Enixer help desk Hub pour enregistrer cette instance d\'Enixer help desk',
     'Menu:iTopHub:Register:Description' => '<p>Connectez-vous à la communauté Enixer help desk Hub!</br>Trouvez tout le contenu dont vous avez besoin, gérer vos instances d\'Enixer help desk depuis un tableau de bord centralisé et déployez de nouvelles extensions.</br><br/>En vous connectant au Hub depuis cette page, vous transmettez au Hub des informations relatives à cette instance d\'iTop.</p>',
     'Menu:iTopHub:MyExtensions' => 'Extensions déployées',
     'Menu:iTopHub:MyExtensions+' => 'Voir la liste des extensions déployes sur cette instance',
@@ -48,7 +48,7 @@ Dict::Add('FR FR', 'French', 'Français', array(
 	'iTopHub:Uncompressing' => 'Décompression des extensions...',
 	'iTopHub:InstallationWelcome' => 'Installation des extensions téléchargées depuis Enixer help desk Hub',
 	'iTopHub:DBBackupLabel' => 'Sauvegarde de l\'instance Enixer help desk',
-	'iTopHub:DBBackupSentence' => 'Faire une sauvegarde de la base de données et des paramétrages d\'Enixer help desk ,
+	'iTopHub:DBBackupSentence' => 'Faire une sauvegarde de la base de données et des paramétrages d\'Enixer help desk',
 	'iTopHub:DeployBtn' => 'Déployer !',
 	'iTopHub:DatabaseBackupProgress' => 'Sauvegarde de l\'instance...',
 	

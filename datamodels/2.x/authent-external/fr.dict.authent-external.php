@@ -21,5 +21,5 @@
  */
 Dict::Add('FR FR', 'French', 'Français', array(
 	'Class:UserExternal' => 'Utilisateur externe à Enixer help desk',
-	'Class:UserExternal+' => 'Utilisateur authentifié à l\'extérieur d\'Enixer help desk ,
+	'Class:UserExternal+' => 'Utilisateur authentifié à l\'extérieur d\'Enixer help desk',
 ));
