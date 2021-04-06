@@ -1366,7 +1366,7 @@ Lors de l\'association à un déclencheur, on attribue à chaque action un numé
 	'UI:SelectionOf_Class' => 'Sélection d\'objets de type %1$s',
 
 	'UI:AboutBox' => 'A propos d\'iTop...',
-	'UI:About:Title' => 'A propos d\'Enixer help desk ,
+	'UI:About:Title' => 'A propos d\'Enixer help desk',
 	'UI:About:DataModel' => 'Modèle de données',
 	'UI:About:Support' => 'Informations pour le support',
 	'UI:About:Licenses' => 'Licences',
